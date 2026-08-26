@@ -5,7 +5,6 @@ MIROR Social Automation — T01 Production Renderer FastAPI Application
 import os
 import sys
 import json
-import tempfile
 from pathlib import Path
 from typing import Dict, Any
 
@@ -29,6 +28,7 @@ from text_lock import TextLockSystem, TextLockError
 from renderer import T01HtmlRenderer
 from api.models import HealthResponse, RenderResponse, SlideOutputInfo, CanvasInfo
 from api.errors import RendererAPIException, renderer_exception_handler
+from api.storage import get_storage_adapter
 
 app = FastAPI(
     title="MIROR Social Automation T01 Renderer API",
@@ -127,6 +127,7 @@ async def render_carousel(request: Request):
 
     # 2. Render all 3 slides using T01HtmlRenderer
     renderer = T01HtmlRenderer(REPO_ROOT)
+    storage = get_storage_adapter()
     output_dir = REPO_ROOT / "output" / "renders" / str(post_id)
     os.makedirs(output_dir, exist_ok=True)
 
@@ -158,9 +159,11 @@ async def render_carousel(request: Request):
         if not out_png_path.exists():
             raise RendererAPIException("OUTPUT_FAILURE", f"Output file not generated at {out_png_path}", status_code=500)
 
-        # Store relative file path
-        rel_file_path = (Path("output") / "renders" / str(post_id) / f"{post_id}_T01_{s_key}.png").as_posix()
-        slide_outputs.append(SlideOutputInfo(slide=s_key, file=rel_file_path))
+        # Process through Storage Adapter
+        file_key = storage.save_file(str(out_png_path), str(post_id), s_key)
+        pub_url = storage.get_public_url(file_key)
+
+        slide_outputs.append(SlideOutputInfo(slide=s_key, file=file_key, url=pub_url))
 
     return RenderResponse(
         success=True,

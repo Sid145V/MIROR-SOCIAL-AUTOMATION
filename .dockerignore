@@ -1,0 +1,36 @@
+# Environment & Secrets
+.env
+.env.*
+!.env.example
+
+# Version Control & CI/CD
+.git
+.github
+
+# Python Cache & Virtual Environments
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+ENV/
+env/
+
+# Node & Package Managers
+node_modules/
+npm-debug.log*
+
+# IDE & Operating System Files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Temporary Render Artifacts
+temp_render.html
+*.log
+output/previews/*.png
+output/previews/variants/
+output/renders/
+!output/previews/.gitkeep
+!output/renders/.gitkeep

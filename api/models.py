@@ -16,7 +16,8 @@ class CanvasInfo(BaseModel):
 
 class SlideOutputInfo(BaseModel):
     slide: str
-    file: str
+    file: Optional[str] = None
+    url: Optional[str] = None
 
 class RenderResponse(BaseModel):
     success: bool = True
