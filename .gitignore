@@ -31,4 +31,6 @@ temp_render.html
 *.log
 output/previews/*.png
 output/previews/variants/
+output/renders/
 !output/previews/.gitkeep
+!output/renders/.gitkeep
