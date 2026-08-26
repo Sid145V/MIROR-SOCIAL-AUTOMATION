@@ -61,22 +61,29 @@ class CloudinaryStorageAdapter(StorageAdapter):
         self.cloudinary_url = os.environ.get("CLOUDINARY_URL")
 
     def _ensure_configured(self):
-        if not (self.cloudinary_url or (self.cloud_name and self.api_key and self.api_secret)):
+        if not (self.cloud_name and self.api_key and self.api_secret) and self.cloudinary_url:
+            from urllib.parse import urlparse
+            parsed = urlparse(self.cloudinary_url)
+            if parsed.hostname:
+                self.cloud_name = parsed.hostname
+            if parsed.username:
+                self.api_key = parsed.username
+            if parsed.password:
+                self.api_secret = parsed.password
+
+        if not (self.cloud_name and self.api_key and self.api_secret):
             raise RendererAPIException(
                 code="STORAGE_UPLOAD_FAILURE",
                 message="Cloudinary storage backend selected but required credentials (CLOUDINARY_CLOUD_NAME, CLOUDINARY_API_KEY, CLOUDINARY_API_SECRET or CLOUDINARY_URL) are missing."
             )
         try:
             import cloudinary
-            if self.cloudinary_url:
-                cloudinary.config(cloudinary_url=self.cloudinary_url, secure=True)
-            elif self.cloud_name and self.api_key and self.api_secret:
-                cloudinary.config(
-                    cloud_name=self.cloud_name,
-                    api_key=self.api_key,
-                    api_secret=self.api_secret,
-                    secure=True
-                )
+            cloudinary.config(
+                cloud_name=self.cloud_name,
+                api_key=self.api_key,
+                api_secret=self.api_secret,
+                secure=True
+            )
         except Exception:
             raise RendererAPIException(
                 code="STORAGE_UPLOAD_FAILURE",
