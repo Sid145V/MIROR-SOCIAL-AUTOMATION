@@ -43,22 +43,27 @@ class T01HtmlRenderer:
         self.browser_bin = self._find_browser_binary()
 
     def _find_browser_binary(self):
-        """Cross-platform discovery of Headless Chromium/Chrome/Edge executable."""
-        # 1. Check Playwright installed executable if available
-        try:
-            from playwright.sync_api import sync_playwright
-            with sync_playwright() as p:
-                pw_path = p.chromium.executable_path
-                if pw_path and os.path.exists(pw_path):
-                    return pw_path
-        except Exception:
-            pass
-
-        # 2. Check system PATH executables
+        """Cross-platform discovery of Headless Chromium/Chrome/Edge executable without side-effect subprocesses."""
+        # 1. Check system PATH executables
         for cmd in ["chromium", "chromium-browser", "google-chrome", "google-chrome-stable", "msedge"]:
             found = shutil.which(cmd)
             if found and os.path.exists(found):
                 return found
+
+        # 2. Check Playwright cached binaries directly on disk
+        home = Path.home()
+        cache_dirs = [
+            home / ".cache" / "ms-playwright",
+            home / "Library" / "Caches" / "ms-playwright",
+            Path(os.environ.get("LOCALAPPDATA", "")) / "ms-playwright"
+        ]
+        for cdir in cache_dirs:
+            if cdir.exists():
+                for exe_name in ["chrome.exe", "chrome", "headless_shell", "headless_shell.exe"]:
+                    matches = list(cdir.rglob(exe_name))
+                    for m in matches:
+                        if m.is_file():
+                            return str(m)
 
         # 3. Check explicit OS binary paths
         candidates = [

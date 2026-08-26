@@ -33,42 +33,54 @@ jobs:
         run: |
           python -m playwright install --with-deps chromium
 
-      - name: Validate Exact Text Lock & Text Integrity System
+      - name: Step 1 - Validate Exact Text Lock & Text Integrity System
         run: |
           python template-engine/tests/validate_t01_text_integrity.py
 
-      - name: Validate Background Color Variants & Contrast Rules
+      - name: Step 2 - Validate Background Color Variants & Contrast Rules
         run: |
           python template-engine/tests/validate_t01_background_variants.py
 
-      - name: Validate T01 Slide 1 (Hook)
-        run: |
-          python template-engine/tests/validate_t01_slide1.py
-
-      - name: Validate T01 Slide 2 (Follow-Through)
-        run: |
-          python template-engine/tests/validate_t01_slide2.py
-
-      - name: Validate T01 Slide 3 (CTA)
-        run: |
-          python template-engine/tests/validate_t01_slide3.py
-
-      - name: Renderer Smoke Test
+      - name: Step 3 - Render T01 Production Test Outputs
         run: |
           python template-engine/templates/T01-miror-text-carousel/renderer.py
+
+      - name: Step 4 - Verify Generated PNG Output Integrity
+        run: |
           python -c "
           from PIL import Image
-          import os, sys
+          from pathlib import Path
 
+          repo_root = Path('.').resolve()
           paths = [
-              'output/previews/MIROR-T01-S01.png',
-              'output/previews/MIROR-T01-S02.png',
-              'output/previews/MIROR-T01-S03.png'
+              repo_root / 'output' / 'previews' / 'MIROR-T01-S01.png',
+              repo_root / 'output' / 'previews' / 'MIROR-T01-S02.png',
+              repo_root / 'output' / 'previews' / 'MIROR-T01-S03.png'
           ]
           for p in paths:
-              assert os.path.exists(p), f'Missing preview output: {p}'
+              assert p.exists(), f'Missing preview output: {p}'
               with Image.open(p) as img:
                   assert img.size == (1080, 1350), f'Invalid dimensions {img.size} for {p}'
                   assert img.format == 'PNG', f'Invalid format {img.format} for {p}'
-              print(f'Smoke test passed: {p} (1080x1350 PNG)')
+              print(f'Rendered output verified: {p} (1080x1350 PNG)')
           "
+
+      - name: Step 5 - Validate T01 Slide 1 (Hook)
+        run: |
+          python template-engine/tests/validate_t01_slide1.py
+
+      - name: Step 6 - Validate T01 Slide 2 (Follow-Through)
+        run: |
+          python template-engine/tests/validate_t01_slide2.py
+
+      - name: Step 7 - Validate T01 Slide 3 (CTA)
+        run: |
+          python template-engine/tests/validate_t01_slide3.py
+
+      - name: Step 8 - Upload Preview Artifacts
+        uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: t01-preview-images
+          path: output/previews/*.png
+          if-no-files-found: warn
