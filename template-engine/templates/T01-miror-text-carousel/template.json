@@ -1,0 +1,16 @@
+{
+  "id": "T01",
+  "name": "MIROR Text Carousel — 3-Slide System",
+  "version": "1.2.0",
+  "directory": "T01-miror-text-carousel",
+  "canvas": {
+    "width": 1080,
+    "height": 1350,
+    "aspect_ratio": "4:5"
+  },
+  "background": "#FDF8F5",
+  "font_family": "Montserrat",
+  "logo": "LOGO-001",
+  "slides": ["hook", "follow-through", "cta"],
+  "status": "DEVELOPMENT — S03 VISUAL REVIEW REQUIRED"
+}

@@ -1,0 +1,49 @@
+{
+  "fonts": {
+    "FONT-001": {
+      "family": "Montserrat",
+      "weight": 400,
+      "style": "normal",
+      "path": "assets/fonts/Montserrat-Regular.ttf",
+      "status": "APPROVED"
+    },
+    "FONT-002": {
+      "family": "Montserrat",
+      "weight": 500,
+      "style": "normal",
+      "path": "assets/fonts/Montserrat-Medium.ttf",
+      "status": "APPROVED"
+    },
+    "FONT-003": {
+      "family": "Montserrat",
+      "weight": 600,
+      "style": "normal",
+      "path": "assets/fonts/Montserrat-SemiBold.ttf",
+      "status": "APPROVED"
+    },
+    "FONT-004": {
+      "family": "Montserrat",
+      "weight": 700,
+      "style": "normal",
+      "path": "assets/fonts/Montserrat-Bold.ttf",
+      "status": "APPROVED"
+    }
+  },
+  "logos": {
+    "LOGO-001": {
+      "type": "official_primary_badge",
+      "path": "assets/logos/LOGO-001.png",
+      "status": "APPROVED"
+    }
+  },
+  "references": {
+    "REF-IG-T01-PLANNING": {
+      "type": "template_planning_reference",
+      "format": "image/png",
+      "dimensions": "1080x1350",
+      "aspect_ratio": "4:5",
+      "path": "references/instagram/REF-IG-T01-PLANNING.png",
+      "status": "CONTROLLED_REFERENCE"
+    }
+  }
+}

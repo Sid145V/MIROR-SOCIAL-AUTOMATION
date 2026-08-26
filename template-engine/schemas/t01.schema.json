@@ -1,0 +1,52 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "MIROR_T01_Text_Carousel_Schema",
+  "description": "Formal JSON Schema for MIROR T01 3-Slide Text-Only Instagram Carousel Payload",
+  "type": "object",
+  "required": ["content_id", "template_id", "canvas", "slides"],
+  "properties": {
+    "content_id": {
+      "type": "string",
+      "pattern": "^MIROR-[0-9]{3,}$"
+    },
+    "template_id": {
+      "type": "string",
+      "enum": ["T01"]
+    },
+    "meta": {
+      "type": "object",
+      "properties": {
+        "title": { "type": "string" },
+        "objective": { "type": "string" },
+        "type": { "type": "string" },
+        "key_message": { "type": "string" },
+        "supporting_context": { "type": "string" }
+      }
+    },
+    "canvas": {
+      "type": "object",
+      "required": ["width", "height"],
+      "properties": {
+        "width": { "type": "integer", "enum": [1080] },
+        "height": { "type": "integer", "enum": [1350] },
+        "aspect_ratio": { "type": "string", "enum": ["4:5"] }
+      }
+    },
+    "slides": {
+      "type": "array",
+      "minItems": 3,
+      "maxItems": 3,
+      "items": {
+        "type": "object",
+        "required": ["slide_number", "type", "headline"],
+        "properties": {
+          "slide_number": { "type": "integer", "minimum": 1, "maximum": 3 },
+          "type": { "type": "string", "enum": ["hook", "follow-through", "cta"] },
+          "headline": { "type": "string", "minLength": 1 },
+          "supporting_text": { "type": "string" },
+          "cta": { "type": "string" }
+        }
+      }
+    }
+  }
+}

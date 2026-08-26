@@ -1,0 +1,16 @@
+{
+  "id": "T01",
+  "name": "MIROR 3-Slide Text Carousel",
+  "version": "1.0",
+  "directory": "T01-bold-typographic",
+  "canvas": {
+    "width": 1080,
+    "height": 1350,
+    "aspect_ratio": "4:5"
+  },
+  "background": "#FDF8F5",
+  "font_family": "Montserrat",
+  "logo": "LOGO-001",
+  "slides": ["hook", "follow-through", "cta"],
+  "status": "DEVELOPMENT — VISUAL REVIEW REQUIRED"
+}

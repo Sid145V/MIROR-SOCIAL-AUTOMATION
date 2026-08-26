@@ -1,0 +1,17 @@
+{
+  "templates": {
+    "T01": {
+      "name": "MIROR 3-Slide Text Carousel",
+      "status": "DEVELOPMENT — S03 VISUAL REVIEW REQUIRED",
+      "planning_reference": "references/instagram/REF-IG-T01-PLANNING.png",
+      "renderer": "template-engine/templates/T01-miror-text-carousel/renderer.py",
+      "design_spec": "template-engine/templates/T01-miror-text-carousel/design-spec.json",
+      "dimensions": {
+        "width": 1080,
+        "height": 1350,
+        "aspect_ratio": "4:5"
+      },
+      "slides_count": 3
+    }
+  }
+}

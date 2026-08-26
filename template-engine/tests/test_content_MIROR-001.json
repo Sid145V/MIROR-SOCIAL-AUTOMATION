@@ -1,0 +1,36 @@
+{
+  "content_id": "MIROR-001",
+  "template_id": "T01",
+  "meta": {
+    "title": "What the hell is happening?",
+    "objective": "Help women recognize connected symptoms",
+    "type": "Symptom Recognition",
+    "key_message": "Your symptoms may be connected.",
+    "supporting_context": "Make it validating, not alarming."
+  },
+  "canvas": {
+    "width": 1080,
+    "height": 1350,
+    "aspect_ratio": "4:5"
+  },
+  "slides": [
+    {
+      "slide_number": 1,
+      "type": "hook",
+      "headline": "YOU'RE TIRED.\nYOU CAN'T SLEEP.\nYOU'RE IRRITABLE.\nYOUR PERIOD IS WEIRD.\nYOUR BRAIN FEELS FOGGY.\n\nAND YOU'RE WONDERING WHAT THE HELL IS HAPPENING."
+    },
+    {
+      "slide_number": 2,
+      "type": "follow-through",
+      "headline": "HERE'S WHAT MAY BE HAPPENING.",
+      "supporting_text": "During perimenopause, your hormones can fluctuate significantly.\n\nThat can affect your periods, sleep, mood, energy, concentration and more.\n\nThe symptoms may not be separate.\nThey may be connected."
+    },
+    {
+      "slide_number": 3,
+      "type": "cta",
+      "headline": "START CONNECTING THE DOTS.",
+      "supporting_text": "Understand your symptoms.\nGet expert guidance.\nTalk to women going through it too.",
+      "cta": "JOIN THE MIROR COMMUNITY →\nLink in bio"
+    }
+  ]
+}

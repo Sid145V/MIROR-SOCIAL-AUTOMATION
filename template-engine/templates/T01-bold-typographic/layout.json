@@ -1,0 +1,88 @@
+{
+  "canvas": {
+    "width": 1080,
+    "height": 1350,
+    "aspect_ratio": "4:5",
+    "background_color": "#FDF8F5"
+  },
+  "logo": {
+    "x": 50,
+    "y": 50,
+    "width": 120,
+    "path": "assets/logos/LOGO-001.png"
+  },
+  "grid": {
+    "margin_left": 90,
+    "margin_right": 90,
+    "max_width": 900,
+    "content_top": 220,
+    "content_bottom": 1220
+  },
+  "colors": {
+    "background": "#FDF8F5",
+    "headline": "#3E3353",
+    "body": "#625972",
+    "cta_bg": "#FD6794",
+    "cta_text": "#FFFFFF"
+  },
+  "slide_counter": {
+    "enabled": true,
+    "font_weight": "bold",
+    "font_size": 16,
+    "color": "#3E3353",
+    "y": 1270,
+    "text_template": "SLIDE {slide_number} OF {total_slides}"
+  },
+  "typography": {
+    "slide_1_hook": {
+      "alignment": "center",
+      "font_weight": "bold",
+      "font_size": 74,
+      "line_height_multiplier": 1.12,
+      "color": "#3E3353"
+    },
+    "slide_2_follow_through": {
+      "alignment": "left",
+      "headline": {
+        "font_weight": "bold",
+        "font_size": 72,
+        "line_height_multiplier": 1.10,
+        "color": "#3E3353"
+      },
+      "body": {
+        "font_weight": "medium",
+        "font_size": 38,
+        "line_height_multiplier": 1.32,
+        "color": "#625972"
+      },
+      "gap_headline_body": 55
+    },
+    "slide_3_cta": {
+      "alignment": "left",
+      "headline": {
+        "font_weight": "bold",
+        "font_size": 72,
+        "line_height_multiplier": 1.10,
+        "color": "#3E3353"
+      },
+      "body": {
+        "font_weight": "medium",
+        "font_size": 38,
+        "line_height_multiplier": 1.32,
+        "color": "#625972"
+      },
+      "gap_headline_body": 55,
+      "gap_body_cta": 140,
+      "cta_button": {
+        "font_weight": "semibold",
+        "font_size": 32,
+        "bg_color": "#FD6794",
+        "text_color": "#FFFFFF",
+        "border_radius": 32,
+        "padding_x": 48,
+        "padding_y": 24,
+        "alignment": "center"
+      }
+    }
+  }
+}
