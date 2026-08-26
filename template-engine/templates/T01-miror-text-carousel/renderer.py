@@ -400,6 +400,8 @@ class T01HtmlRenderer:
         cmd = [
             self.browser_bin,
             "--headless=new",
+            "--no-sandbox",
+            "--disable-setuid-sandbox",
             f"--screenshot={abs_out_png}",
             f"--window-size={self.canvas_width},{self.canvas_height}",
             "--force-device-scale-factor=1",
