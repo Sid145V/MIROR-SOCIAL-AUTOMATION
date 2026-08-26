@@ -52,7 +52,15 @@ async def validation_exception_handler(request: Request, exc: RequestValidationE
         }
     )
 
-def get_master_integrity_manifest() -> Dict[str, str]:
+def get_master_integrity_manifest(post_id: str = None) -> Dict[str, str]:
+    if post_id:
+        manifest_30_path = REPO_ROOT / "template-engine" / "data" / "text_integrity_manifest_30.json"
+        if manifest_30_path.exists():
+            with open(manifest_30_path, "r", encoding="utf-8") as f:
+                manifest_data = json.load(f)
+                if post_id in manifest_data:
+                    return manifest_data[post_id]
+
     master_path = REPO_ROOT / "template-engine" / "tests" / "test_content_MIROR-T01-MASTER.json"
     if master_path.exists():
         with open(master_path, "r", encoding="utf-8") as f:
@@ -115,7 +123,7 @@ async def render_carousel(request: Request):
     if len(normalized_slides) < 3:
         raise RendererAPIException("VALIDATION_ERROR", "T01 carousel requires 3 slides (S01, S02, S03).", field="slides")
 
-    manifest = body.get("text_integrity") or get_master_integrity_manifest()
+    manifest = body.get("text_integrity") or get_master_integrity_manifest(str(post_id))
 
     # 1. Enforce Exact Text Lock Validation across all 3 slides BEFORE rendering
     for slide in normalized_slides:
