@@ -127,11 +127,26 @@ class CloudinaryStorageAdapter(StorageAdapter):
         except RendererAPIException:
             raise
         except Exception as e:
-            # Log error server-side without exposing API keys
-            print(f"[ERROR] Cloudinary upload failure for {post_id} {slide_id}: {str(e)}")
+            # TEMPORARY DIAGNOSTIC (safe to remove once root cause confirmed):
+            # surface exception class / sanitized message / http code / cloud_name only.
+            # Never include api_key, api_secret, or cloudinary_url values.
+            exception_class_name = type(e).__name__
+            sanitized_message = str(e)
+            for secret_val in (self.api_key, self.api_secret, self.cloudinary_url):
+                if secret_val:
+                    sanitized_message = sanitized_message.replace(secret_val, "[REDACTED]")
+            if len(sanitized_message) > 400:
+                sanitized_message = sanitized_message[:400] + "...[truncated]"
+            http_code = getattr(e, "http_code", None) or getattr(e, "status", None) or getattr(e, "code", None)
+
+            diag = (
+                f"class={exception_class_name} http_code={http_code} "
+                f"cloud_name={self.cloud_name} detail={sanitized_message}"
+            )
+            print(f"[ERROR] Cloudinary upload failure for {post_id} {slide_id}: {diag}")
             raise RendererAPIException(
                 code="STORAGE_UPLOAD_FAILURE",
-                message="Unable to persist rendered asset to Cloudinary CDN storage."
+                message=f"Unable to persist rendered asset to Cloudinary CDN storage. [diag: {diag}]"
             )
 
 
