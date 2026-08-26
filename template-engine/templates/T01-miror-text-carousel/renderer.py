@@ -1,14 +1,16 @@
 """
-T01 Browser-Based Renderer Engine — Background Color Variants & Contrast System Integrated
+T01 Browser-Based Renderer Engine — Cross-Platform Browser Discovery
 Uses Headless Chromium to deterministically render HTML/CSS templates to 1080x1350 PNG.
 Reads design tokens strictly from design-spec.json.
 Supports explicit backgroundVariant ("01"-"05") and 5-day cycle rotation (dayNumber).
 Enforces TextLockSystem validation before generating any output.
+Cross-platform compatible (Windows, Linux CI runner, macOS).
 """
 
 import os
 import sys
 import json
+import shutil
 import subprocess
 
 # Add core module directory to sys.path
@@ -35,15 +37,38 @@ class T01HtmlRenderer:
         self.browser_bin = self._find_browser_binary()
 
     def _find_browser_binary(self):
+        """Cross-platform discovery of Headless Chromium/Chrome/Edge executable."""
+        # 1. Check Playwright installed executable if available
+        try:
+            from playwright.sync_api import sync_playwright
+            with sync_playwright() as p:
+                pw_path = p.chromium.executable_path
+                if pw_path and os.path.exists(pw_path):
+                    return pw_path
+        except Exception:
+            pass
+
+        # 2. Check system PATH executables
+        for cmd in ["chromium", "chromium-browser", "google-chrome", "google-chrome-stable", "msedge"]:
+            found = shutil.which(cmd)
+            if found and os.path.exists(found):
+                return found
+
+        # 3. Check explicit OS binary paths
         candidates = [
             "C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe",
             "C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe",
-            "C:\\Program Files\\Microsoft\\Edge\\Application\\msedge.exe"
+            "C:\\Program Files\\Microsoft\\Edge\\Application\\msedge.exe",
+            "/usr/bin/chromium",
+            "/usr/bin/chromium-browser",
+            "/usr/bin/google-chrome",
+            "/usr/bin/google-chrome-stable"
         ]
         for c in candidates:
             if os.path.exists(c):
                 return c
-        raise FileNotFoundError("No Headless Chrome or Edge browser binary found on local system.")
+
+        raise FileNotFoundError("No Headless Chrome or Edge browser binary found on local or CI environment.")
 
     def resolve_background_variant(self, content_payload):
         """Deterministically resolve background variant key ('01'-'05') from payload."""
@@ -322,6 +347,7 @@ class T01HtmlRenderer:
 
     def render(self, content_json_path, output_png_path, expected_manifest=None):
         """Render slide to 1080x1350 PNG output file using Headless Chromium after text lock validation."""
+        import copy
         with open(content_json_path, "r", encoding="utf-8") as f:
             content_payload = json.load(f)
 

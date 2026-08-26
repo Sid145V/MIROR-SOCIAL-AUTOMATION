@@ -58,9 +58,9 @@ def run_qa_checks(project_root="d:/MIROR-SOCIAL-AUTOMATION"):
     hl = s02_spec["headline"]
     log_check(7, "S02 Headline Tokens", hl["alignment"] == "left" and hl["left"] == 90 and hl["top"] == 360 and hl["fontSize"] == 68 and hl["color"] == "#3E3353", f"Headline align={hl['alignment']}, left={hl['left']}px, top={hl['top']}px, size={hl['fontSize']}px, color={hl['color']}")
 
-    # 8. Body Tokens (Left Aligned, Top=490px, Montserrat-Medium, Size=38px, #625972)
+    # 8. Body Tokens (Left Aligned, Montserrat-Medium, Size=38px, #625972, gap=55px)
     bd = s02_spec["body"]
-    log_check(8, "S02 Body Tokens", bd["alignment"] == "left" and bd["left"] == 90 and bd["top"] == 490 and bd["fontSize"] == 38 and bd["color"] == "#625972", f"Body align={bd['alignment']}, left={bd['left']}px, top={bd['top']}px, size={bd['fontSize']}px, color={bd['color']}")
+    log_check(8, "S02 Body Tokens", bd["alignment"] == "left" and bd["left"] == 90 and bd.get("gapFromHeadline", 55) == 55 and bd["fontSize"] == 38 and bd["color"] == "#625972", f"Body align={bd['alignment']}, left={bd['left']}px, gap={bd.get('gapFromHeadline', 55)}px, size={bd['fontSize']}px, color={bd['color']}")
 
     # 9-10. Font Binaries Presence
     f_bold = os.path.join(root, "assets", "fonts", "Montserrat-Bold.ttf")

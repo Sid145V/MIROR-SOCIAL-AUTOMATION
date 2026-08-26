@@ -1,0 +1,74 @@
+name: MIROR CI Pipeline
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+  workflow_dispatch:
+
+jobs:
+  validate-template-engine:
+    name: Validate MIROR Template Engine & Visual System
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python 3.10
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.10'
+          cache: 'pip'
+
+      - name: Install Python Dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Install Playwright Headless Chromium
+        run: |
+          python -m playwright install --with-deps chromium
+
+      - name: Validate Exact Text Lock & Text Integrity System
+        run: |
+          python template-engine/tests/validate_t01_text_integrity.py
+
+      - name: Validate Background Color Variants & Contrast Rules
+        run: |
+          python template-engine/tests/validate_t01_background_variants.py
+
+      - name: Validate T01 Slide 1 (Hook)
+        run: |
+          python template-engine/tests/validate_t01_slide1.py
+
+      - name: Validate T01 Slide 2 (Follow-Through)
+        run: |
+          python template-engine/tests/validate_t01_slide2.py
+
+      - name: Validate T01 Slide 3 (CTA)
+        run: |
+          python template-engine/tests/validate_t01_slide3.py
+
+      - name: Renderer Smoke Test
+        run: |
+          python template-engine/templates/T01-miror-text-carousel/renderer.py
+          python -c "
+          from PIL import Image
+          import os, sys
+
+          paths = [
+              'output/previews/MIROR-T01-S01.png',
+              'output/previews/MIROR-T01-S02.png',
+              'output/previews/MIROR-T01-S03.png'
+          ]
+          for p in paths:
+              assert os.path.exists(p), f'Missing preview output: {p}'
+              with Image.open(p) as img:
+                  assert img.size == (1080, 1350), f'Invalid dimensions {img.size} for {p}'
+                  assert img.format == 'PNG', f'Invalid format {img.format} for {p}'
+              print(f'Smoke test passed: {p} (1080x1350 PNG)')
+          "

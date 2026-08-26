@@ -1,0 +1,4 @@
+# Production Dependencies for MIROR Social Automation Template Engine
+pillow>=9.0.0
+playwright>=1.30.0
+jsonschema>=4.0.0

@@ -37,8 +37,9 @@ def run_qa_checks(project_root="d:/MIROR-SOCIAL-AUTOMATION"):
             log_check(3, "Resolution (1080x1350)", w == 1080 and h == 1350 and fmt == "PNG", f"Fmt={fmt}, Dim={w}x{h}")
 
     # 4. Logo Left=50px, Top=50px Tokens
-    l_left = spec["logo"]["left"]
-    l_top = spec["logo"]["top"]
+    s01_spec = spec["slides"]["S01"] if "slides" in spec else spec
+    l_left = s01_spec["logo"]["left"]
+    l_top = s01_spec["logo"]["top"]
     log_check(4, "Logo Absolute Position", l_left == 50 and l_top == 50, f"Logo left={l_left}px, top={l_top}px")
 
     # 5. Logo Pixel Data at (50, 50)
@@ -50,15 +51,15 @@ def run_qa_checks(project_root="d:/MIROR-SOCIAL-AUTOMATION"):
             log_check(5, "Logo Pixel Verification at (50,50)", rendered, "Logo pixels detected at (50,50)")
 
     # 6. Headline Position Top=470px, Left=90px, Width=900px
-    hl_l = spec["headline"]["left"]
-    hl_t = spec["headline"]["top"]
-    hl_w = spec["headline"]["width"]
+    hl_l = s01_spec["headline"]["left"]
+    hl_t = s01_spec["headline"]["top"]
+    hl_w = s01_spec["headline"]["width"]
     log_check(6, "Headline Container Geometry", hl_l == 90 and hl_t == 470 and hl_w == 900, f"Headline left={hl_l}px, top={hl_t}px, width={hl_w}px")
 
     # 7. Font Specs
-    f_weight = spec["headline"]["fontWeight"]
-    f_size = spec["headline"]["fontSize"]
-    f_lh = spec["headline"]["lineHeight"]
+    f_weight = s01_spec["headline"]["fontWeight"]
+    f_size = s01_spec["headline"]["fontSize"]
+    f_lh = s01_spec["headline"]["lineHeight"]
     log_check(7, "Typography Specs", f_weight == 700 and f_size == 64 and f_lh == 1.12, f"Font Montserrat-Bold (weight={f_weight}, size={f_size}px, lineHeight={f_lh})")
 
     # 8. Background Color

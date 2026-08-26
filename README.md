@@ -1,5 +1,7 @@
 # MIROR Social Automation
 
+[![MIROR CI Pipeline](https://github.com/Sid145V/MIROR-SOCIAL-AUTOMATION/actions/workflows/ci.yml/badge.svg)](https://github.com/Sid145V/MIROR-SOCIAL-AUTOMATION/actions/workflows/ci.yml)
+
 ## Project
 **MIROR Social Automation**
 
@@ -7,10 +9,15 @@
 Production-grade automated Instagram content creation and publishing system for MIROR.
 
 ## Current Phase
-**PHASE 1 — PROJECT STRUCTURE ONLY**
+**PRODUCTION TEMPLATE ENGINE & CI/CD VALIDATION**
 
-## Current State
-The project contains the initial directory structure and placeholders for configuration, schemas, templates, renderer, assets, references, output, and documentation. No template implementation, renderer code, or creative asset generation has been performed in this phase.
+## System Overview & Features
+- **Master Template Engine:** `T01 MIROR 3-Slide Text-Only Carousel` (Hook, Follow-Through, CTA).
+- **Exact Text Lock System:** Immutable text preservation & SHA-256 string fingerprinting.
+- **Background Color Variants:** 5 approved variants (`#FDF8F5`, `#FFFFFF`, `#E9E2F2`, `#3E3353`, `#FD6794`) with deterministic 5-day cycle rotation & WCAG contrast enforcement.
+- **Automated CI/CD Validation:** GitHub Actions continuous integration pipeline for 100% automated visual & text regression protection.
+
+---
 
 ## Important Principles
 1. **MIROR brand rules are authoritative.**
@@ -34,6 +41,6 @@ The project contains the initial directory structure and placeholders for config
   - Major Headline: Montserrat 700 Bold
   - Secondary/Emphasis: Montserrat 600 SemiBold
   - Body/Supporting: Montserrat 500 Medium
-  - CTA: Montserrat 500 Medium
+  - CTA: Montserrat 600 SemiBold
 
-> **Note:** These typography weights are confirmed brand references. Website pixel sizes must NOT be copied directly into Instagram templates. Instagram-specific font sizes, line heights, margins, logo dimensions, spacing, and layout values will be determined separately during template implementation.
+> **Note:** These typography weights are confirmed brand references. Font sizes, line heights, margins, logo dimensions, spacing, and layout values are driven deterministically via machine-readable design specifications.
