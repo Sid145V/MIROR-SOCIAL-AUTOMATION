@@ -1,0 +1,1593 @@
+{
+  "total_posts": 30,
+  "posts": [
+    {
+      "content_id": "MIROR-001",
+      "template_id": "T01",
+      "content_title": "What the hell is happening?",
+      "objective": "Help women recognize connected symptoms",
+      "type": "Symptom Recognition",
+      "source": "MIROR Approved Baseline (Version B)",
+      "slides": [
+        {
+          "id": "S01",
+          "type": "hook",
+          "headline": {
+            "text": "YOU'RE TIRED.\nYOU CAN'T SLEEP.\nYOU'RE IRRITABLE.\n\nYOUR BODY IS TRYING\nTO TELL YOU SOMETHING.",
+            "lock": "EXACT"
+          }
+        },
+        {
+          "id": "S02",
+          "type": "follow-through",
+          "headline": {
+            "text": "HERE'S WHAT MAY BE\nHAPPENING.",
+            "lock": "EXACT"
+          },
+          "body": [
+            {
+              "text": "During perimenopause, your hormones can fluctuate significantly.",
+              "lock": "EXACT"
+            },
+            {
+              "text": "That can affect your periods, sleep, mood, energy, concentration and more.",
+              "lock": "EXACT"
+            },
+            {
+              "text": "The symptoms may not be separate.\nThey may be connected.",
+              "lock": "EXACT"
+            }
+          ]
+        },
+        {
+          "id": "S03",
+          "type": "cta",
+          "headline": {
+            "text": "START CONNECTING\nTHE DOTS.",
+            "lock": "EXACT"
+          },
+          "body": [
+            {
+              "text": "Understand your symptoms.",
+              "lock": "EXACT"
+            },
+            {
+              "text": "Get expert guidance.",
+              "lock": "EXACT"
+            },
+            {
+              "text": "Talk to women going through it too.",
+              "lock": "EXACT"
+            }
+          ],
+          "cta": {
+            "text": "JOIN THE MIROR COMMUNITY →\nLink in bio",
+            "lock": "EXACT"
+          }
+        }
+      ]
+    },
+    {
+      "content_id": "MIROR-002",
+      "template_id": "T01",
+      "content_title": "EVERYONE IS ANNOYING",
+      "objective": null,
+      "type": null,
+      "source": "Miror AI posts - Perimenopause_30_Posts_Design_Handoff.docx",
+      "slides": [
+        {
+          "id": "S01",
+          "type": "hook",
+          "headline": {
+            "text": "HERE'S WHY EVERYONE IS ANNOYING YOU LATELY.",
+            "lock": "EXACT"
+          }
+        },
+        {
+          "id": "S02",
+          "type": "follow-through",
+          "headline": {
+            "text": "You may not suddenly have a shorter fuse.",
+            "lock": "EXACT"
+          },
+          "body": [
+            {
+              "text": "Perimenopause can bring hormonal fluctuations, mood changes, anxiety and disrupted sleep.",
+              "lock": "EXACT"
+            },
+            {
+              "text": "Sometimes your hormones are part of the story.",
+              "lock": "EXACT"
+            }
+          ]
+        },
+        {
+          "id": "S03",
+          "type": "cta",
+          "headline": {
+            "text": "UNDERSTAND THE WHY BEHIND HOW YOU FEEL.",
+            "lock": "EXACT"
+          },
+          "body": [
+            {
+              "text": "Expert guidance. Real conversations. A community that gets it.",
+              "lock": "EXACT"
+            }
+          ],
+          "cta": {
+            "text": "JOIN THE MIROR COMMUNITY →\nLink in bio",
+            "lock": "EXACT"
+          }
+        }
+      ]
+    },
+    {
+      "content_id": "MIROR-003",
+      "template_id": "T01",
+      "content_title": "3AM",
+      "objective": null,
+      "type": null,
+      "source": "Miror AI posts - Perimenopause_30_Posts_Design_Handoff.docx",
+      "slides": [
+        {
+          "id": "S01",
+          "type": "hook",
+          "headline": {
+            "text": "YOU USED TO SLEEP THROUGH THE NIGHT.\n\nNOW 3AM IS YOUR NEW BEDTIME.\n\nYOU'RE EXHAUSTED.\nYOU'RE IRRITABLE.\nAND COFFEE IS NO LONGER SAVING YOU.",
+            "lock": "EXACT"
+          }
+        },
+        {
+          "id": "S02",
+          "type": "follow-through",
+          "headline": {
+            "text": "HERE'S WHAT YOU MAY HAVE MISSED.",
+            "lock": "EXACT"
+          },
+          "body": [
+            {
+              "text": "Sleep problems can become part of perimenopause — sometimes alongside hormonal fluctuations, night sweats and mood changes.",
+              "lock": "EXACT"
+            },
+            {
+              "text": "Your sleep may be giving you a clue.",
+              "lock": "EXACT"
+            }
+          ]
+        },
+        {
+          "id": "S03",
+          "type": "cta",
+          "headline": {
+            "text": "DON'T JUST ACCEPT ANOTHER BAD NIGHT.",
+            "lock": "EXACT"
+          },
+          "body": [
+            {
+              "text": "Start understanding what's happening.",
+              "lock": "EXACT"
+            }
+          ],
+          "cta": {
+            "text": "JOIN THE MIROR COMMUNITY →\nLink in bio",
+            "lock": "EXACT"
+          }
+        }
+      ]
+    },
+    {
+      "content_id": "MIROR-004",
+      "template_id": "T01",
+      "content_title": "PERIODS",
+      "objective": null,
+      "type": null,
+      "source": "Miror AI posts - Perimenopause_30_Posts_Design_Handoff.docx",
+      "slides": [
+        {
+          "id": "S01",
+          "type": "hook",
+          "headline": {
+            "text": "YOUR PERIOD USED TO BE PREDICTABLE.\n\nNOW IT'S EARLY.\nLATE.\nHEAVY.\nLIGHT.\nAND COMPLETELY RANDOM.",
+            "lock": "EXACT"
+          }
+        },
+        {
+          "id": "S02",
+          "type": "follow-through",
+          "headline": {
+            "text": "HERE'S WHAT MAY BE HAPPENING.",
+            "lock": "EXACT"
+          },
+          "body": [
+            {
+              "text": "Changing periods can be one of the first signs of perimenopause.",
+              "lock": "EXACT"
+            },
+            {
+              "text": "Your cycle may become shorter, longer, heavier or lighter.",
+              "lock": "EXACT"
+            },
+            {
+              "text": "Your period can be a clue.",
+              "lock": "EXACT"
+            }
+          ]
+        },
+        {
+          "id": "S03",
+          "type": "cta",
+          "headline": {
+            "text": "START READING THE SIGNS YOUR BODY IS GIVING YOU.",
+            "lock": "EXACT"
+          },
+          "body": [],
+          "cta": {
+            "text": "JOIN THE MIROR COMMUNITY →\nLink in bio",
+            "lock": "EXACT"
+          }
+        }
+      ]
+    },
+    {
+      "content_id": "MIROR-005",
+      "template_id": "T01",
+      "content_title": "TOO YOUNG?",
+      "objective": null,
+      "type": null,
+      "source": "Miror AI posts - Perimenopause_30_Posts_Design_Handoff.docx",
+      "slides": [
+        {
+          "id": "S01",
+          "type": "hook",
+          "headline": {
+            "text": "YOU'RE 42.\n\nYOU'RE TIRED.\nYOU'RE FORGETFUL.\nYOUR PERIOD HAS CHANGED.\n\nAND SOMEONE SAYS:\n“YOU'RE TOO YOUNG FOR MENOPAUSE.”",
+            "lock": "EXACT"
+          }
+        },
+        {
+          "id": "S02",
+          "type": "follow-through",
+          "headline": {
+            "text": "HERE'S WHAT YOU NEED TO KNOW.",
+            "lock": "EXACT"
+          },
+          "body": [
+            {
+              "text": "Perimenopause can begin before menopause itself.",
+              "lock": "EXACT"
+            },
+            {
+              "text": "Your age doesn't automatically explain away your symptoms.",
+              "lock": "EXACT"
+            },
+            {
+              "text": "Listen to the pattern.",
+              "lock": "EXACT"
+            }
+          ]
+        },
+        {
+          "id": "S03",
+          "type": "cta",
+          "headline": {
+            "text": "DON'T LET YOUR AGE INVALIDATE YOUR SYMPTOMS.",
+            "lock": "EXACT"
+          },
+          "body": [],
+          "cta": {
+            "text": "JOIN THE MIROR COMMUNITY →\nLink in bio",
+            "lock": "EXACT"
+          }
+        }
+      ]
+    },
+    {
+      "content_id": "MIROR-006",
+      "template_id": "T01",
+      "content_title": "BRAIN FOG",
+      "objective": null,
+      "type": null,
+      "source": "Miror AI posts - Perimenopause_30_Posts_Design_Handoff.docx",
+      "slides": [
+        {
+          "id": "S01",
+          "type": "hook",
+          "headline": {
+            "text": "YOU FORGET NAMES.\nYOU FORGET APPOINTMENTS.\nYOU FORGET WHY YOU OPENED YOUR PHONE.\n\nAND THEN YOU GOOGLE:\n“AM I LOSING MY MIND?”",
+            "lock": "EXACT"
+          }
+        },
+        {
+          "id": "S02",
+          "type": "follow-through",
+          "headline": {
+            "text": "HERE'S WHAT YOU SHOULD KNOW.",
+            "lock": "EXACT"
+          },
+          "body": [
+            {
+              "text": "Brain fog and memory problems can occur during perimenopause.",
+              "lock": "EXACT"
+            },
+            {
+              "text": "Poor sleep, stress and fatigue can make them feel worse.",
+              "lock": "EXACT"
+            },
+            {
+              "text": "You're not necessarily losing your mind.",
+              "lock": "EXACT"
+            }
+          ]
+        },
+        {
+          "id": "S03",
+          "type": "cta",
+          "headline": {
+            "text": "YOUR BRAIN DESERVES ANSWERS TOO.",
+            "lock": "EXACT"
+          },
+          "body": [],
+          "cta": {
+            "text": "JOIN THE MIROR COMMUNITY →\nLink in bio",
+            "lock": "EXACT"
+          }
+        }
+      ]
+    },
+    {
+      "content_id": "MIROR-007",
+      "template_id": "T01",
+      "content_title": "BODY CHANGED",
+      "objective": null,
+      "type": null,
+      "source": "Miror AI posts - Perimenopause_30_Posts_Design_Handoff.docx",
+      "slides": [
+        {
+          "id": "S01",
+          "type": "hook",
+          "headline": {
+            "text": "YOUR BODY CHANGED.\n\nYOUR WAIST CHANGED.\nYOUR CLOTHES FIT DIFFERENTLY.\nYOUR ENERGY CHANGED.\nAND YOU DON'T KNOW WHY.",
+            "lock": "EXACT"
+          }
+        },
+        {
+          "id": "S02",
+          "type": "follow-through",
+          "headline": {
+            "text": "HERE'S WHAT MAY BE HAPPENING.",
+            "lock": "EXACT"
+          },
+          "body": [
+            {
+              "text": "During perimenopause, changes in hormones, sleep, muscle and body composition can all influence how your body feels and looks.",
+              "lock": "EXACT"
+            },
+            {
+              "text": "This is bigger than willpower.",
+              "lock": "EXACT"
+            }
+          ]
+        },
+        {
+          "id": "S03",
+          "type": "cta",
+          "headline": {
+            "text": "STOP BLAMING YOURSELF. START UNDERSTANDING YOUR BODY.",
+            "lock": "EXACT"
+          },
+          "body": [],
+          "cta": {
+            "text": "JOIN THE MIROR COMMUNITY →\nLink in bio",
+            "lock": "EXACT"
+          }
+        }
+      ]
+    },
+    {
+      "content_id": "MIROR-008",
+      "template_id": "T01",
+      "content_title": "ANXIETY",
+      "objective": null,
+      "type": null,
+      "source": "Miror AI posts - Perimenopause_30_Posts_Design_Handoff.docx",
+      "slides": [
+        {
+          "id": "S01",
+          "type": "hook",
+          "headline": {
+            "text": "YOU'VE NEVER BEEN THIS ANXIOUS.\n\nNOT LIKE THIS.\n\nYOUR PERIOD IS CHANGING.\nYOUR SLEEP IS AWFUL.\nAND NOW YOUR MIND WON'T SWITCH OFF.",
+            "lock": "EXACT"
+          }
+        },
+        {
+          "id": "S02",
+          "type": "follow-through",
+          "headline": {
+            "text": "HERE'S WHY IT'S WORTH TALKING ABOUT.",
+            "lock": "EXACT"
+          },
+          "body": [
+            {
+              "text": "Perimenopause can involve mood changes and anxiety.",
+              "lock": "EXACT"
+            },
+            {
+              "text": "And when sleep is disrupted, everything can feel harder.",
+              "lock": "EXACT"
+            }
+          ]
+        },
+        {
+          "id": "S03",
+          "type": "cta",
+          "headline": {
+            "text": "YOU DON'T HAVE TO FIGURE IT OUT ALONE.",
+            "lock": "EXACT"
+          },
+          "body": [],
+          "cta": {
+            "text": "JOIN THE MIROR COMMUNITY →\nLink in bio",
+            "lock": "EXACT"
+          }
+        }
+      ]
+    },
+    {
+      "content_id": "MIROR-009",
+      "template_id": "T01",
+      "content_title": "LIBIDO",
+      "objective": null,
+      "type": null,
+      "source": "Miror AI posts - Perimenopause_30_Posts_Design_Handoff.docx",
+      "slides": [
+        {
+          "id": "S01",
+          "type": "hook",
+          "headline": {
+            "text": "YOUR LIBIDO DIDN'T JUST DISAPPEAR.\n\nYOUR BODY CHANGED.\nYOUR SLEEP CHANGED.\nYOUR MOOD CHANGED.\nAND NOW SEX FEELS DIFFERENT TOO.",
+            "lock": "EXACT"
+          }
+        },
+        {
+          "id": "S02",
+          "type": "follow-through",
+          "headline": {
+            "text": "HERE'S WHAT MAY BE CONNECTED.",
+            "lock": "EXACT"
+          },
+          "body": [
+            {
+              "text": "Hormonal changes, stress, poor sleep, vaginal discomfort and emotional wellbeing can all affect sexual desire.",
+              "lock": "EXACT"
+            },
+            {
+              "text": "There isn't always one reason.",
+              "lock": "EXACT"
+            }
+          ]
+        },
+        {
+          "id": "S03",
+          "type": "cta",
+          "headline": {
+            "text": "YOU DESERVE ANSWERS. NOT AWKWARD SILENCE.",
+            "lock": "EXACT"
+          },
+          "body": [],
+          "cta": {
+            "text": "JOIN THE MIROR COMMUNITY →\nLink in bio",
+            "lock": "EXACT"
+          }
+        }
+      ]
+    },
+    {
+      "content_id": "MIROR-010",
+      "template_id": "T01",
+      "content_title": "HOT FLASH",
+      "objective": null,
+      "type": null,
+      "source": "Miror AI posts - Perimenopause_30_Posts_Design_Handoff.docx",
+      "slides": [
+        {
+          "id": "S01",
+          "type": "hook",
+          "headline": {
+            "text": "FREEZING.\n\nTHEN SWEATING.\n\nTHEN FREEZING AGAIN.\n\nAND YOU HAVE NO IDEA WHY YOUR BODY IS DOING THIS.",
+            "lock": "EXACT"
+          }
+        },
+        {
+          "id": "S02",
+          "type": "follow-through",
+          "headline": {
+            "text": "HERE'S WHAT MAY BE HAPPENING.",
+            "lock": "EXACT"
+          },
+          "body": [
+            {
+              "text": "Perimenopause can affect the body's temperature regulation.",
+              "lock": "EXACT"
+            },
+            {
+              "text": "Hot flushes can arrive suddenly — sometimes seemingly out of nowhere.",
+              "lock": "EXACT"
+            }
+          ]
+        },
+        {
+          "id": "S03",
+          "type": "cta",
+          "headline": {
+            "text": "START RECOGNISING THE SIGNS.",
+            "lock": "EXACT"
+          },
+          "body": [],
+          "cta": {
+            "text": "JOIN THE MIROR COMMUNITY →\nLink in bio",
+            "lock": "EXACT"
+          }
+        }
+      ]
+    },
+    {
+      "content_id": "MIROR-011",
+      "template_id": "T01",
+      "content_title": "EXHAUSTION",
+      "objective": null,
+      "type": null,
+      "source": "Miror AI posts - Perimenopause_30_Posts_Design_Handoff.docx",
+      "slides": [
+        {
+          "id": "S01",
+          "type": "hook",
+          "headline": {
+            "text": "YOU USED TO HAVE ENERGY.\n\nNOW EVERYTHING FEELS LIKE EFFORT.\n\nWORK.\nKIDS.\nEXERCISE.\nEVEN MAKING DINNER.",
+            "lock": "EXACT"
+          }
+        },
+        {
+          "id": "S02",
+          "type": "follow-through",
+          "headline": {
+            "text": "HERE'S WHAT MAY BE CONNECTED.",
+            "lock": "EXACT"
+          },
+          "body": [
+            {
+              "text": "Hormonal changes, poor sleep, stress and other symptoms can all contribute to feeling completely depleted.",
+              "lock": "EXACT"
+            },
+            {
+              "text": "Constant exhaustion deserves attention.",
+              "lock": "EXACT"
+            }
+          ]
+        },
+        {
+          "id": "S03",
+          "type": "cta",
+          "headline": {
+            "text": "YOUR ENERGY IS TELLING YOU SOMETHING.",
+            "lock": "EXACT"
+          },
+          "body": [],
+          "cta": {
+            "text": "JOIN THE MIROR COMMUNITY →\nLink in bio",
+            "lock": "EXACT"
+          }
+        }
+      ]
+    },
+    {
+      "content_id": "MIROR-012",
+      "template_id": "T01",
+      "content_title": "THE 14 TABS",
+      "objective": null,
+      "type": null,
+      "source": "Miror AI posts - Perimenopause_30_Posts_Design_Handoff.docx",
+      "slides": [
+        {
+          "id": "S01",
+          "type": "hook",
+          "headline": {
+            "text": "YOU GOOGLE ONE SYMPTOM.\n\nTHEN ANOTHER.\nTHEN ANOTHER.\n\nNOW YOU HAVE 14 TABS OPEN.\n\nAND NO IDEA WHAT'S ACTUALLY GOING ON.",
+            "lock": "EXACT"
+          }
+        },
+        {
+          "id": "S02",
+          "type": "follow-through",
+          "headline": {
+            "text": "HERE'S A BETTER WAY.",
+            "lock": "EXACT"
+          },
+          "body": [
+            {
+              "text": "Look at your symptoms together.",
+              "lock": "EXACT"
+            },
+            {
+              "text": "Look at the timing.",
+              "lock": "EXACT"
+            },
+            {
+              "text": "Look at the patterns.",
+              "lock": "EXACT"
+            },
+            {
+              "text": "Look at the whole woman.",
+              "lock": "EXACT"
+            }
+          ]
+        },
+        {
+          "id": "S03",
+          "type": "cta",
+          "headline": {
+            "text": "STOP GOOGLE-SPIRALLING.",
+            "lock": "EXACT"
+          },
+          "body": [
+            {
+              "text": "Start getting clarity.",
+              "lock": "EXACT"
+            }
+          ],
+          "cta": {
+            "text": "JOIN THE MIROR COMMUNITY →\nLink in bio",
+            "lock": "EXACT"
+          }
+        }
+      ]
+    },
+    {
+      "content_id": "MIROR-013",
+      "template_id": "T01",
+      "content_title": "JUST AGE",
+      "objective": null,
+      "type": null,
+      "source": "Miror AI posts - Perimenopause_30_Posts_Design_Handoff.docx",
+      "slides": [
+        {
+          "id": "S01",
+          "type": "hook",
+          "headline": {
+            "text": "“I'M JUST GETTING OLDER.”\n\nARE YOU SURE?",
+            "lock": "EXACT"
+          }
+        },
+        {
+          "id": "S02",
+          "type": "follow-through",
+          "headline": {
+            "text": "Some changes are part of ageing.",
+            "lock": "EXACT"
+          },
+          "body": [
+            {
+              "text": "But perimenopause is a biological transition too.",
+              "lock": "EXACT"
+            },
+            {
+              "text": "Don't automatically blame every change on age.",
+              "lock": "EXACT"
+            }
+          ]
+        },
+        {
+          "id": "S03",
+          "type": "cta",
+          "headline": {
+            "text": "KNOW WHAT'S CHANGING. KNOW WHY.",
+            "lock": "EXACT"
+          },
+          "body": [],
+          "cta": {
+            "text": "JOIN THE MIROR COMMUNITY →\nLink in bio",
+            "lock": "EXACT"
+          }
+        }
+      ]
+    },
+    {
+      "content_id": "MIROR-014",
+      "template_id": "T01",
+      "content_title": "YOU'RE NOT CRAZY",
+      "objective": null,
+      "type": null,
+      "source": "Miror AI posts - Perimenopause_30_Posts_Design_Handoff.docx",
+      "slides": [
+        {
+          "id": "S01",
+          "type": "hook",
+          "headline": {
+            "text": "YOU'RE NOT CRAZY.\n\nYOU'RE NOT LAZY.\n\nYOU'RE NOT LOSING IT.\n\nYOUR BODY MAY JUST BE GOING THROUGH A LOT.",
+            "lock": "EXACT"
+          }
+        },
+        {
+          "id": "S02",
+          "type": "follow-through",
+          "headline": {
+            "text": "HERE'S WHAT PERIMENOPAUSE CAN AFFECT.",
+            "lock": "EXACT"
+          },
+          "body": [
+            {
+              "text": "Sleep.\nMood.\nMemory.\nPeriods.\nEnergy.\nTemperature.\nSexual health.",
+              "lock": "EXACT"
+            },
+            {
+              "text": "And sometimes several at once.",
+              "lock": "EXACT"
+            }
+          ]
+        },
+        {
+          "id": "S03",
+          "type": "cta",
+          "headline": {
+            "text": "UNDERSTANDING CHANGES EVERYTHING.",
+            "lock": "EXACT"
+          },
+          "body": [],
+          "cta": {
+            "text": "JOIN THE MIROR COMMUNITY →\nLink in bio",
+            "lock": "EXACT"
+          }
+        }
+      ]
+    },
+    {
+      "content_id": "MIROR-015",
+      "template_id": "T01",
+      "content_title": "YOUR OLD ROUTINE",
+      "objective": null,
+      "type": null,
+      "source": "Miror AI posts - Perimenopause_30_Posts_Design_Handoff.docx",
+      "slides": [
+        {
+          "id": "S01",
+          "type": "hook",
+          "headline": {
+            "text": "YOUR OLD ROUTINE STOPPED WORKING.\n\nSAME FOOD.\nSAME WORKOUT.\nSAME SLEEP ROUTINE.\n\nBUT YOUR BODY FEELS COMPLETELY DIFFERENT.",
+            "lock": "EXACT"
+          }
+        },
+        {
+          "id": "S02",
+          "type": "follow-through",
+          "headline": {
+            "text": "HERE'S WHAT MAY HAVE CHANGED.",
+            "lock": "EXACT"
+          },
+          "body": [
+            {
+              "text": "Your body isn't necessarily responding to the same things in the same way.",
+              "lock": "EXACT"
+            },
+            {
+              "text": "Hormones, muscle, sleep, stress and age can all influence the equation.",
+              "lock": "EXACT"
+            },
+            {
+              "text": "Your strategy may need to evolve.",
+              "lock": "EXACT"
+            }
+          ]
+        },
+        {
+          "id": "S03",
+          "type": "cta",
+          "headline": {
+            "text": "NEW BODY. NEW STRATEGY.",
+            "lock": "EXACT"
+          },
+          "body": [],
+          "cta": {
+            "text": "JOIN THE MIROR COMMUNITY →\nLink in bio",
+            "lock": "EXACT"
+          }
+        }
+      ]
+    },
+    {
+      "content_id": "MIROR-016",
+      "template_id": "T01",
+      "content_title": "MOOD SWINGS",
+      "objective": null,
+      "type": null,
+      "source": "Miror AI posts - Perimenopause_30_Posts_Design_Handoff.docx",
+      "slides": [
+        {
+          "id": "S01",
+          "type": "hook",
+          "headline": {
+            "text": "YOU'RE FINE.\n\nTHEN YOU'RE NOT.\n\nTHEN YOU'RE FINE AGAIN.\n\nAND YOU DON'T KNOW WHICH VERSION OF YOU IS SHOWING UP TODAY.",
+            "lock": "EXACT"
+          }
+        },
+        {
+          "id": "S02",
+          "type": "follow-through",
+          "headline": {
+            "text": "HERE'S WHAT MAY BE HAPPENING.",
+            "lock": "EXACT"
+          },
+          "body": [
+            {
+              "text": "Hormonal fluctuations can influence mood during perimenopause.",
+              "lock": "EXACT"
+            },
+            {
+              "text": "Poor sleep and stress can add fuel to the fire.",
+              "lock": "EXACT"
+            },
+            {
+              "text": "It isn't always “just your personality.”",
+              "lock": "EXACT"
+            }
+          ]
+        },
+        {
+          "id": "S03",
+          "type": "cta",
+          "headline": {
+            "text": "UNDERSTAND THE PATTERN.",
+            "lock": "EXACT"
+          },
+          "body": [],
+          "cta": {
+            "text": "JOIN THE MIROR COMMUNITY →\nLink in bio",
+            "lock": "EXACT"
+          }
+        }
+      ]
+    },
+    {
+      "content_id": "MIROR-017",
+      "template_id": "T01",
+      "content_title": "WEIGHT",
+      "objective": null,
+      "type": null,
+      "source": "Miror AI posts - Perimenopause_30_Posts_Design_Handoff.docx",
+      "slides": [
+        {
+          "id": "S01",
+          "type": "hook",
+          "headline": {
+            "text": "YOU'RE EATING THE SAME.\n\nYOU'RE MOVING THE SAME.\n\nYOUR CLOTHES DON'T FIT THE SAME.\n\nAND YOU'RE STARTING TO BLAME YOURSELF.",
+            "lock": "EXACT"
+          }
+        },
+        {
+          "id": "S02",
+          "type": "follow-through",
+          "headline": {
+            "text": "HERE'S WHAT YOU NEED TO KNOW.",
+            "lock": "EXACT"
+          },
+          "body": [
+            {
+              "text": "Body composition can change during the menopause transition.",
+              "lock": "EXACT"
+            },
+            {
+              "text": "Sleep, muscle, hormones, activity and nutrition can all play a role.",
+              "lock": "EXACT"
+            },
+            {
+              "text": "This is bigger than willpower.",
+              "lock": "EXACT"
+            }
+          ]
+        },
+        {
+          "id": "S03",
+          "type": "cta",
+          "headline": {
+            "text": "STOP FIGHTING YOUR BODY. START UNDERSTANDING IT.",
+            "lock": "EXACT"
+          },
+          "body": [],
+          "cta": {
+            "text": "JOIN THE MIROR COMMUNITY →\nLink in bio",
+            "lock": "EXACT"
+          }
+        }
+      ]
+    },
+    {
+      "content_id": "MIROR-018",
+      "template_id": "T01",
+      "content_title": "THE WOMAN BEFORE",
+      "objective": null,
+      "type": null,
+      "source": "Miror AI posts - Perimenopause_30_Posts_Design_Handoff.docx",
+      "slides": [
+        {
+          "id": "S01",
+          "type": "hook",
+          "headline": {
+            "text": "YOU REMEMBER THE WOMAN YOU USED TO BE.\n\nENERGY.\nCONFIDENCE.\nFOCUS.\nSLEEP.\n\nAND YOU WANT HER BACK.",
+            "lock": "EXACT"
+          }
+        },
+        {
+          "id": "S02",
+          "type": "follow-through",
+          "headline": {
+            "text": "HERE'S WHAT WE WANT YOU TO KNOW.",
+            "lock": "EXACT"
+          },
+          "body": [
+            {
+              "text": "You haven't disappeared.",
+              "lock": "EXACT"
+            },
+            {
+              "text": "You're moving through a major biological transition.",
+              "lock": "EXACT"
+            },
+            {
+              "text": "Understanding what's happening can help you find your way forward.",
+              "lock": "EXACT"
+            }
+          ]
+        },
+        {
+          "id": "S03",
+          "type": "cta",
+          "headline": {
+            "text": "MEET THE WOMAN YOU ARE BECOMING.",
+            "lock": "EXACT"
+          },
+          "body": [],
+          "cta": {
+            "text": "JOIN THE MIROR COMMUNITY →\nLink in bio",
+            "lock": "EXACT"
+          }
+        }
+      ]
+    },
+    {
+      "content_id": "MIROR-019",
+      "template_id": "T01",
+      "content_title": "3AM THOUGHTS",
+      "objective": null,
+      "type": null,
+      "source": "Miror AI posts - Perimenopause_30_Posts_Design_Handoff.docx",
+      "slides": [
+        {
+          "id": "S01",
+          "type": "hook",
+          "headline": {
+            "text": "3AM.\n\nYOUR BODY IS TIRED.\n\nYOUR BRAIN HAS OTHER PLANS.\n\nWHY ARE YOU THINKING ABOUT SOMETHING YOU SAID IN 2017?",
+            "lock": "EXACT"
+          }
+        },
+        {
+          "id": "S02",
+          "type": "follow-through",
+          "headline": {
+            "text": "HERE'S WHAT MAY BE HAPPENING.",
+            "lock": "EXACT"
+          },
+          "body": [
+            {
+              "text": "Perimenopause can disrupt sleep.",
+              "lock": "EXACT"
+            },
+            {
+              "text": "And when sleep suffers, mood, concentration and resilience can suffer too.",
+              "lock": "EXACT"
+            },
+            {
+              "text": "The symptoms can feed each other.",
+              "lock": "EXACT"
+            }
+          ]
+        },
+        {
+          "id": "S03",
+          "type": "cta",
+          "headline": {
+            "text": "START BREAKING THE CYCLE.",
+            "lock": "EXACT"
+          },
+          "body": [],
+          "cta": {
+            "text": "JOIN THE MIROR COMMUNITY →\nLink in bio",
+            "lock": "EXACT"
+          }
+        }
+      ]
+    },
+    {
+      "content_id": "MIROR-020",
+      "template_id": "T01",
+      "content_title": "THE CHECKLIST",
+      "objective": null,
+      "type": null,
+      "source": "Miror AI posts - Perimenopause_30_Posts_Design_Handoff.docx",
+      "slides": [
+        {
+          "id": "S01",
+          "type": "hook",
+          "headline": {
+            "text": "CHECK YOURSELF.\n\n☐ Period changed\n☐ Sleep changed\n☐ Mood changed\n☐ Energy changed\n☐ Weight changed\n☐ Brain fog\n\nHOW MANY DID YOU TICK?",
+            "lock": "EXACT"
+          }
+        },
+        {
+          "id": "S02",
+          "type": "follow-through",
+          "headline": {
+            "text": "HERE'S WHY IT MATTERS.",
+            "lock": "EXACT"
+          },
+          "body": [
+            {
+              "text": "Perimenopause can affect multiple systems at once.",
+              "lock": "EXACT"
+            },
+            {
+              "text": "The pattern may tell you more than any single symptom.",
+              "lock": "EXACT"
+            }
+          ]
+        },
+        {
+          "id": "S03",
+          "type": "cta",
+          "headline": {
+            "text": "START CONNECTING YOUR DOTS.",
+            "lock": "EXACT"
+          },
+          "body": [],
+          "cta": {
+            "text": "JOIN THE MIROR COMMUNITY →\nLink in bio",
+            "lock": "EXACT"
+          }
+        }
+      ]
+    },
+    {
+      "content_id": "MIROR-021",
+      "template_id": "T01",
+      "content_title": "NOT JUST PERIODS",
+      "objective": null,
+      "type": null,
+      "source": "Miror AI posts - Perimenopause_30_Posts_Design_Handoff.docx",
+      "slides": [
+        {
+          "id": "S01",
+          "type": "hook",
+          "headline": {
+            "text": "YOU THOUGHT PERIMENOPAUSE WAS ABOUT YOUR PERIOD.\n\nTHEN YOUR SLEEP CHANGED.\n\nTHEN YOUR MOOD.\n\nTHEN YOUR BODY.\n\nTHEN YOUR BRAIN.",
+            "lock": "EXACT"
+          }
+        },
+        {
+          "id": "S02",
+          "type": "follow-through",
+          "headline": {
+            "text": "HERE'S WHAT NOBODY TELLS YOU.",
+            "lock": "EXACT"
+          },
+          "body": [
+            {
+              "text": "Perimenopause can affect much more than your menstrual cycle.",
+              "lock": "EXACT"
+            },
+            {
+              "text": "Your hormones influence far more of your body than you may realise.",
+              "lock": "EXACT"
+            }
+          ]
+        },
+        {
+          "id": "S03",
+          "type": "cta",
+          "headline": {
+            "text": "LEARN WHAT PERIMENOPAUSE REALLY LOOKS LIKE.",
+            "lock": "EXACT"
+          },
+          "body": [],
+          "cta": {
+            "text": "JOIN THE MIROR COMMUNITY →\nLink in bio",
+            "lock": "EXACT"
+          }
+        }
+      ]
+    },
+    {
+      "content_id": "MIROR-022",
+      "template_id": "T01",
+      "content_title": "THE FRIEND",
+      "objective": null,
+      "type": null,
+      "source": "Miror AI posts - Perimenopause_30_Posts_Design_Handoff.docx",
+      "slides": [
+        {
+          "id": "S01",
+          "type": "hook",
+          "headline": {
+            "text": "TALK TO YOUR FRIEND.\n\nSHE MIGHT BE GOING THROUGH IT TOO.",
+            "lock": "EXACT"
+          }
+        },
+        {
+          "id": "S02",
+          "type": "follow-through",
+          "headline": {
+            "text": "The weird periods.",
+            "lock": "EXACT"
+          },
+          "body": [
+            {
+              "text": "The terrible sleep.",
+              "lock": "EXACT"
+            },
+            {
+              "text": "The brain fog.",
+              "lock": "EXACT"
+            },
+            {
+              "text": "The sudden anxiety.",
+              "lock": "EXACT"
+            },
+            {
+              "text": "She may be wondering the exact same thing.",
+              "lock": "EXACT"
+            }
+          ]
+        },
+        {
+          "id": "S03",
+          "type": "cta",
+          "headline": {
+            "text": "BETTER CONVERSATIONS START WITH UNDERSTANDING.",
+            "lock": "EXACT"
+          },
+          "body": [],
+          "cta": {
+            "text": "JOIN THE MIROR COMMUNITY →\nLink in bio",
+            "lock": "EXACT"
+          }
+        }
+      ]
+    },
+    {
+      "content_id": "MIROR-023",
+      "template_id": "T01",
+      "content_title": "YOU DON'T NEED TO SUFFER",
+      "objective": null,
+      "type": null,
+      "source": "Miror AI posts - Perimenopause_30_Posts_Design_Handoff.docx",
+      "slides": [
+        {
+          "id": "S01",
+          "type": "hook",
+          "headline": {
+            "text": "YOU'VE BEEN TOLD:\n“EVERY WOMAN GOES THROUGH IT.”\n\nSO YOU THINK YOU JUST HAVE TO SUFFER THROUGH IT.",
+            "lock": "EXACT"
+          }
+        },
+        {
+          "id": "S02",
+          "type": "follow-through",
+          "headline": {
+            "text": "HERE'S THE TRUTH.",
+            "lock": "EXACT"
+          },
+          "body": [
+            {
+              "text": "Perimenopause is natural.",
+              "lock": "EXACT"
+            },
+            {
+              "text": "But suffering isn't something you simply have to accept.",
+              "lock": "EXACT"
+            },
+            {
+              "text": "There are ways to understand and manage symptoms.",
+              "lock": "EXACT"
+            }
+          ]
+        },
+        {
+          "id": "S03",
+          "type": "cta",
+          "headline": {
+            "text": "KNOW MORE. SUFFER LESS.",
+            "lock": "EXACT"
+          },
+          "body": [],
+          "cta": {
+            "text": "JOIN THE MIROR COMMUNITY →\nLink in bio",
+            "lock": "EXACT"
+          }
+        }
+      ]
+    },
+    {
+      "content_id": "MIROR-024",
+      "template_id": "T01",
+      "content_title": "WHAT CHANGED FIRST?",
+      "objective": null,
+      "type": null,
+      "source": "Miror AI posts - Perimenopause_30_Posts_Design_Handoff.docx",
+      "slides": [
+        {
+          "id": "S01",
+          "type": "hook",
+          "headline": {
+            "text": "WHAT CHANGED FIRST?\n\nYOUR PERIOD?\nYOUR SLEEP?\nYOUR MOOD?\nYOUR ENERGY?\nYOUR BODY?",
+            "lock": "EXACT"
+          }
+        },
+        {
+          "id": "S02",
+          "type": "follow-through",
+          "headline": {
+            "text": "HERE'S WHY THAT QUESTION MATTERS.",
+            "lock": "EXACT"
+          },
+          "body": [
+            {
+              "text": "The timeline of your symptoms can help tell your health story.",
+              "lock": "EXACT"
+            },
+            {
+              "text": "Start noticing the patterns.",
+              "lock": "EXACT"
+            }
+          ]
+        },
+        {
+          "id": "S03",
+          "type": "cta",
+          "headline": {
+            "text": "YOUR BODY HAS A STORY.",
+            "lock": "EXACT"
+          },
+          "body": [
+            {
+              "text": "Let's help you understand it.",
+              "lock": "EXACT"
+            }
+          ],
+          "cta": {
+            "text": "JOIN THE MIROR COMMUNITY →\nLink in bio",
+            "lock": "EXACT"
+          }
+        }
+      ]
+    },
+    {
+      "content_id": "MIROR-025",
+      "template_id": "T01",
+      "content_title": "NO ONE PREPARED YOU",
+      "objective": null,
+      "type": null,
+      "source": "Miror AI posts - Perimenopause_30_Posts_Design_Handoff.docx",
+      "slides": [
+        {
+          "id": "S01",
+          "type": "hook",
+          "headline": {
+            "text": "NO ONE PREPARED YOU FOR THIS.\n\nTHE BRAIN FOG.\nTHE SLEEP.\nTHE MOOD.\nTHE PERIODS.\nTHE BODY CHANGES.",
+            "lock": "EXACT"
+          }
+        },
+        {
+          "id": "S02",
+          "type": "follow-through",
+          "headline": {
+            "text": "BUT YOU CAN PREPARE YOURSELF NOW.",
+            "lock": "EXACT"
+          },
+          "body": [
+            {
+              "text": "Knowledge changes how you respond to symptoms.",
+              "lock": "EXACT"
+            },
+            {
+              "text": "Understanding gives you better questions.",
+              "lock": "EXACT"
+            },
+            {
+              "text": "Better questions lead to better conversations.",
+              "lock": "EXACT"
+            }
+          ]
+        },
+        {
+          "id": "S03",
+          "type": "cta",
+          "headline": {
+            "text": "DON'T JUST GO THROUGH IT. UNDERSTAND IT.",
+            "lock": "EXACT"
+          },
+          "body": [],
+          "cta": {
+            "text": "JOIN THE MIROR COMMUNITY →\nLink in bio",
+            "lock": "EXACT"
+          }
+        }
+      ]
+    },
+    {
+      "content_id": "MIROR-026",
+      "template_id": "T01",
+      "content_title": "THE QUESTION",
+      "objective": null,
+      "type": null,
+      "source": "Miror AI posts - Perimenopause_30_Posts_Design_Handoff.docx",
+      "slides": [
+        {
+          "id": "S01",
+          "type": "hook",
+          "headline": {
+            "text": "THE QUESTION ISN'T:\n“WHAT'S WRONG WITH ME?”",
+            "lock": "EXACT"
+          }
+        },
+        {
+          "id": "S02",
+          "type": "follow-through",
+          "headline": {
+            "text": "TRY THIS INSTEAD:",
+            "lock": "EXACT"
+          },
+          "body": [
+            {
+              "text": "“WHAT IS MY BODY TRYING TO TELL ME?”",
+              "lock": "EXACT"
+            },
+            {
+              "text": "Your symptoms are worth paying attention to.",
+              "lock": "EXACT"
+            },
+            {
+              "text": "Your experience deserves context.",
+              "lock": "EXACT"
+            }
+          ]
+        },
+        {
+          "id": "S03",
+          "type": "cta",
+          "headline": {
+            "text": "TURN CONFUSION INTO CLARITY.",
+            "lock": "EXACT"
+          },
+          "body": [],
+          "cta": {
+            "text": "JOIN THE MIROR COMMUNITY →\nLink in bio",
+            "lock": "EXACT"
+          }
+        }
+      ]
+    },
+    {
+      "content_id": "MIROR-027",
+      "template_id": "T01",
+      "content_title": "THE HORMONE MYTH",
+      "objective": null,
+      "type": null,
+      "source": "Miror AI posts - Perimenopause_30_Posts_Design_Handoff.docx",
+      "slides": [
+        {
+          "id": "S01",
+          "type": "hook",
+          "headline": {
+            "text": "YOUR HORMONES AREN'T “OUT OF BALANCE” EVERY TIME YOU FEEL BAD.",
+            "lock": "EXACT"
+          }
+        },
+        {
+          "id": "S02",
+          "type": "follow-through",
+          "headline": {
+            "text": "Perimenopause involves changing and fluctuating hormones.",
+            "lock": "EXACT"
+          },
+          "body": [
+            {
+              "text": "That's different from simply having “too much” or “too little” of one hormone.",
+              "lock": "EXACT"
+            },
+            {
+              "text": "The biology is more complicated than a balance scale.",
+              "lock": "EXACT"
+            }
+          ]
+        },
+        {
+          "id": "S03",
+          "type": "cta",
+          "headline": {
+            "text": "GET THE SCIENCE WITHOUT THE CONFUSION.",
+            "lock": "EXACT"
+          },
+          "body": [],
+          "cta": {
+            "text": "JOIN THE MIROR COMMUNITY →\nLink in bio",
+            "lock": "EXACT"
+          }
+        }
+      ]
+    },
+    {
+      "content_id": "MIROR-028",
+      "template_id": "T01",
+      "content_title": "YOUR DOCTOR",
+      "objective": null,
+      "type": null,
+      "source": "Miror AI posts - Perimenopause_30_Posts_Design_Handoff.docx",
+      "slides": [
+        {
+          "id": "S01",
+          "type": "hook",
+          "headline": {
+            "text": "YOU HAVE 12 SYMPTOMS.\n\nYOUR DOCTOR HAS 10 MINUTES.\n\nWHERE DO YOU EVEN START?",
+            "lock": "EXACT"
+          }
+        },
+        {
+          "id": "S02",
+          "type": "follow-through",
+          "headline": {
+            "text": "Start with the story:",
+            "lock": "EXACT"
+          },
+          "body": [
+            {
+              "text": "What changed?\nWhen did it start?\nHow often does it happen?\nHow is it affecting your life?",
+              "lock": "EXACT"
+            },
+            {
+              "text": "Patterns matter.",
+              "lock": "EXACT"
+            }
+          ]
+        },
+        {
+          "id": "S03",
+          "type": "cta",
+          "headline": {
+            "text": "ASK BETTER QUESTIONS. GET BETTER CONVERSATIONS.",
+            "lock": "EXACT"
+          },
+          "body": [],
+          "cta": {
+            "text": "JOIN THE MIROR COMMUNITY →\nLink in bio",
+            "lock": "EXACT"
+          }
+        }
+      ]
+    },
+    {
+      "content_id": "MIROR-029",
+      "template_id": "T01",
+      "content_title": "YOU KNOW YOUR BODY",
+      "objective": null,
+      "type": null,
+      "source": "Miror AI posts - Perimenopause_30_Posts_Design_Handoff.docx",
+      "slides": [
+        {
+          "id": "S01",
+          "type": "hook",
+          "headline": {
+            "text": "YOU KNOW YOUR BODY.\n\nYOU KNOW WHEN SOMETHING FEELS DIFFERENT.\n\nYOU KNOW WHEN YOU DON'T FEEL LIKE YOURSELF.",
+            "lock": "EXACT"
+          }
+        },
+        {
+          "id": "S02",
+          "type": "follow-through",
+          "headline": {
+            "text": "HERE'S WHAT WE WANT YOU TO DO.",
+            "lock": "EXACT"
+          },
+          "body": [
+            {
+              "text": "Don't panic.\nDon't dismiss it.\nDon't Google yourself into oblivion.",
+              "lock": "EXACT"
+            },
+            {
+              "text": "Notice it. Track it. Ask about it.",
+              "lock": "EXACT"
+            }
+          ]
+        },
+        {
+          "id": "S03",
+          "type": "cta",
+          "headline": {
+            "text": "YOUR BODY DESERVES TO BE HEARD.",
+            "lock": "EXACT"
+          },
+          "body": [],
+          "cta": {
+            "text": "JOIN THE MIROR COMMUNITY →\nLink in bio",
+            "lock": "EXACT"
+          }
+        }
+      ]
+    },
+    {
+      "content_id": "MIROR-030",
+      "template_id": "T01",
+      "content_title": "THE BIG ONE",
+      "objective": null,
+      "type": null,
+      "source": "Miror AI posts - Perimenopause_30_Posts_Design_Handoff.docx",
+      "slides": [
+        {
+          "id": "S01",
+          "type": "hook",
+          "headline": {
+            "text": "YOU'RE TIRED.\nYOU CAN'T SLEEP.\nYOU'RE IRRITABLE.\nYOUR PERIOD IS WEIRD.\nYOUR BRAIN FEELS FOGGY.\nYOUR BODY FEELS DIFFERENT.\n\nAND YOU'RE WONDERING WHAT THE HELL IS HAPPENING.",
+            "lock": "EXACT"
+          }
+        },
+        {
+          "id": "S02",
+          "type": "follow-through",
+          "headline": {
+            "text": "HERE'S WHAT MIROR KNOWS.",
+            "lock": "EXACT"
+          },
+          "body": [
+            {
+              "text": "It may not be six different problems.",
+              "lock": "EXACT"
+            },
+            {
+              "text": "It may be one changing body — moving through perimenopause.",
+              "lock": "EXACT"
+            },
+            {
+              "text": "The first step is understanding the connection.",
+              "lock": "EXACT"
+            }
+          ]
+        },
+        {
+          "id": "S03",
+          "type": "cta",
+          "headline": {
+            "text": "YOU DON'T HAVE TO FIGURE IT OUT ALONE.",
+            "lock": "EXACT"
+          },
+          "body": [
+            {
+              "text": "Expert guidance.",
+              "lock": "EXACT"
+            },
+            {
+              "text": "Doctors.",
+              "lock": "EXACT"
+            },
+            {
+              "text": "Answers.",
+              "lock": "EXACT"
+            },
+            {
+              "text": "A community of women who get it.",
+              "lock": "EXACT"
+            }
+          ],
+          "cta": {
+            "text": "JOIN THE MIROR COMMUNITY →\nLink in bio",
+            "lock": "EXACT"
+          }
+        }
+      ]
+    }
+  ]
+}
