@@ -48,10 +48,10 @@ Configure the following variables in your provider's Web Dashboard:
 | :--- | :--- | :---: |
 | `PORT` | Set automatically by platform (defaults to `8000`). | No |
 | `STORAGE_BACKEND` | Set to `"cloudinary"` for production persistent image storage. | No |
-| `CLOUDINARY_CLOUD_NAME` | Cloudinary cloud account name (e.g. `ldgsblu1`). | No |
-| `CLOUDINARY_API_KEY` | Cloudinary API Key (e.g. `411728168798428`). | No |
+| `CLOUDINARY_CLOUD_NAME` | Cloudinary cloud account name (e.g. `<YOUR_CLOUDINARY_CLOUD_NAME>`). | No |
+| `CLOUDINARY_API_KEY` | Cloudinary API Key (e.g. `<YOUR_CLOUDINARY_API_KEY>`). | No |
 | `CLOUDINARY_API_SECRET` | Cloudinary API Secret. | **YES (Keep Secret)** |
-| `CLOUDINARY_URL` | `cloudinary://API_KEY:API_SECRET@CLOUD_NAME` | **YES (Keep Secret)** |
+| `CLOUDINARY_URL` | `cloudinary://<YOUR_CLOUDINARY_API_KEY>:<YOUR_CLOUDINARY_API_SECRET>@<YOUR_CLOUDINARY_CLOUD_NAME>` | **YES (Keep Secret)** |
 
 > [!CAUTION]
 > NEVER commit `.env` or hardcode credentials into source code. Always use provider environment variable settings.
