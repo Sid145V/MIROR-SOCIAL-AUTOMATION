@@ -7,15 +7,16 @@ import os
 import sys
 import json
 import re
+from pathlib import Path
 
-# Ensure template-engine modules are accessible
-root_dir = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", ".."))
-core_dir = os.path.join(root_dir, "template-engine", "core")
-template_dir = os.path.join(root_dir, "template-engine", "templates", "T01-miror-text-carousel")
-if core_dir not in sys.path:
-    sys.path.insert(0, core_dir)
-if template_dir not in sys.path:
-    sys.path.insert(0, template_dir)
+REPO_ROOT = Path(__file__).resolve().parents[2]
+core_dir = REPO_ROOT / "template-engine" / "core"
+template_dir = REPO_ROOT / "template-engine" / "templates" / "T01-miror-text-carousel"
+
+if str(core_dir) not in sys.path:
+    sys.path.insert(0, str(core_dir))
+if str(template_dir) not in sys.path:
+    sys.path.insert(0, str(template_dir))
 
 from text_lock import TextLockSystem
 from renderer import T01HtmlRenderer
@@ -36,11 +37,11 @@ def calculate_contrast_ratio(hex1, hex2):
     return (lighter + 0.05) / (darker + 0.05)
 
 def run_variant_qa_suite():
-    spec_path = os.path.join(template_dir, "design-spec.json")
+    spec_path = template_dir / "design-spec.json"
     with open(spec_path, "r", encoding="utf-8") as f:
         spec = json.load(f)
 
-    renderer = T01HtmlRenderer(root_dir)
+    renderer = T01HtmlRenderer(REPO_ROOT)
 
     passed_count = 0
     failed_count = 0
@@ -118,8 +119,8 @@ def run_variant_qa_suite():
     log_check(18, "Visual Contrast Validation (>=2.5:1)", contrast_pass, "All text & CTA combinations pass contrast requirements")
 
     # 19. Real Logo Asset Used
-    logo_path = os.path.join(root_dir, spec["slides"]["S01"]["logo"]["asset"])
-    log_check(19, "Real Logo Binary Asset", os.path.exists(logo_path), f"Logo binary exists at {logo_path}")
+    logo_path = REPO_ROOT / spec["slides"]["S01"]["logo"]["asset"]
+    log_check(19, "Real Logo Binary Asset", logo_path.exists(), f"Logo binary exists at {logo_path}")
 
     # 20. Logo Coords at (50, 50)
     logo_coords = (spec["slides"]["S01"]["logo"]["left"], spec["slides"]["S01"]["logo"]["top"])

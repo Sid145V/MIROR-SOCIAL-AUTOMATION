@@ -5,12 +5,19 @@ Automated QA Validation Suite for T01 Slide 1 Master Poster HTML/CSS Template
 import os
 import sys
 import json
+from pathlib import Path
 from PIL import Image
 
-def run_qa_checks(project_root="d:/MIROR-SOCIAL-AUTOMATION"):
-    root = os.path.abspath(project_root)
-    output_png = os.path.join(root, "output", "previews", "MIROR-T01-S01.png")
-    spec_path = os.path.join(root, "template-engine", "templates", "T01-miror-text-carousel", "design-spec.json")
+REPO_ROOT = Path(__file__).resolve().parents[2]
+
+def run_qa_checks(project_root=None):
+    if project_root is None:
+        root = REPO_ROOT
+    else:
+        root = Path(project_root).resolve()
+
+    output_png = root / "output" / "previews" / "MIROR-T01-S01.png"
+    spec_path = root / "template-engine" / "templates" / "T01-miror-text-carousel" / "design-spec.json"
 
     results = []
 
@@ -27,10 +34,10 @@ def run_qa_checks(project_root="d:/MIROR-SOCIAL-AUTOMATION"):
     log_check(1, "Design Spec Token File", True, "design-spec.json loaded successfully")
 
     # 2. Output PNG File Exists
-    log_check(2, "Output PNG File", os.path.exists(output_png), f"PNG present at {output_png}")
+    log_check(2, "Output PNG File", output_png.exists(), f"PNG present at {output_png}")
 
     # 3. Canvas 1080x1350
-    if os.path.exists(output_png):
+    if output_png.exists():
         with Image.open(output_png) as img:
             w, h = img.size
             fmt = img.format
@@ -43,7 +50,7 @@ def run_qa_checks(project_root="d:/MIROR-SOCIAL-AUTOMATION"):
     log_check(4, "Logo Absolute Position", l_left == 50 and l_top == 50, f"Logo left={l_left}px, top={l_top}px")
 
     # 5. Logo Pixel Data at (50, 50)
-    if os.path.exists(output_png):
+    if output_png.exists():
         with Image.open(output_png) as img:
             logo_box = img.crop((50, 50, 170, 140))
             extrema = logo_box.getextrema()

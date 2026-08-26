@@ -5,13 +5,20 @@ Automated QA Validation Suite for T01 Slide 2 S02 Follow-Through HTML/CSS Templa
 import os
 import sys
 import json
+from pathlib import Path
 from PIL import Image
 
-def run_qa_checks(project_root="d:/MIROR-SOCIAL-AUTOMATION"):
-    root = os.path.abspath(project_root)
-    s01_png = os.path.join(root, "output", "previews", "MIROR-T01-S01.png")
-    s02_png = os.path.join(root, "output", "previews", "MIROR-T01-S02.png")
-    spec_path = os.path.join(root, "template-engine", "templates", "T01-miror-text-carousel", "design-spec.json")
+REPO_ROOT = Path(__file__).resolve().parents[2]
+
+def run_qa_checks(project_root=None):
+    if project_root is None:
+        root = REPO_ROOT
+    else:
+        root = Path(project_root).resolve()
+
+    s01_png = root / "output" / "previews" / "MIROR-T01-S01.png"
+    s02_png = root / "output" / "previews" / "MIROR-T01-S02.png"
+    spec_path = root / "template-engine" / "templates" / "T01-miror-text-carousel" / "design-spec.json"
 
     results = []
 
@@ -28,13 +35,13 @@ def run_qa_checks(project_root="d:/MIROR-SOCIAL-AUTOMATION"):
     log_check(1, "Design Spec Token File", True, "design-spec.json loaded successfully")
 
     # 2. S01 Output Preserved
-    log_check(2, "S01 Output Preserved", os.path.exists(s01_png), f"S01 PNG present at {s01_png}")
+    log_check(2, "S01 Output Preserved", s01_png.exists(), f"S01 PNG present at {s01_png}")
 
     # 3. S02 Output Exists
-    log_check(3, "S02 Output Exists", os.path.exists(s02_png), f"S02 PNG present at {s02_png}")
+    log_check(3, "S02 Output Exists", s02_png.exists(), f"S02 PNG present at {s02_png}")
 
     # 4. Canvas Resolution Specs (1080x1350)
-    if os.path.exists(s02_png):
+    if s02_png.exists():
         with Image.open(s02_png) as img:
             w, h = img.size
             fmt = img.format
@@ -47,7 +54,7 @@ def run_qa_checks(project_root="d:/MIROR-SOCIAL-AUTOMATION"):
     log_check(5, "S02 Logo Position", l_left == 50 and l_top == 50, f"S02 Logo left={l_left}px, top={l_top}px")
 
     # 6. Logo Pixel Verification at (50, 50)
-    if os.path.exists(s02_png):
+    if s02_png.exists():
         with Image.open(s02_png) as img:
             logo_box = img.crop((50, 50, 170, 140))
             extrema = logo_box.getextrema()
@@ -63,10 +70,10 @@ def run_qa_checks(project_root="d:/MIROR-SOCIAL-AUTOMATION"):
     log_check(8, "S02 Body Tokens", bd["alignment"] == "left" and bd["left"] == 90 and bd.get("gapFromHeadline", 55) == 55 and bd["fontSize"] == 38 and bd["color"] == "#625972", f"Body align={bd['alignment']}, left={bd['left']}px, gap={bd.get('gapFromHeadline', 55)}px, size={bd['fontSize']}px, color={bd['color']}")
 
     # 9-10. Font Binaries Presence
-    f_bold = os.path.join(root, "assets", "fonts", "Montserrat-Bold.ttf")
-    f_medium = os.path.join(root, "assets", "fonts", "Montserrat-Medium.ttf")
-    log_check(9, "Montserrat-Bold Font Asset", os.path.exists(f_bold), f"Bold font at {f_bold}")
-    log_check(10, "Montserrat-Medium Font Asset", os.path.exists(f_medium), f"Medium font at {f_medium}")
+    f_bold = root / "assets" / "fonts" / "Montserrat-Bold.ttf"
+    f_medium = root / "assets" / "fonts" / "Montserrat-Medium.ttf"
+    log_check(9, "Montserrat-Bold Font Asset", f_bold.exists(), f"Bold font at {f_bold}")
+    log_check(10, "Montserrat-Medium Font Asset", f_medium.exists(), f"Medium font at {f_medium}")
 
     # 11-14. Cleanliness Rules
     log_check(11, "No Image Containers", True, "S02 contains 0 image elements or cards")

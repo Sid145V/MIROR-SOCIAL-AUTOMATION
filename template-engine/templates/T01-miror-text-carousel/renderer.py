@@ -1,5 +1,5 @@
 """
-T01 Browser-Based Renderer Engine — Cross-Platform Browser Discovery
+T01 Browser-Based Renderer Engine — Cross-Platform & Dynamic Path Resolution
 Uses Headless Chromium to deterministically render HTML/CSS templates to 1080x1350 PNG.
 Reads design tokens strictly from design-spec.json.
 Supports explicit backgroundVariant ("01"-"05") and 5-day cycle rotation (dayNumber).
@@ -12,21 +12,27 @@ import sys
 import json
 import shutil
 import subprocess
+from pathlib import Path
+
+DEFAULT_PROJECT_ROOT = Path(__file__).resolve().parents[3]
 
 # Add core module directory to sys.path
-core_dir = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", "..", "core"))
-if core_dir not in sys.path:
-    sys.path.insert(0, core_dir)
+core_dir = DEFAULT_PROJECT_ROOT / "template-engine" / "core"
+if str(core_dir) not in sys.path:
+    sys.path.insert(0, str(core_dir))
 
 from text_lock import TextLockSystem, TextLockError, TextFitError
 
 class T01HtmlRenderer:
-    def __init__(self, project_root="d:/MIROR-SOCIAL-AUTOMATION"):
-        self.project_root = os.path.abspath(project_root)
+    def __init__(self, project_root=None):
+        if project_root is None:
+            self.project_root = DEFAULT_PROJECT_ROOT
+        else:
+            self.project_root = Path(project_root).resolve()
 
         # Load design-spec.json
-        self.template_dir = os.path.join(self.project_root, "template-engine", "templates", "T01-miror-text-carousel")
-        self.spec_path = os.path.join(self.template_dir, "design-spec.json")
+        self.template_dir = self.project_root / "template-engine" / "templates" / "T01-miror-text-carousel"
+        self.spec_path = self.template_dir / "design-spec.json"
         with open(self.spec_path, "r", encoding="utf-8") as f:
             self.spec = json.load(f)
 
@@ -122,12 +128,12 @@ class T01HtmlRenderer:
         s_spec = self.spec["slides"][slide_key]
 
         logo_rel_path = s_spec["logo"]["asset"]
-        logo_full_path = os.path.join(self.project_root, logo_rel_path).replace("\\", "/")
+        logo_full_path = (self.project_root / logo_rel_path).as_posix()
         logo_abs_url = f"file:///{logo_full_path}"
 
-        font_bold_path = os.path.join(self.project_root, "assets", "fonts", "Montserrat-Bold.ttf").replace("\\", "/")
-        font_medium_path = os.path.join(self.project_root, "assets", "fonts", "Montserrat-Medium.ttf").replace("\\", "/")
-        font_semibold_path = os.path.join(self.project_root, "assets", "fonts", "Montserrat-SemiBold.ttf").replace("\\", "/")
+        font_bold_path = (self.project_root / "assets" / "fonts" / "Montserrat-Bold.ttf").as_posix()
+        font_medium_path = (self.project_root / "assets" / "fonts" / "Montserrat-Medium.ttf").as_posix()
+        font_semibold_path = (self.project_root / "assets" / "fonts" / "Montserrat-SemiBold.ttf").as_posix()
 
         canvas_w = self.spec['canvas']['width']
         canvas_h = self.spec['canvas']['height']
@@ -376,15 +382,15 @@ class T01HtmlRenderer:
 
         rendered_html = self.generate_html_content(content_payload, expected_manifest)
 
-        temp_html_path = os.path.join(self.template_dir, "temp_render.html")
+        temp_html_path = self.template_dir / "temp_render.html"
         with open(temp_html_path, "w", encoding="utf-8") as f:
             f.write(rendered_html)
 
-        os.makedirs(os.path.dirname(os.path.abspath(output_png_path)), exist_ok=True)
+        out_path_obj = Path(output_png_path).resolve()
+        os.makedirs(out_path_obj.parent, exist_ok=True)
 
-        clean_temp_path = temp_html_path.replace("\\", "/")
-        html_url = f"file:///{clean_temp_path}"
-        abs_out_png = os.path.abspath(output_png_path)
+        html_url = f"file:///{temp_html_path.as_posix()}"
+        abs_out_png = out_path_obj.as_posix()
 
         cmd = [
             self.browser_bin,
@@ -399,7 +405,7 @@ class T01HtmlRenderer:
 
         result = subprocess.run(cmd, stdout=subprocess.PIPE, stderr=subprocess.PIPE, text=True)
         
-        if os.path.exists(temp_html_path):
+        if temp_html_path.exists():
             os.remove(temp_html_path)
 
         if not os.path.exists(abs_out_png):
@@ -413,14 +419,14 @@ if __name__ == "__main__":
     renderer = T01HtmlRenderer()
     
     # Render default previews
-    s01_json = os.path.join(renderer.project_root, "template-engine", "tests", "test_content_MIROR-T01-S01.json")
-    s01_out = os.path.join(renderer.project_root, "output", "previews", "MIROR-T01-S01.png")
+    s01_json = renderer.project_root / "template-engine" / "tests" / "test_content_MIROR-T01-S01.json"
+    s01_out = renderer.project_root / "output" / "previews" / "MIROR-T01-S01.png"
     renderer.render(s01_json, s01_out)
 
-    s02_json = os.path.join(renderer.project_root, "template-engine", "tests", "test_content_MIROR-T01-S02.json")
-    s02_out = os.path.join(renderer.project_root, "output", "previews", "MIROR-T01-S02.png")
+    s02_json = renderer.project_root / "template-engine" / "tests" / "test_content_MIROR-T01-S02.json"
+    s02_out = renderer.project_root / "output" / "previews" / "MIROR-T01-S02.png"
     renderer.render(s02_json, s02_out)
 
-    s03_json = os.path.join(renderer.project_root, "template-engine", "tests", "test_content_MIROR-T01-S03.json")
-    s03_out = os.path.join(renderer.project_root, "output", "previews", "MIROR-T01-S03.png")
+    s03_json = renderer.project_root / "template-engine" / "tests" / "test_content_MIROR-T01-S03.json"
+    s03_out = renderer.project_root / "output" / "previews" / "MIROR-T01-S03.png"
     renderer.render(s03_json, s03_out)
