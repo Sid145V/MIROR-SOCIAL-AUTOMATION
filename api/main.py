@@ -159,9 +159,8 @@ async def render_carousel(request: Request):
         if not out_png_path.exists():
             raise RendererAPIException("OUTPUT_FAILURE", f"Output file not generated at {out_png_path}", status_code=500)
 
-        # Process through Storage Adapter
-        file_key = storage.save_file(str(out_png_path), str(post_id), s_key)
-        pub_url = storage.get_public_url(file_key)
+        # Process through Storage Adapter (Local or Cloudinary)
+        file_key, pub_url = storage.save_file(str(out_png_path), str(post_id), s_key)
 
         slide_outputs.append(SlideOutputInfo(slide=s_key, file=file_key, url=pub_url))
 

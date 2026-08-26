@@ -81,7 +81,11 @@ jobs:
         run: |
           python api/tests/test_api.py
 
-      - name: Step 9 - Upload Preview Artifacts
+      - name: Step 9 - Validate Storage Abstraction Layer
+        run: |
+          python api/tests/test_storage.py
+
+      - name: Step 10 - Upload Preview Artifacts
         uses: actions/upload-artifact@v4
         if: always()
         with:
