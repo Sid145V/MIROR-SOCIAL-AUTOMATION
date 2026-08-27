@@ -132,7 +132,11 @@ class T01HtmlRenderer:
 
         s_spec = self.spec["slides"][slide_key]
 
-        logo_rel_path = s_spec["logo"]["asset"]
+        if text_theme_key == "light":
+            logo_rel_path = s_spec["logo"].get("assetDark", "assets/logos/miror-logo-white.png")
+        else:
+            logo_rel_path = s_spec["logo"].get("asset", "assets/logos/miror-logo-black.png")
+
         logo_full_path = (self.project_root / logo_rel_path).as_posix()
         logo_abs_url = f"file:///{logo_full_path}"
 

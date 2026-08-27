@@ -65,7 +65,8 @@
   "slides": {
     "S01": {
       "logo": {
-        "asset": "assets/logos/LOGO-001.png",
+        "asset": "assets/logos/miror-logo-black.png",
+        "assetDark": "assets/logos/miror-logo-white.png",
         "left": 50,
         "top": 50,
         "width": 120
@@ -85,7 +86,8 @@
     },
     "S02": {
       "logo": {
-        "asset": "assets/logos/LOGO-001.png",
+        "asset": "assets/logos/miror-logo-black.png",
+        "assetDark": "assets/logos/miror-logo-white.png",
         "left": 50,
         "top": 50,
         "width": 120
@@ -118,7 +120,8 @@
     },
     "S03": {
       "logo": {
-        "asset": "assets/logos/LOGO-001.png",
+        "asset": "assets/logos/miror-logo-black.png",
+        "assetDark": "assets/logos/miror-logo-white.png",
         "left": 50,
         "top": 50,
         "width": 120
