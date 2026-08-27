@@ -12,6 +12,7 @@ import sys
 import json
 import shutil
 import subprocess
+import re
 from pathlib import Path
 
 DEFAULT_PROJECT_ROOT = Path(__file__).resolve().parents[3]
@@ -24,16 +25,21 @@ if str(core_dir) not in sys.path:
 from text_lock import TextLockSystem, TextLockError, TextFitError
 
 class T01HtmlRenderer:
+    HEX_REGEX = re.compile(r"^#[0-9A-Fa-f]{6}$")
+
     def __init__(self, project_root=None):
         if project_root is None:
             self.project_root = DEFAULT_PROJECT_ROOT
         else:
             self.project_root = Path(project_root).resolve()
 
-        # Load design-spec.json
         self.template_dir = self.project_root / "template-engine" / "templates" / "T01-miror-text-carousel"
-        self.spec_path = self.template_dir / "design-spec.json"
-        with open(self.spec_path, "r", encoding="utf-8") as f:
+        self.spec_file = self.template_dir / "design-spec.json"
+
+        if not self.spec_file.exists():
+            raise FileNotFoundError(f"Template spec not found at {self.spec_file}")
+
+        with open(self.spec_file, "r", encoding="utf-8") as f:
             self.spec = json.load(f)
 
         self.canvas_width = self.spec["canvas"]["width"]
@@ -101,6 +107,23 @@ class T01HtmlRenderer:
         # Default fallback: Variant 01 (Soft Blush)
         return "01"
 
+    def get_variant_spec(self, v_key):
+        """Retrieve variant dictionary from spec with safe environment variable overrides."""
+        base_spec = dict(self.spec["backgroundVariants"].get(v_key, {}))
+        if not base_spec:
+            return base_spec
+
+        env_hex = os.getenv(f"MIROR_COLOR_{v_key}_HEX")
+        env_name = os.getenv(f"MIROR_COLOR_{v_key}_NAME")
+
+        if env_hex and self.HEX_REGEX.match(env_hex.strip()):
+            base_spec["hex"] = env_hex.strip()
+
+        if env_name and env_name.strip():
+            base_spec["name"] = env_name.strip()
+
+        return base_spec
+
     def generate_html_content(self, content_payload, expected_manifest=None):
         """Inject content payload into HTML structure after validating text lock integrity and resolving color variant."""
         # 1. Enforce strict TextLockSystem validation
@@ -108,7 +131,7 @@ class T01HtmlRenderer:
 
         # 2. Resolve background variant and text contrast themes
         v_key = self.resolve_background_variant(content_payload)
-        v_spec = self.spec["backgroundVariants"][v_key]
+        v_spec = self.get_variant_spec(v_key)
 
         bg_col = v_spec["hex"]
         text_theme_key = v_spec["textTheme"]

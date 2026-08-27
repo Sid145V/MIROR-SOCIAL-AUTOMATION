@@ -1,0 +1,1609 @@
+{
+  "total_posts": 30,
+  "posts": [
+    {
+      "content_id": "MIROR-SH-001",
+      "template_id": "T01",
+      "content_title": "HOT FLASHES",
+      "objective": null,
+      "type": null,
+      "source": "Miror AI posts - Symptoms_Hormones_30_Posts.docx",
+      "slides": [
+        {
+          "id": "S01",
+          "type": "hook",
+          "headline": {
+            "text": "YOU'RE SITTING IN A MEETING.\n\nTHE ROOM IS FINE.\n\nTHEN SUDDENLY —\nYOU'RE ON FIRE.",
+            "lock": "EXACT"
+          }
+        },
+        {
+          "id": "S02",
+          "type": "follow-through",
+          "headline": {
+            "text": "ESTROGEN IS FALLING.",
+            "lock": "EXACT"
+          },
+          "body": [
+            {
+              "text": "Lower estradiol can disrupt the brain's temperature-control centre, making small temperature changes trigger a hot flash.",
+              "lock": "EXACT"
+            },
+            {
+              "text": "WHAT CAN HELP:\nCooling, layered clothing, sleep support — and for bothersome symptoms, clinician-guided menopause treatment.",
+              "lock": "EXACT"
+            }
+          ]
+        },
+        {
+          "id": "S03",
+          "type": "cta",
+          "headline": {
+            "text": "DON'T JUST LIVE WITH THE HEAT.",
+            "lock": "EXACT"
+          },
+          "body": [
+            {
+              "text": "UNDERSTAND YOUR OPTIONS.",
+              "lock": "EXACT"
+            }
+          ],
+          "cta": {
+            "text": "JOIN THE MIROR COMMUNITY →\nLink in bio",
+            "lock": "EXACT"
+          }
+        }
+      ]
+    },
+    {
+      "content_id": "MIROR-SH-002",
+      "template_id": "T01",
+      "content_title": "THE NIGHT SWEAT",
+      "objective": null,
+      "type": null,
+      "source": "Miror AI posts - Symptoms_Hormones_30_Posts.docx",
+      "slides": [
+        {
+          "id": "S01",
+          "type": "hook",
+          "headline": {
+            "text": "YOU WAKE UP SOAKED.\n\nCHANGE YOUR CLOTHES.\nCHANGE THE SHEETS.\n\nTHEN TRY TO SLEEP AGAIN.",
+            "lock": "EXACT"
+          }
+        },
+        {
+          "id": "S02",
+          "type": "follow-through",
+          "headline": {
+            "text": "ESTROGEN + TEMPERATURE CONTROL.",
+            "lock": "EXACT"
+          },
+          "body": [
+            {
+              "text": "Falling estradiol can trigger night sweats and repeated awakenings.",
+              "lock": "EXACT"
+            },
+            {
+              "text": "WHAT CAN HELP:\nKeep the room cool, identify triggers, protect sleep — and discuss treatment if symptoms are persistent.",
+              "lock": "EXACT"
+            }
+          ]
+        },
+        {
+          "id": "S03",
+          "type": "cta",
+          "headline": {
+            "text": "BETTER SLEEP STARTS WITH UNDERSTANDING WHY YOU'RE WAKING.",
+            "lock": "EXACT"
+          },
+          "cta": {
+            "text": "JOIN THE MIROR COMMUNITY →\nLink in bio",
+            "lock": "EXACT"
+          }
+        }
+      ]
+    },
+    {
+      "content_id": "MIROR-SH-003",
+      "template_id": "T01",
+      "content_title": "THE PERIOD CHAOS",
+      "objective": null,
+      "type": null,
+      "source": "Miror AI posts - Symptoms_Hormones_30_Posts.docx",
+      "slides": [
+        {
+          "id": "S01",
+          "type": "hook",
+          "headline": {
+            "text": "EARLY.\nLATE.\nHEAVY.\nLIGHT.\n\nYOUR PERIOD HAS COMPLETELY LOST THE PLOT.",
+            "lock": "EXACT"
+          }
+        },
+        {
+          "id": "S02",
+          "type": "follow-through",
+          "headline": {
+            "text": "PROGESTERONE IS BECOMING LESS PREDICTABLE.",
+            "lock": "EXACT"
+          },
+          "body": [
+            {
+              "text": "Ovulation becomes irregular during perimenopause, so progesterone production can fluctuate.",
+              "lock": "EXACT"
+            },
+            {
+              "text": "Estradiol can also swing dramatically.",
+              "lock": "EXACT"
+            },
+            {
+              "text": "WHAT CAN HELP:\nTrack bleeding. Heavy or unusual bleeding deserves clinical assessment.",
+              "lock": "EXACT"
+            }
+          ]
+        },
+        {
+          "id": "S03",
+          "type": "cta",
+          "headline": {
+            "text": "YOUR PERIOD IS A CLUE.",
+            "lock": "EXACT"
+          },
+          "body": [
+            {
+              "text": "DON'T IGNORE THE PATTERN.",
+              "lock": "EXACT"
+            }
+          ],
+          "cta": {
+            "text": "JOIN THE MIROR COMMUNITY →\nLink in bio",
+            "lock": "EXACT"
+          }
+        }
+      ]
+    },
+    {
+      "content_id": "MIROR-SH-004",
+      "template_id": "T01",
+      "content_title": "WHY EVERYONE IS ANNOYING YOU",
+      "objective": null,
+      "type": null,
+      "source": "Miror AI posts - Symptoms_Hormones_30_Posts.docx",
+      "slides": [
+        {
+          "id": "S01",
+          "type": "hook",
+          "headline": {
+            "text": "HERE'S WHY EVERYONE IS ANNOYING YOU LATELY.\n\nYES.\n\nEVEN THE PERSON BREATHING TOO LOUD.",
+            "lock": "EXACT"
+          }
+        },
+        {
+          "id": "S02",
+          "type": "follow-through",
+          "headline": {
+            "text": "ESTROGEN + YOUR BRAIN.",
+            "lock": "EXACT"
+          },
+          "body": [
+            {
+              "text": "Estradiol interacts with brain systems involved in mood regulation.",
+              "lock": "EXACT"
+            },
+            {
+              "text": "Fluctuating estrogen plus poor sleep can make irritability feel much stronger.",
+              "lock": "EXACT"
+            },
+            {
+              "text": "WHAT CAN HELP:\nPrioritise sleep, movement and stress support — and seek clinical help if mood symptoms are persistent or severe.",
+              "lock": "EXACT"
+            }
+          ]
+        },
+        {
+          "id": "S03",
+          "type": "cta",
+          "headline": {
+            "text": "YOUR PERSONALITY DIDN'T NECESSARILY CHANGE.",
+            "lock": "EXACT"
+          },
+          "body": [
+            {
+              "text": "YOUR BIOLOGY DID.",
+              "lock": "EXACT"
+            }
+          ],
+          "cta": {
+            "text": "JOIN THE MIROR COMMUNITY →\nLink in bio",
+            "lock": "EXACT"
+          }
+        }
+      ]
+    },
+    {
+      "content_id": "MIROR-SH-005",
+      "template_id": "T01",
+      "content_title": "THE BRAIN FOG",
+      "objective": null,
+      "type": null,
+      "source": "Miror AI posts - Symptoms_Hormones_30_Posts.docx",
+      "slides": [
+        {
+          "id": "S01",
+          "type": "hook",
+          "headline": {
+            "text": "YOU KNOW THE WORD.\n\nYOU JUST CAN'T FIND IT.\n\nYOU KNOW THE NAME.\n\nIT'S RIGHT THERE.",
+            "lock": "EXACT"
+          }
+        },
+        {
+          "id": "S02",
+          "type": "follow-through",
+          "headline": {
+            "text": "ESTROGEN + COGNITION.",
+            "lock": "EXACT"
+          },
+          "body": [
+            {
+              "text": "Estradiol affects brain networks involved in memory and attention.",
+              "lock": "EXACT"
+            },
+            {
+              "text": "Hormonal fluctuation, especially with poor sleep, can contribute to brain fog.",
+              "lock": "EXACT"
+            },
+            {
+              "text": "WHAT CAN HELP:\nProtect sleep, exercise regularly and review medications, mood and other causes with your clinician.",
+              "lock": "EXACT"
+            }
+          ]
+        },
+        {
+          "id": "S03",
+          "type": "cta",
+          "headline": {
+            "text": "DON'T PANIC ABOUT YOUR BRAIN.",
+            "lock": "EXACT"
+          },
+          "body": [
+            {
+              "text": "UNDERSTAND IT.",
+              "lock": "EXACT"
+            }
+          ],
+          "cta": {
+            "text": "JOIN THE MIROR COMMUNITY →\nLink in bio",
+            "lock": "EXACT"
+          }
+        }
+      ]
+    },
+    {
+      "content_id": "MIROR-SH-006",
+      "template_id": "T01",
+      "content_title": "WHY YOU CAN'T SLEEP",
+      "objective": null,
+      "type": null,
+      "source": "Miror AI posts - Symptoms_Hormones_30_Posts.docx",
+      "slides": [
+        {
+          "id": "S01",
+          "type": "hook",
+          "headline": {
+            "text": "YOU'RE EXHAUSTED.\n\nYOU GET INTO BED.\n\nAND YOUR BRAIN SAYS:\n\n“NOPE.”",
+            "lock": "EXACT"
+          }
+        },
+        {
+          "id": "S02",
+          "type": "follow-through",
+          "headline": {
+            "text": "ESTROGEN + PROGESTERONE + SLEEP.",
+            "lock": "EXACT"
+          },
+          "body": [
+            {
+              "text": "Hormonal changes can affect sleep directly — and hot flashes can keep waking you.",
+              "lock": "EXACT"
+            },
+            {
+              "text": "WHAT CAN HELP:\nConsistent sleep timing, exercise and a cool room help.",
+              "lock": "EXACT"
+            },
+            {
+              "text": "Persistent insomnia deserves proper assessment and treatment.",
+              "lock": "EXACT"
+            }
+          ]
+        },
+        {
+          "id": "S03",
+          "type": "cta",
+          "headline": {
+            "text": "STOP NORMALISING EXHAUSTION.",
+            "lock": "EXACT"
+          },
+          "cta": {
+            "text": "JOIN THE MIROR COMMUNITY →\nLink in bio",
+            "lock": "EXACT"
+          }
+        }
+      ]
+    },
+    {
+      "content_id": "MIROR-SH-007",
+      "template_id": "T01",
+      "content_title": "THE ANXIETY",
+      "objective": null,
+      "type": null,
+      "source": "Miror AI posts - Symptoms_Hormones_30_Posts.docx",
+      "slides": [
+        {
+          "id": "S01",
+          "type": "hook",
+          "headline": {
+            "text": "YOU'VE NEVER BEEN THIS ANXIOUS.\n\nYOUR MIND WON'T SWITCH OFF.\n\nAND YOU CAN'T EXPLAIN WHY.",
+            "lock": "EXACT"
+          }
+        },
+        {
+          "id": "S02",
+          "type": "follow-through",
+          "headline": {
+            "text": "ESTROGEN + THE BRAIN.",
+            "lock": "EXACT"
+          },
+          "body": [
+            {
+              "text": "Changing estradiol can influence neurotransmitter systems involved in mood and anxiety.",
+              "lock": "EXACT"
+            },
+            {
+              "text": "Sleep disruption can amplify it.",
+              "lock": "EXACT"
+            },
+            {
+              "text": "WHAT CAN HELP:\nCBT, exercise and clinician-guided treatment can help — especially when symptoms are persistent.",
+              "lock": "EXACT"
+            }
+          ]
+        },
+        {
+          "id": "S03",
+          "type": "cta",
+          "headline": {
+            "text": "YOUR MENTAL HEALTH IS MENOPAUSE HEALTH.",
+            "lock": "EXACT"
+          },
+          "cta": {
+            "text": "JOIN THE MIROR COMMUNITY →\nLink in bio",
+            "lock": "EXACT"
+          }
+        }
+      ]
+    },
+    {
+      "content_id": "MIROR-SH-008",
+      "template_id": "T01",
+      "content_title": "THE PALPITATIONS",
+      "objective": null,
+      "type": null,
+      "source": "Miror AI posts - Symptoms_Hormones_30_Posts.docx",
+      "slides": [
+        {
+          "id": "S01",
+          "type": "hook",
+          "headline": {
+            "text": "YOU'RE NOT RUNNING.\n\nYOU'RE NOT EXERCISING.\n\nBUT YOUR HEART IS POUNDING.",
+            "lock": "EXACT"
+          }
+        },
+        {
+          "id": "S02",
+          "type": "follow-through",
+          "headline": {
+            "text": "ESTROGEN + AUTONOMIC REGULATION.",
+            "lock": "EXACT"
+          },
+          "body": [
+            {
+              "text": "Palpitations can occur alongside menopausal hot flashes and anxiety.",
+              "lock": "EXACT"
+            },
+            {
+              "text": "WHAT CAN HELP:\nTrack when they happen and what triggers them.",
+              "lock": "EXACT"
+            },
+            {
+              "text": "NEW, severe or persistent palpitations need medical assessment — don't assume hormones are the cause.",
+              "lock": "EXACT"
+            }
+          ]
+        },
+        {
+          "id": "S03",
+          "type": "cta",
+          "headline": {
+            "text": "KNOW WHEN A SYMPTOM NEEDS A DOCTOR.",
+            "lock": "EXACT"
+          },
+          "cta": {
+            "text": "JOIN THE MIROR COMMUNITY →\nLink in bio",
+            "lock": "EXACT"
+          }
+        }
+      ]
+    },
+    {
+      "content_id": "MIROR-SH-009",
+      "template_id": "T01",
+      "content_title": "THE JOINT PAIN",
+      "objective": null,
+      "type": null,
+      "source": "Miror AI posts - Symptoms_Hormones_30_Posts.docx",
+      "slides": [
+        {
+          "id": "S01",
+          "type": "hook",
+          "headline": {
+            "text": "YOUR KNEES HURT.\n\nYOUR HIPS HURT.\n\nYOUR HANDS HURT.\n\n“AM I JUST GETTING OLD?”",
+            "lock": "EXACT"
+          }
+        },
+        {
+          "id": "S02",
+          "type": "follow-through",
+          "headline": {
+            "text": "ESTROGEN + MUSCULOSKELETAL HEALTH.",
+            "lock": "EXACT"
+          },
+          "body": [
+            {
+              "text": "Estrogen receptors are found in bone, muscle and connective tissue.",
+              "lock": "EXACT"
+            },
+            {
+              "text": "Its decline may contribute to musculoskeletal symptoms.",
+              "lock": "EXACT"
+            },
+            {
+              "text": "WHAT CAN HELP:\nStrength training, adequate protein, healthy weight management and assessment of persistent pain.",
+              "lock": "EXACT"
+            }
+          ]
+        },
+        {
+          "id": "S03",
+          "type": "cta",
+          "headline": {
+            "text": "DON'T JUST BLAME AGE.",
+            "lock": "EXACT"
+          },
+          "body": [
+            {
+              "text": "UNDERSTAND THE CHANGE.",
+              "lock": "EXACT"
+            }
+          ],
+          "cta": {
+            "text": "JOIN THE MIROR COMMUNITY →\nLink in bio",
+            "lock": "EXACT"
+          }
+        }
+      ]
+    },
+    {
+      "content_id": "MIROR-SH-010",
+      "template_id": "T01",
+      "content_title": "THE BONE LOSS",
+      "objective": null,
+      "type": null,
+      "source": "Miror AI posts - Symptoms_Hormones_30_Posts.docx",
+      "slides": [
+        {
+          "id": "S01",
+          "type": "hook",
+          "headline": {
+            "text": "YOUR BONES DON'T HURT WHEN THEY'RE LOSING DENSITY.\n\nTHAT'S THE SCARY PART.",
+            "lock": "EXACT"
+          }
+        },
+        {
+          "id": "S02",
+          "type": "follow-through",
+          "headline": {
+            "text": "ESTROGEN PROTECTS BONE REMODELLING.",
+            "lock": "EXACT"
+          },
+          "body": [
+            {
+              "text": "After menopause, lower estradiol increases bone turnover and can accelerate bone loss.",
+              "lock": "EXACT"
+            },
+            {
+              "text": "WHAT CAN HELP:\nResistance training, adequate calcium/vitamin D intake and bone-density assessment when indicated.",
+              "lock": "EXACT"
+            }
+          ]
+        },
+        {
+          "id": "S03",
+          "type": "cta",
+          "headline": {
+            "text": "PROTECT THE HEALTH YOU CAN'T FEEL.",
+            "lock": "EXACT"
+          },
+          "cta": {
+            "text": "JOIN THE MIROR COMMUNITY →\nLink in bio",
+            "lock": "EXACT"
+          }
+        }
+      ]
+    },
+    {
+      "content_id": "MIROR-SH-011",
+      "template_id": "T01",
+      "content_title": "THE WAISTLINE",
+      "objective": null,
+      "type": null,
+      "source": "Miror AI posts - Symptoms_Hormones_30_Posts.docx",
+      "slides": [
+        {
+          "id": "S01",
+          "type": "hook",
+          "headline": {
+            "text": "YOU'RE EATING THE SAME.\n\nMOVING THE SAME.\n\nBUT YOUR WAISTLINE HAS OTHER PLANS.",
+            "lock": "EXACT"
+          }
+        },
+        {
+          "id": "S02",
+          "type": "follow-through",
+          "headline": {
+            "text": "ESTROGEN + METABOLISM.",
+            "lock": "EXACT"
+          },
+          "body": [
+            {
+              "text": "Lower estrogen is associated with a shift toward more abdominal fat during midlife.",
+              "lock": "EXACT"
+            },
+            {
+              "text": "But ageing, muscle, sleep, diet and activity matter too.",
+              "lock": "EXACT"
+            },
+            {
+              "text": "WHAT CAN HELP:\nStrength training, protein-rich meals, movement and sleep — not crash dieting.",
+              "lock": "EXACT"
+            }
+          ]
+        },
+        {
+          "id": "S03",
+          "type": "cta",
+          "headline": {
+            "text": "STOP BLAMING YOUR BODY.",
+            "lock": "EXACT"
+          },
+          "body": [
+            {
+              "text": "START CHANGING THE STRATEGY.",
+              "lock": "EXACT"
+            }
+          ],
+          "cta": {
+            "text": "JOIN THE MIROR COMMUNITY →\nLink in bio",
+            "lock": "EXACT"
+          }
+        }
+      ]
+    },
+    {
+      "content_id": "MIROR-SH-012",
+      "template_id": "T01",
+      "content_title": "THE LOW LIBIDO",
+      "objective": null,
+      "type": null,
+      "source": "Miror AI posts - Symptoms_Hormones_30_Posts.docx",
+      "slides": [
+        {
+          "id": "S01",
+          "type": "hook",
+          "headline": {
+            "text": "YOU STILL LOVE YOUR PARTNER.\n\nYOU'RE STILL ATTRACTED TO THEM.\n\nBUT YOUR LIBIDO?\n\nGONE.",
+            "lock": "EXACT"
+          }
+        },
+        {
+          "id": "S02",
+          "type": "follow-through",
+          "headline": {
+            "text": "ESTROGEN + TESTOSTERONE + CONTEXT.",
+            "lock": "EXACT"
+          },
+          "body": [
+            {
+              "text": "Lower estrogen can cause dryness and pain.\nAndrogens contribute to sexual desire for some women.",
+              "lock": "EXACT"
+            },
+            {
+              "text": "Sleep, stress, mood and medications matter too.",
+              "lock": "EXACT"
+            },
+            {
+              "text": "WHAT CAN HELP:\nTreat pain/dryness first and discuss persistent low desire clinically.",
+              "lock": "EXACT"
+            }
+          ]
+        },
+        {
+          "id": "S03",
+          "type": "cta",
+          "headline": {
+            "text": "THERE ISN'T ONE “LIBIDO HORMONE.”",
+            "lock": "EXACT"
+          },
+          "body": [
+            {
+              "text": "GET THE WHOLE PICTURE.",
+              "lock": "EXACT"
+            }
+          ],
+          "cta": {
+            "text": "JOIN THE MIROR COMMUNITY →\nLink in bio",
+            "lock": "EXACT"
+          }
+        }
+      ]
+    },
+    {
+      "content_id": "MIROR-SH-013",
+      "template_id": "T01",
+      "content_title": "SEX HURTS",
+      "objective": null,
+      "type": null,
+      "source": "Miror AI posts - Symptoms_Hormones_30_Posts.docx",
+      "slides": [
+        {
+          "id": "S01",
+          "type": "hook",
+          "headline": {
+            "text": "YOU WANT TO HAVE SEX.\n\nBUT IT HURTS.\n\nSO YOU STOP WANTING TO HAVE SEX.",
+            "lock": "EXACT"
+          }
+        },
+        {
+          "id": "S02",
+          "type": "follow-through",
+          "headline": {
+            "text": "ESTROGEN IS A BIG PART OF THIS.",
+            "lock": "EXACT"
+          },
+          "body": [
+            {
+              "text": "Lower estrogen can make vaginal tissue thinner, drier and less elastic.",
+              "lock": "EXACT"
+            },
+            {
+              "text": "WHAT CAN HELP:\nLubricants and moisturisers can help.\nPersistent symptoms may benefit from clinician-guided local vaginal estrogen or other treatments.",
+              "lock": "EXACT"
+            }
+          ]
+        },
+        {
+          "id": "S03",
+          "type": "cta",
+          "headline": {
+            "text": "PAINFUL SEX IS A HEALTH ISSUE.",
+            "lock": "EXACT"
+          },
+          "body": [
+            {
+              "text": "IT DESERVES A SOLUTION.",
+              "lock": "EXACT"
+            }
+          ],
+          "cta": {
+            "text": "JOIN THE MIROR COMMUNITY →\nLink in bio",
+            "lock": "EXACT"
+          }
+        }
+      ]
+    },
+    {
+      "content_id": "MIROR-SH-014",
+      "template_id": "T01",
+      "content_title": "WHY YOU PEE ALL THE TIME",
+      "objective": null,
+      "type": null,
+      "source": "Miror AI posts - Symptoms_Hormones_30_Posts.docx",
+      "slides": [
+        {
+          "id": "S01",
+          "type": "hook",
+          "headline": {
+            "text": "YOU KNOW EVERY TOILET BETWEEN HOME AND WORK.\n\nBECAUSE YOU HAVE TO.",
+            "lock": "EXACT"
+          }
+        },
+        {
+          "id": "S02",
+          "type": "follow-through",
+          "headline": {
+            "text": "ESTROGEN + THE URINARY TRACT.",
+            "lock": "EXACT"
+          },
+          "body": [
+            {
+              "text": "Lower estrogen can affect vaginal, urethral and bladder tissues.",
+              "lock": "EXACT"
+            },
+            {
+              "text": "WHAT CAN HELP:\nPelvic-floor assessment, bladder strategies and — when appropriate — local vaginal estrogen can help genitourinary symptoms.",
+              "lock": "EXACT"
+            }
+          ]
+        },
+        {
+          "id": "S03",
+          "type": "cta",
+          "headline": {
+            "text": "DON'T CALL IT “JUST AGE.”",
+            "lock": "EXACT"
+          },
+          "body": [
+            {
+              "text": "GET IT CHECKED.",
+              "lock": "EXACT"
+            }
+          ],
+          "cta": {
+            "text": "JOIN THE MIROR COMMUNITY →\nLink in bio",
+            "lock": "EXACT"
+          }
+        }
+      ]
+    },
+    {
+      "content_id": "MIROR-SH-015",
+      "template_id": "T01",
+      "content_title": "WHY DRYNESS CAN LAST",
+      "objective": null,
+      "type": null,
+      "source": "Miror AI posts - Symptoms_Hormones_30_Posts.docx",
+      "slides": [
+        {
+          "id": "S01",
+          "type": "hook",
+          "headline": {
+            "text": "YOUR HOT FLASHES GOT BETTER.\n\nBUT THE DRYNESS DIDN'T.\n\nIN FACT, IT GOT WORSE.",
+            "lock": "EXACT"
+          }
+        },
+        {
+          "id": "S02",
+          "type": "follow-through",
+          "headline": {
+            "text": "LOW ESTROGEN CAN PERSIST AFTER MENOPAUSE.",
+            "lock": "EXACT"
+          },
+          "body": [
+            {
+              "text": "Genitourinary symptoms can continue or worsen because the tissues remain in a low-estrogen environment.",
+              "lock": "EXACT"
+            },
+            {
+              "text": "WHAT CAN HELP:\nMoisturisers, lubricants and clinician-guided local treatment can make a real difference.",
+              "lock": "EXACT"
+            }
+          ]
+        },
+        {
+          "id": "S03",
+          "type": "cta",
+          "headline": {
+            "text": "POSTMENOPAUSE DOESN'T MEAN SYMPTOMS END.",
+            "lock": "EXACT"
+          },
+          "cta": {
+            "text": "JOIN THE MIROR COMMUNITY →\nLink in bio",
+            "lock": "EXACT"
+          }
+        }
+      ]
+    },
+    {
+      "content_id": "MIROR-SH-016",
+      "template_id": "T01",
+      "content_title": "TESTOSTERONE CHANGES TOO",
+      "objective": null,
+      "type": null,
+      "source": "Miror AI posts - Symptoms_Hormones_30_Posts.docx",
+      "slides": [
+        {
+          "id": "S01",
+          "type": "hook",
+          "headline": {
+            "text": "MENOPAUSE ISN'T ONLY AN ESTROGEN STORY.\n\nWHAT HAPPENS TO TESTOSTERONE?",
+            "lock": "EXACT"
+          }
+        },
+        {
+          "id": "S02",
+          "type": "follow-through",
+          "headline": {
+            "text": "TESTOSTERONE DECLINES GRADUALLY.",
+            "lock": "EXACT"
+          },
+          "body": [
+            {
+              "text": "It does not suddenly disappear at menopause.",
+              "lock": "EXACT"
+            },
+            {
+              "text": "Androgens contribute to sexual function, muscle and other physiological processes.",
+              "lock": "EXACT"
+            },
+            {
+              "text": "WHAT CAN HELP:\nStrength training, adequate protein and addressing sleep, mood and medication factors.",
+              "lock": "EXACT"
+            }
+          ]
+        },
+        {
+          "id": "S03",
+          "type": "cta",
+          "headline": {
+            "text": "KNOW THE HORMONES.",
+            "lock": "EXACT"
+          },
+          "body": [
+            {
+              "text": "NOT JUST THE HOT FLASHES.",
+              "lock": "EXACT"
+            }
+          ],
+          "cta": {
+            "text": "JOIN THE MIROR COMMUNITY →\nLink in bio",
+            "lock": "EXACT"
+          }
+        }
+      ]
+    },
+    {
+      "content_id": "MIROR-SH-017",
+      "template_id": "T01",
+      "content_title": "THE HORMONE MYTH",
+      "objective": null,
+      "type": null,
+      "source": "Miror AI posts - Symptoms_Hormones_30_Posts.docx",
+      "slides": [
+        {
+          "id": "S01",
+          "type": "hook",
+          "headline": {
+            "text": "“MY ESTROGEN IS LOW.”\n\nOK.\n\nBUT WHAT ABOUT PROGESTERONE?\n\nAND TESTOSTERONE?",
+            "lock": "EXACT"
+          }
+        },
+        {
+          "id": "S02",
+          "type": "follow-through",
+          "headline": {
+            "text": "MENOPAUSE CHANGES THE WHOLE HORMONAL PICTURE.",
+            "lock": "EXACT"
+          },
+          "body": [
+            {
+              "text": "ESTROGEN ↓\nPROGESTERONE ↓\nTESTOSTERONE ↓ GRADUALLY",
+              "lock": "EXACT"
+            },
+            {
+              "text": "The timing and pattern are different for each hormone.",
+              "lock": "EXACT"
+            },
+            {
+              "text": "THAT'S WHY SYMPTOMS DON'T ARRIVE IN ONE NEAT PACKAGE.",
+              "lock": "EXACT"
+            }
+          ]
+        },
+        {
+          "id": "S03",
+          "type": "cta",
+          "headline": {
+            "text": "MENOPAUSE IS A SYSTEM.",
+            "lock": "EXACT"
+          },
+          "body": [
+            {
+              "text": "NOT ONE HORMONE.",
+              "lock": "EXACT"
+            }
+          ],
+          "cta": {
+            "text": "JOIN THE MIROR COMMUNITY →\nLink in bio",
+            "lock": "EXACT"
+          }
+        }
+      ]
+    },
+    {
+      "content_id": "MIROR-SH-018",
+      "template_id": "T01",
+      "content_title": "WHY PROGESTERONE MATTERS",
+      "objective": null,
+      "type": null,
+      "source": "Miror AI posts - Symptoms_Hormones_30_Posts.docx",
+      "slides": [
+        {
+          "id": "S01",
+          "type": "hook",
+          "headline": {
+            "text": "YOU'RE SLEEPING BADLY.\n\nYOUR PERIODS ARE CHAOTIC.\n\nAND YOU KEEP HEARING:\n“IT'S ALL ESTROGEN.”",
+            "lock": "EXACT"
+          }
+        },
+        {
+          "id": "S02",
+          "type": "follow-through",
+          "headline": {
+            "text": "PROGESTERONE CHANGES WITH OVULATION.",
+            "lock": "EXACT"
+          },
+          "body": [
+            {
+              "text": "During perimenopause, ovulation becomes less predictable.",
+              "lock": "EXACT"
+            },
+            {
+              "text": "Less ovulation = less consistent progesterone production.",
+              "lock": "EXACT"
+            },
+            {
+              "text": "WHAT CAN HELP:\nTrack cycles and symptoms. Persistent sleep or bleeding problems deserve clinical assessment.",
+              "lock": "EXACT"
+            }
+          ]
+        },
+        {
+          "id": "S03",
+          "type": "cta",
+          "headline": {
+            "text": "THE MENOPAUSE STORY ISN'T JUST ESTROGEN.",
+            "lock": "EXACT"
+          },
+          "cta": {
+            "text": "JOIN THE MIROR COMMUNITY →\nLink in bio",
+            "lock": "EXACT"
+          }
+        }
+      ]
+    },
+    {
+      "content_id": "MIROR-SH-019",
+      "template_id": "T01",
+      "content_title": "WHY ESTROGEN FLUCTUATES",
+      "objective": null,
+      "type": null,
+      "source": "Miror AI posts - Symptoms_Hormones_30_Posts.docx",
+      "slides": [
+        {
+          "id": "S01",
+          "type": "hook",
+          "headline": {
+            "text": "ONE WEEK YOU FEEL AMAZING.\n\nTHE NEXT WEEK:\n\nBRAIN FOG.\nSWEATS.\nIRRITABILITY.\nTERRIBLE SLEEP.\n\nWHAT CHANGED?",
+            "lock": "EXACT"
+          }
+        },
+        {
+          "id": "S02",
+          "type": "follow-through",
+          "headline": {
+            "text": "ESTROGEN DOESN'T JUST “DROP.”",
+            "lock": "EXACT"
+          },
+          "body": [
+            {
+              "text": "During perimenopause, estradiol can swing dramatically before settling at lower postmenopausal levels.",
+              "lock": "EXACT"
+            },
+            {
+              "text": "WHAT CAN HELP:\nTrack symptoms over time rather than judging yourself by one bad day.",
+              "lock": "EXACT"
+            }
+          ]
+        },
+        {
+          "id": "S03",
+          "type": "cta",
+          "headline": {
+            "text": "THE FLUCTUATION IS PART OF THE STORY.",
+            "lock": "EXACT"
+          },
+          "cta": {
+            "text": "JOIN THE MIROR COMMUNITY →\nLink in bio",
+            "lock": "EXACT"
+          }
+        }
+      ]
+    },
+    {
+      "content_id": "MIROR-SH-020",
+      "template_id": "T01",
+      "content_title": "THE HORMONE + SLEEP LOOP",
+      "objective": null,
+      "type": null,
+      "source": "Miror AI posts - Symptoms_Hormones_30_Posts.docx",
+      "slides": [
+        {
+          "id": "S01",
+          "type": "hook",
+          "headline": {
+            "text": "YOU DON'T SLEEP.\n\nTHEN YOU'RE IRRITABLE.\n\nTHEN YOU'RE FOGGY.\n\nTHEN YOU'RE MORE STRESSED.\n\nAND THE CYCLE STARTS AGAIN.",
+            "lock": "EXACT"
+          }
+        },
+        {
+          "id": "S02",
+          "type": "follow-through",
+          "headline": {
+            "text": "ESTROGEN + SLEEP + STRESS.",
+            "lock": "EXACT"
+          },
+          "body": [
+            {
+              "text": "Hot flashes can wake you.\nPoor sleep raises stress.\nStress can make sleep harder.",
+              "lock": "EXACT"
+            },
+            {
+              "text": "WHAT CAN HELP:\nTreat the sleep problem at its source — behavioural support, CBT-I and appropriate menopause treatment can all be considered.",
+              "lock": "EXACT"
+            }
+          ]
+        },
+        {
+          "id": "S03",
+          "type": "cta",
+          "headline": {
+            "text": "BREAK THE CYCLE.",
+            "lock": "EXACT"
+          },
+          "body": [
+            {
+              "text": "DON'T JUST PUSH THROUGH.",
+              "lock": "EXACT"
+            }
+          ],
+          "cta": {
+            "text": "JOIN THE MIROR COMMUNITY →\nLink in bio",
+            "lock": "EXACT"
+          }
+        }
+      ]
+    },
+    {
+      "content_id": "MIROR-SH-021",
+      "template_id": "T01",
+      "content_title": "CORTISOL IS NOT “THE MENOPAUSE HORMONE”",
+      "objective": null,
+      "type": null,
+      "source": "Miror AI posts - Symptoms_Hormones_30_Posts.docx",
+      "slides": [
+        {
+          "id": "S01",
+          "type": "hook",
+          "headline": {
+            "text": "YOU'RE STRESSED.\n\nYOU'RE EXHAUSTED.\n\nSO SOMEONE TELLS YOU:\n\n“YOUR CORTISOL IS THE PROBLEM.”",
+            "lock": "EXACT"
+          }
+        },
+        {
+          "id": "S02",
+          "type": "follow-through",
+          "headline": {
+            "text": "NOT SO FAST.",
+            "lock": "EXACT"
+          },
+          "body": [
+            {
+              "text": "Cortisol is your body's major stress hormone — but menopause does not simply mean “high cortisol.”",
+              "lock": "EXACT"
+            },
+            {
+              "text": "Sleep disruption, hot flashes and life stress can interact with the stress system.",
+              "lock": "EXACT"
+            },
+            {
+              "text": "WHAT CAN HELP:\nSleep, exercise, stress-management and clinical assessment when fatigue persists.",
+              "lock": "EXACT"
+            }
+          ]
+        },
+        {
+          "id": "S03",
+          "type": "cta",
+          "headline": {
+            "text": "DON'T LET WELLNESS MARKETING REPLACE MEDICINE.",
+            "lock": "EXACT"
+          },
+          "cta": {
+            "text": "JOIN THE MIROR COMMUNITY →\nLink in bio",
+            "lock": "EXACT"
+          }
+        }
+      ]
+    },
+    {
+      "content_id": "MIROR-SH-022",
+      "template_id": "T01",
+      "content_title": "WHEN FATIGUE ISN'T “JUST MENOPAUSE”",
+      "objective": null,
+      "type": null,
+      "source": "Miror AI posts - Symptoms_Hormones_30_Posts.docx",
+      "slides": [
+        {
+          "id": "S01",
+          "type": "hook",
+          "headline": {
+            "text": "YOU'RE EXHAUSTED.\n\nYOU BLAME MENOPAUSE.\n\nBUT SHOULD YOU?",
+            "lock": "EXACT"
+          }
+        },
+        {
+          "id": "S02",
+          "type": "follow-through",
+          "headline": {
+            "text": "ESTROGEN CAN BE PART OF THE PICTURE.",
+            "lock": "EXACT"
+          },
+          "body": [
+            {
+              "text": "But fatigue can also come from anaemia, thyroid disease, sleep disorders, medications, depression and other conditions.",
+              "lock": "EXACT"
+            },
+            {
+              "text": "WHAT CAN HELP:\nIf fatigue is persistent, ask for a proper clinical assessment rather than guessing which hormone is responsible.",
+              "lock": "EXACT"
+            }
+          ]
+        },
+        {
+          "id": "S03",
+          "type": "cta",
+          "headline": {
+            "text": "THE RIGHT FIX STARTS WITH THE RIGHT CAUSE.",
+            "lock": "EXACT"
+          },
+          "cta": {
+            "text": "JOIN THE MIROR COMMUNITY →\nLink in bio",
+            "lock": "EXACT"
+          }
+        }
+      ]
+    },
+    {
+      "content_id": "MIROR-SH-023",
+      "template_id": "T01",
+      "content_title": "THE SYMPTOM THAT NEEDS A CHECK",
+      "objective": null,
+      "type": null,
+      "source": "Miror AI posts - Symptoms_Hormones_30_Posts.docx",
+      "slides": [
+        {
+          "id": "S01",
+          "type": "hook",
+          "headline": {
+            "text": "YOU'VE BEEN BLEEDING HEAVILY.\n\nYOU KEEP SAYING:\n\n“IT'S JUST PERIMENOPAUSE.”",
+            "lock": "EXACT"
+          }
+        },
+        {
+          "id": "S02",
+          "type": "follow-through",
+          "headline": {
+            "text": "ESTROGEN + PROGESTERONE CAN DRIVE IRREGULAR BLEEDING.",
+            "lock": "EXACT"
+          },
+          "body": [
+            {
+              "text": "But heavy, prolonged or unusual bleeding can have other causes.",
+              "lock": "EXACT"
+            },
+            {
+              "text": "WHAT CAN HELP:\nTrack the pattern and get assessed when bleeding is heavy, persistent, new or concerning.",
+              "lock": "EXACT"
+            }
+          ]
+        },
+        {
+          "id": "S03",
+          "type": "cta",
+          "headline": {
+            "text": "DON'T ASSUME.",
+            "lock": "EXACT"
+          },
+          "body": [
+            {
+              "text": "CHECK IT.",
+              "lock": "EXACT"
+            }
+          ],
+          "cta": {
+            "text": "JOIN THE MIROR COMMUNITY →\nLink in bio",
+            "lock": "EXACT"
+          }
+        }
+      ]
+    },
+    {
+      "content_id": "MIROR-SH-024",
+      "template_id": "T01",
+      "content_title": "POSTMENOPAUSE IS NOT HORMONE-FREE",
+      "objective": null,
+      "type": null,
+      "source": "Miror AI posts - Symptoms_Hormones_30_Posts.docx",
+      "slides": [
+        {
+          "id": "S01",
+          "type": "hook",
+          "headline": {
+            "text": "YOUR PERIODS STOPPED.\n\nBUT YOUR HORMONES DIDN'T JUST DISAPPEAR.",
+            "lock": "EXACT"
+          }
+        },
+        {
+          "id": "S02",
+          "type": "follow-through",
+          "headline": {
+            "text": "ESTROGEN + PROGESTERONE + ANDROGENS CHANGE.",
+            "lock": "EXACT"
+          },
+          "body": [
+            {
+              "text": "After menopause, estradiol and progesterone remain low.",
+              "lock": "EXACT"
+            },
+            {
+              "text": "Androgens continue to circulate and gradually decline with age.",
+              "lock": "EXACT"
+            },
+            {
+              "text": "WHAT CAN HELP:\nThink long-term: bones, muscle, cardiovascular health, sexual health and persistent symptoms.",
+              "lock": "EXACT"
+            }
+          ]
+        },
+        {
+          "id": "S03",
+          "type": "cta",
+          "headline": {
+            "text": "POSTMENOPAUSE DESERVES A HEALTH PLAN TOO.",
+            "lock": "EXACT"
+          },
+          "cta": {
+            "text": "JOIN THE MIROR COMMUNITY →\nLink in bio",
+            "lock": "EXACT"
+          }
+        }
+      ]
+    },
+    {
+      "content_id": "MIROR-SH-025",
+      "template_id": "T01",
+      "content_title": "WHY SYMPTOMS CAN CONTINUE",
+      "objective": null,
+      "type": null,
+      "source": "Miror AI posts - Symptoms_Hormones_30_Posts.docx",
+      "slides": [
+        {
+          "id": "S01",
+          "type": "hook",
+          "headline": {
+            "text": "MENOPAUSE WAS YEARS AGO.\n\nSO WHY ARE YOU STILL:\n\nDRY?\nACHY?\nNOT SLEEPING?",
+            "lock": "EXACT"
+          }
+        },
+        {
+          "id": "S02",
+          "type": "follow-through",
+          "headline": {
+            "text": "LOW ESTROGEN CAN HAVE LONG-TERM EFFECTS.",
+            "lock": "EXACT"
+          },
+          "body": [
+            {
+              "text": "Some symptoms fade.\nOthers persist.",
+              "lock": "EXACT"
+            },
+            {
+              "text": "Genitourinary symptoms are particularly likely to continue without treatment.",
+              "lock": "EXACT"
+            },
+            {
+              "text": "WHAT CAN HELP:\nDon't wait it out — discuss persistent symptoms and evidence-based options with a clinician.",
+              "lock": "EXACT"
+            }
+          ]
+        },
+        {
+          "id": "S03",
+          "type": "cta",
+          "headline": {
+            "text": "THE LAST PERIOD ISN'T THE END OF CARE.",
+            "lock": "EXACT"
+          },
+          "cta": {
+            "text": "JOIN THE MIROR COMMUNITY →\nLink in bio",
+            "lock": "EXACT"
+          }
+        }
+      ]
+    },
+    {
+      "content_id": "MIROR-SH-026",
+      "template_id": "T01",
+      "content_title": "ESTROGEN + HEART HEALTH",
+      "objective": null,
+      "type": null,
+      "source": "Miror AI posts - Symptoms_Hormones_30_Posts.docx",
+      "slides": [
+        {
+          "id": "S01",
+          "type": "hook",
+          "headline": {
+            "text": "YOU WORRY ABOUT YOUR WEIGHT.\n\nYOUR BONES.\n\nYOUR SKIN.\n\nBUT WHAT ABOUT YOUR HEART?",
+            "lock": "EXACT"
+          }
+        },
+        {
+          "id": "S02",
+          "type": "follow-through",
+          "headline": {
+            "text": "ESTROGEN DECLINES AROUND MENOPAUSE.",
+            "lock": "EXACT"
+          },
+          "body": [
+            {
+              "text": "Cardiovascular risk is influenced by many factors, including blood pressure, lipids, glucose, body composition and ageing.",
+              "lock": "EXACT"
+            },
+            {
+              "text": "WHAT CAN HELP:\nKnow your numbers. Exercise. Don't smoke. Manage BP, cholesterol and glucose.",
+              "lock": "EXACT"
+            }
+          ]
+        },
+        {
+          "id": "S03",
+          "type": "cta",
+          "headline": {
+            "text": "MENOPAUSE IS A GOOD TIME TO KNOW YOUR HEART HEALTH.",
+            "lock": "EXACT"
+          },
+          "cta": {
+            "text": "JOIN THE MIROR COMMUNITY →\nLink in bio",
+            "lock": "EXACT"
+          }
+        }
+      ]
+    },
+    {
+      "content_id": "MIROR-SH-027",
+      "template_id": "T01",
+      "content_title": "ESTROGEN + BRAIN HEALTH",
+      "objective": null,
+      "type": null,
+      "source": "Miror AI posts - Symptoms_Hormones_30_Posts.docx",
+      "slides": [
+        {
+          "id": "S01",
+          "type": "hook",
+          "headline": {
+            "text": "YOU'RE FORGETFUL.\n\nAND NOW YOU'RE WORRIED ABOUT DEMENTIA.",
+            "lock": "EXACT"
+          }
+        },
+        {
+          "id": "S02",
+          "type": "follow-through",
+          "headline": {
+            "text": "ESTROGEN AFFECTS THE BRAIN.",
+            "lock": "EXACT"
+          },
+          "body": [
+            {
+              "text": "Estradiol interacts with brain systems involved in memory, attention and energy metabolism.",
+              "lock": "EXACT"
+            },
+            {
+              "text": "Menopause-related brain fog is common.",
+              "lock": "EXACT"
+            },
+            {
+              "text": "WHAT CAN HELP:\nSleep, exercise, cardiovascular risk management and assessment of persistent cognitive changes.",
+              "lock": "EXACT"
+            }
+          ]
+        },
+        {
+          "id": "S03",
+          "type": "cta",
+          "headline": {
+            "text": "TAKE YOUR BRAIN SERIOUSLY.",
+            "lock": "EXACT"
+          },
+          "body": [
+            {
+              "text": "WITHOUT PANICKING.",
+              "lock": "EXACT"
+            }
+          ],
+          "cta": {
+            "text": "JOIN THE MIROR COMMUNITY →\nLink in bio",
+            "lock": "EXACT"
+          }
+        }
+      ]
+    },
+    {
+      "content_id": "MIROR-SH-028",
+      "template_id": "T01",
+      "content_title": "ESTROGEN + BONE HEALTH",
+      "objective": null,
+      "type": null,
+      "source": "Miror AI posts - Symptoms_Hormones_30_Posts.docx",
+      "slides": [
+        {
+          "id": "S01",
+          "type": "hook",
+          "headline": {
+            "text": "YOU CAN'T FEEL YOUR BONE DENSITY FALLING.\n\nBUT YOUR FUTURE BODY CAN.",
+            "lock": "EXACT"
+          }
+        },
+        {
+          "id": "S02",
+          "type": "follow-through",
+          "headline": {
+            "text": "ESTROGEN ↓\nBONE TURNOVER ↑",
+            "lock": "EXACT"
+          },
+          "body": [
+            {
+              "text": "After menopause, lower estrogen can accelerate bone loss.",
+              "lock": "EXACT"
+            },
+            {
+              "text": "WHAT CAN HELP:\nStrength training, adequate calcium/vitamin D, protein and bone-density assessment when indicated.",
+              "lock": "EXACT"
+            }
+          ]
+        },
+        {
+          "id": "S03",
+          "type": "cta",
+          "headline": {
+            "text": "BUILD BONE HEALTH BEFORE A FRACTURE FORCES THE CONVERSATION.",
+            "lock": "EXACT"
+          },
+          "cta": {
+            "text": "JOIN THE MIROR COMMUNITY →\nLink in bio",
+            "lock": "EXACT"
+          }
+        }
+      ]
+    },
+    {
+      "content_id": "MIROR-SH-029",
+      "template_id": "T01",
+      "content_title": "THE 3-HORMONE CHEAT SHEET",
+      "objective": null,
+      "type": null,
+      "source": "Miror AI posts - Symptoms_Hormones_30_Posts.docx",
+      "slides": [
+        {
+          "id": "S01",
+          "type": "hook",
+          "headline": {
+            "text": "ESTROGEN.\nPROGESTERONE.\nTESTOSTERONE.\n\nWHAT DO THEY ACTUALLY DO?",
+            "lock": "EXACT"
+          }
+        },
+        {
+          "id": "S02",
+          "type": "follow-through",
+          "headline": {
+            "text": "ESTROGEN → temperature, brain, bones, vaginal tissues.",
+            "lock": "EXACT"
+          },
+          "body": [
+            {
+              "text": "PROGESTERONE → ovulation, periods and reproductive biology.",
+              "lock": "EXACT"
+            },
+            {
+              "text": "TESTOSTERONE → contributes to sexual function, muscle and wellbeing.",
+              "lock": "EXACT"
+            },
+            {
+              "text": "THEIR LEVELS AND PATTERNS CHANGE DIFFERENTLY THROUGH MENOPAUSE.",
+              "lock": "EXACT"
+            }
+          ]
+        },
+        {
+          "id": "S03",
+          "type": "cta",
+          "headline": {
+            "text": "KNOW YOUR HORMONES.",
+            "lock": "EXACT"
+          },
+          "body": [
+            {
+              "text": "UNDERSTAND YOUR SYMPTOMS.",
+              "lock": "EXACT"
+            }
+          ],
+          "cta": {
+            "text": "JOIN THE MIROR COMMUNITY →\nLink in bio",
+            "lock": "EXACT"
+          }
+        }
+      ]
+    },
+    {
+      "content_id": "MIROR-SH-030",
+      "template_id": "T01",
+      "content_title": "THE BIG ONE",
+      "objective": null,
+      "type": null,
+      "source": "Miror AI posts - Symptoms_Hormones_30_Posts.docx",
+      "slides": [
+        {
+          "id": "S01",
+          "type": "hook",
+          "headline": {
+            "text": "YOU'RE NOT DEALING WITH ONE SYMPTOM.\n\nYOU'RE DEALING WITH A CHANGING HORMONAL SYSTEM.",
+            "lock": "EXACT"
+          }
+        },
+        {
+          "id": "S02",
+          "type": "follow-through",
+          "headline": {
+            "text": "ESTROGEN FLUCTUATES — THEN FALLS.\nPROGESTERONE BECOMES LESS CONSISTENT — THEN FALLS.\nTESTOSTERONE CHANGES MORE GRADUALLY.",
+            "lock": "EXACT"
+          },
+          "body": [
+            {
+              "text": "THAT CAN SHOW UP AS:\nHOT FLASHES.\nSLEEP PROBLEMS.\nBRAIN FOG.\nMOOD CHANGES.\nDRYNESS.\nLOW LIBIDO.\nJOINT & BONE CHANGES.",
+              "lock": "EXACT"
+            },
+            {
+              "text": "AND THERE ARE REAL, CLINICAL WAYS TO HELP.",
+              "lock": "EXACT"
+            }
+          ]
+        },
+        {
+          "id": "S03",
+          "type": "cta",
+          "headline": {
+            "text": "STOP GUESSING WHAT YOUR BODY IS DOING.",
+            "lock": "EXACT"
+          },
+          "body": [
+            {
+              "text": "START UNDERSTANDING IT.",
+              "lock": "EXACT"
+            }
+          ],
+          "cta": {
+            "text": "JOIN THE MIROR COMMUNITY →\nLink in bio",
+            "lock": "EXACT"
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1629 @@
+{
+  "total_posts": 30,
+  "posts": [
+    {
+      "content_id": "MIROR-SUP-001",
+      "template_id": "T01",
+      "content_title": "YOUR SUPPLEMENT DRAWER IS NOT A STRATEGY",
+      "objective": null,
+      "type": null,
+      "source": "Miror AI Posts - Supplements_30_Posts_Design_Handoff.docx",
+      "slides": [
+        {
+          "id": "S01",
+          "type": "hook",
+          "headline": {
+            "text": "YOU'RE TAKING:\nMAGNESIUM.\nVITAMIN D.\nOMEGA-3.\nB12.\nCOLLAGEN.\nAND THREE OTHER THINGS YOU CAN'T REMEMBER WHY YOU BOUGHT.",
+            "lock": "EXACT"
+          }
+        },
+        {
+          "id": "S02",
+          "type": "follow-through",
+          "headline": {
+            "text": "HERE'S THE PROBLEM.",
+            "lock": "EXACT"
+          },
+          "body": [
+            {
+              "text": "More supplements do not automatically mean better health.",
+              "lock": "EXACT"
+            },
+            {
+              "text": "The right question is:\nWHAT DO YOU ACTUALLY NEED?",
+              "lock": "EXACT"
+            },
+            {
+              "text": "Food intake, symptoms, age, medications, lifestyle and — where appropriate — lab results should guide the decision.",
+              "lock": "EXACT"
+            }
+          ]
+        },
+        {
+          "id": "S03",
+          "type": "cta",
+          "headline": {
+            "text": "STOP SUPPLEMENTING RANDOMLY.",
+            "lock": "EXACT"
+          },
+          "body": [
+            {
+              "text": "START SUPPLEMENTING INTELLIGENTLY.",
+              "lock": "EXACT"
+            }
+          ],
+          "cta": {
+            "text": "VISIT MIROR →\nLink in bio",
+            "lock": "EXACT"
+          }
+        }
+      ]
+    },
+    {
+      "content_id": "MIROR-SUP-002",
+      "template_id": "T01",
+      "content_title": "MAGNESIUM FOR THE WOMAN WHO CAN'T SWITCH OFF",
+      "objective": null,
+      "type": null,
+      "source": "Miror AI Posts - Supplements_30_Posts_Design_Handoff.docx",
+      "slides": [
+        {
+          "id": "S01",
+          "type": "hook",
+          "headline": {
+            "text": "YOU'RE TIRED ALL DAY.\n\nTHEN BEDTIME ARRIVES…\n\nAND YOUR BRAIN SAYS:\n“LET'S THINK ABOUT EVERYTHING.”",
+            "lock": "EXACT"
+          }
+        },
+        {
+          "id": "S02",
+          "type": "follow-through",
+          "headline": {
+            "text": "HERE'S WHERE MAGNESIUM FITS IN.",
+            "lock": "EXACT"
+          },
+          "body": [
+            {
+              "text": "Magnesium supports normal nerve and muscle function and is involved in hundreds of processes in the body.",
+              "lock": "EXACT"
+            },
+            {
+              "text": "But it isn't a magic sleep pill.",
+              "lock": "EXACT"
+            },
+            {
+              "text": "If you're low in magnesium, correcting that matters. For sleep specifically, evidence is still developing.",
+              "lock": "EXACT"
+            }
+          ]
+        },
+        {
+          "id": "S03",
+          "type": "cta",
+          "headline": {
+            "text": "KNOW WHAT MAGNESIUM CAN — AND CAN'T — DO.",
+            "lock": "EXACT"
+          },
+          "cta": {
+            "text": "VISIT MIROR →\nLink in bio",
+            "lock": "EXACT"
+          }
+        }
+      ]
+    },
+    {
+      "content_id": "MIROR-SUP-003",
+      "template_id": "T01",
+      "content_title": "VITAMIN D ISN'T JUST A “SUNSHINE VITAMIN”",
+      "objective": null,
+      "type": null,
+      "source": "Miror AI Posts - Supplements_30_Posts_Design_Handoff.docx",
+      "slides": [
+        {
+          "id": "S01",
+          "type": "hook",
+          "headline": {
+            "text": "YOU'RE WORRIED ABOUT YOUR BONES.\n\nBUT WHEN WAS THE LAST TIME YOU THOUGHT ABOUT VITAMIN D?",
+            "lock": "EXACT"
+          }
+        },
+        {
+          "id": "S02",
+          "type": "follow-through",
+          "headline": {
+            "text": "HERE'S WHY IT MATTERS.",
+            "lock": "EXACT"
+          },
+          "body": [
+            {
+              "text": "Vitamin D helps your body absorb calcium and plays an important role in bone health.",
+              "lock": "EXACT"
+            },
+            {
+              "text": "During and after menopause, bone health deserves more attention.",
+              "lock": "EXACT"
+            },
+            {
+              "text": "BUT MORE IS NOT BETTER — YOUR NEEDS MATTER.",
+              "lock": "EXACT"
+            }
+          ]
+        },
+        {
+          "id": "S03",
+          "type": "cta",
+          "headline": {
+            "text": "BUILD YOUR BONE HEALTH SMARTER.",
+            "lock": "EXACT"
+          },
+          "cta": {
+            "text": "VISIT MIROR →\nLink in bio",
+            "lock": "EXACT"
+          }
+        }
+      ]
+    },
+    {
+      "content_id": "MIROR-SUP-004",
+      "template_id": "T01",
+      "content_title": "CALCIUM: FOOD FIRST",
+      "objective": null,
+      "type": null,
+      "source": "Miror AI Posts - Supplements_30_Posts_Design_Handoff.docx",
+      "slides": [
+        {
+          "id": "S01",
+          "type": "hook",
+          "headline": {
+            "text": "YOUR BONES ARE CHANGING.\n\nSO YOU BUY CALCIUM.\n\nBUT HERE'S THE PART MOST PEOPLE MISS.",
+            "lock": "EXACT"
+          }
+        },
+        {
+          "id": "S02",
+          "type": "follow-through",
+          "headline": {
+            "text": "CALCIUM IS A NUTRIENT — NOT A MAGIC BONE PILL.",
+            "lock": "EXACT"
+          },
+          "body": [
+            {
+              "text": "Your body needs calcium for bones, muscles and nerves.",
+              "lock": "EXACT"
+            },
+            {
+              "text": "But supplementation should fill a gap when your diet doesn't provide enough — not automatically replace a good diet.",
+              "lock": "EXACT"
+            },
+            {
+              "text": "AND TOO MUCH CAN BE A PROBLEM.",
+              "lock": "EXACT"
+            }
+          ]
+        },
+        {
+          "id": "S03",
+          "type": "cta",
+          "headline": {
+            "text": "KNOW HOW MUCH YOU ACTUALLY NEED.",
+            "lock": "EXACT"
+          },
+          "cta": {
+            "text": "VISIT MIROR →\nLink in bio",
+            "lock": "EXACT"
+          }
+        }
+      ]
+    },
+    {
+      "content_id": "MIROR-SUP-005",
+      "template_id": "T01",
+      "content_title": "B12 FOR THE WOMAN RUNNING ON EMPTY",
+      "objective": null,
+      "type": null,
+      "source": "Miror AI Posts - Supplements_30_Posts_Design_Handoff.docx",
+      "slides": [
+        {
+          "id": "S01",
+          "type": "hook",
+          "headline": {
+            "text": "YOU'RE EXHAUSTED.\n\nBRAIN FOGGY.\n\nFOCUS? GONE.\n\nYOU THINK:\n“MENOPAUSE.”",
+            "lock": "EXACT"
+          }
+        },
+        {
+          "id": "S02",
+          "type": "follow-through",
+          "headline": {
+            "text": "MAYBE. BUT DON'T STOP THERE.",
+            "lock": "EXACT"
+          },
+          "body": [
+            {
+              "text": "Vitamin B12 is essential for red blood cell formation and normal neurological function.",
+              "lock": "EXACT"
+            },
+            {
+              "text": "Low B12 can contribute to tiredness and neurological symptoms.",
+              "lock": "EXACT"
+            },
+            {
+              "text": "THAT DOESN'T MEAN B12 FIXES MENOPAUSE.",
+              "lock": "EXACT"
+            },
+            {
+              "text": "IT MEANS A DEFICIENCY IS WORTH IDENTIFYING.",
+              "lock": "EXACT"
+            }
+          ]
+        },
+        {
+          "id": "S03",
+          "type": "cta",
+          "headline": {
+            "text": "DON'T GUESS. CHECK THE GAPS.",
+            "lock": "EXACT"
+          },
+          "cta": {
+            "text": "VISIT MIROR →\nLink in bio",
+            "lock": "EXACT"
+          }
+        }
+      ]
+    },
+    {
+      "content_id": "MIROR-SUP-006",
+      "template_id": "T01",
+      "content_title": "IRON IS NOT AN ENERGY BOOSTER",
+      "objective": null,
+      "type": null,
+      "source": "Miror AI Posts - Supplements_30_Posts_Design_Handoff.docx",
+      "slides": [
+        {
+          "id": "S01",
+          "type": "hook",
+          "headline": {
+            "text": "TIRED?\n\nDON'T JUST BUY IRON.",
+            "lock": "EXACT"
+          }
+        },
+        {
+          "id": "S02",
+          "type": "follow-through",
+          "headline": {
+            "text": "HERE'S WHY.",
+            "lock": "EXACT"
+          },
+          "body": [
+            {
+              "text": "Iron is essential for haemoglobin and oxygen transport.",
+              "lock": "EXACT"
+            },
+            {
+              "text": "Iron deficiency can cause fatigue and weakness.",
+              "lock": "EXACT"
+            },
+            {
+              "text": "BUT IRON SUPPLEMENTS AREN'T FOR EVERYONE — AND TOO MUCH IRON CAN BE HARMFUL.",
+              "lock": "EXACT"
+            },
+            {
+              "text": "If you're still having heavy periods in perimenopause, iron status may be especially worth discussing with a clinician.",
+              "lock": "EXACT"
+            }
+          ]
+        },
+        {
+          "id": "S03",
+          "type": "cta",
+          "headline": {
+            "text": "SUPPLEMENT THE NEED — NOT THE FEAR.",
+            "lock": "EXACT"
+          },
+          "cta": {
+            "text": "VISIT MIROR →\nLink in bio",
+            "lock": "EXACT"
+          }
+        }
+      ]
+    },
+    {
+      "content_id": "MIROR-SUP-007",
+      "template_id": "T01",
+      "content_title": "OMEGA-3: WHAT'S ACTUALLY IN IT?",
+      "objective": null,
+      "type": null,
+      "source": "Miror AI Posts - Supplements_30_Posts_Design_Handoff.docx",
+      "slides": [
+        {
+          "id": "S01",
+          "type": "hook",
+          "headline": {
+            "text": "YOU BOUGHT “OMEGA-3.”\n\nBUT DO YOU KNOW WHAT YOU'RE ACTUALLY TAKING?\n\nEPA?\nDHA?\nBOTH?\nHOW MUCH?",
+            "lock": "EXACT"
+          }
+        },
+        {
+          "id": "S02",
+          "type": "follow-through",
+          "headline": {
+            "text": "HERE'S WHY THE LABEL MATTERS.",
+            "lock": "EXACT"
+          },
+          "body": [
+            {
+              "text": "EPA and DHA are the main long-chain omega-3 fatty acids found in fish and fish oil.",
+              "lock": "EXACT"
+            },
+            {
+              "text": "They have established roles in health, but a supplement is not automatically necessary for everyone.",
+              "lock": "EXACT"
+            },
+            {
+              "text": "FOOD, DOSE AND YOUR INDIVIDUAL NEEDS MATTER.",
+              "lock": "EXACT"
+            }
+          ]
+        },
+        {
+          "id": "S03",
+          "type": "cta",
+          "headline": {
+            "text": "READ THE INGREDIENTS. NOT JUST THE FRONT LABEL.",
+            "lock": "EXACT"
+          },
+          "cta": {
+            "text": "VISIT MIROR →\nLink in bio",
+            "lock": "EXACT"
+          }
+        }
+      ]
+    },
+    {
+      "content_id": "MIROR-SUP-008",
+      "template_id": "T01",
+      "content_title": "THE WORKING WOMAN'S SUPPLEMENT PROBLEM",
+      "objective": null,
+      "type": null,
+      "source": "Miror AI Posts - Supplements_30_Posts_Design_Handoff.docx",
+      "slides": [
+        {
+          "id": "S01",
+          "type": "hook",
+          "headline": {
+            "text": "YOU HAVE:\n\n8AM MEETING.\n10AM COFFEE.\n1PM LUNCH AT YOUR DESK.\n6PM SCHOOL PICK-UP.\n9PM YOU REALISE YOU FORGOT DINNER.",
+            "lock": "EXACT"
+          }
+        },
+        {
+          "id": "S02",
+          "type": "follow-through",
+          "headline": {
+            "text": "HERE'S WHERE SMART NUTRITION MATTERS.",
+            "lock": "EXACT"
+          },
+          "body": [
+            {
+              "text": "A hectic life can make consistent nutrition harder.",
+              "lock": "EXACT"
+            },
+            {
+              "text": "Supplements can help fill specific nutritional gaps — but they work best alongside food, hydration, sleep, movement and regular meals.",
+              "lock": "EXACT"
+            },
+            {
+              "text": "THE GOAL IS SUPPORT. NOT A SUBSTITUTE FOR LIVING.",
+              "lock": "EXACT"
+            }
+          ]
+        },
+        {
+          "id": "S03",
+          "type": "cta",
+          "headline": {
+            "text": "SUPPORT YOUR BODY FOR THE LIFE YOU ACTUALLY LIVE.",
+            "lock": "EXACT"
+          },
+          "cta": {
+            "text": "VISIT MIROR →\nLink in bio",
+            "lock": "EXACT"
+          }
+        }
+      ]
+    },
+    {
+      "content_id": "MIROR-SUP-009",
+      "template_id": "T01",
+      "content_title": "THE “I'M TOO BUSY” SUPPLEMENT",
+      "objective": null,
+      "type": null,
+      "source": "Miror AI Posts - Supplements_30_Posts_Design_Handoff.docx",
+      "slides": [
+        {
+          "id": "S01",
+          "type": "hook",
+          "headline": {
+            "text": "YOU DON'T HAVE TIME TO:\n\nPLAN.\nPREP.\nCOOK.\nTRACK.\nRESEARCH.\n\nBUT YOUR BODY STILL NEEDS NUTRIENTS.",
+            "lock": "EXACT"
+          }
+        },
+        {
+          "id": "S02",
+          "type": "follow-through",
+          "headline": {
+            "text": "HERE'S THE SMARTER APPROACH.",
+            "lock": "EXACT"
+          },
+          "body": [
+            {
+              "text": "Identify the nutrients you may be missing.",
+              "lock": "EXACT"
+            },
+            {
+              "text": "Then build simple, consistent habits around them.",
+              "lock": "EXACT"
+            },
+            {
+              "text": "A good supplement routine should make healthy living easier — not more complicated.",
+              "lock": "EXACT"
+            }
+          ]
+        },
+        {
+          "id": "S03",
+          "type": "cta",
+          "headline": {
+            "text": "LESS CONFUSION. MORE CONSISTENCY.",
+            "lock": "EXACT"
+          },
+          "cta": {
+            "text": "VISIT MIROR →\nLink in bio",
+            "lock": "EXACT"
+          }
+        }
+      ]
+    },
+    {
+      "content_id": "MIROR-SUP-010",
+      "template_id": "T01",
+      "content_title": "MAGNESIUM IS NOT JUST FOR SLEEP",
+      "objective": null,
+      "type": null,
+      "source": "Miror AI Posts - Supplements_30_Posts_Design_Handoff.docx",
+      "slides": [
+        {
+          "id": "S01",
+          "type": "hook",
+          "headline": {
+            "text": "YOU HEAR “MAGNESIUM” AND THINK:\n\nSLEEP.\n\nBUT YOUR BODY THINKS MUCH BIGGER.",
+            "lock": "EXACT"
+          }
+        },
+        {
+          "id": "S02",
+          "type": "follow-through",
+          "headline": {
+            "text": "MAGNESIUM IS INVOLVED IN:",
+            "lock": "EXACT"
+          },
+          "body": [
+            {
+              "text": "Muscle function.\nNerve function.\nBlood pressure regulation.\nBlood sugar regulation.\nProtein production.\nBone health.",
+              "lock": "EXACT"
+            },
+            {
+              "text": "ONE MINERAL. A LOT OF JOBS.",
+              "lock": "EXACT"
+            },
+            {
+              "text": "But that doesn't mean everyone needs a high-dose supplement.",
+              "lock": "EXACT"
+            }
+          ]
+        },
+        {
+          "id": "S03",
+          "type": "cta",
+          "headline": {
+            "text": "KNOW THE INGREDIENT. KNOW THE PURPOSE.",
+            "lock": "EXACT"
+          },
+          "cta": {
+            "text": "VISIT MIROR →\nLink in bio",
+            "lock": "EXACT"
+          }
+        }
+      ]
+    },
+    {
+      "content_id": "MIROR-SUP-011",
+      "template_id": "T01",
+      "content_title": "VITAMIN D + CALCIUM",
+      "objective": null,
+      "type": null,
+      "source": "Miror AI Posts - Supplements_30_Posts_Design_Handoff.docx",
+      "slides": [
+        {
+          "id": "S01",
+          "type": "hook",
+          "headline": {
+            "text": "TAKING CALCIUM?\n\nTHEN ASK YOURSELF:\n\n“AM I GETTING ENOUGH VITAMIN D?”",
+            "lock": "EXACT"
+          }
+        },
+        {
+          "id": "S02",
+          "type": "follow-through",
+          "headline": {
+            "text": "HERE'S THE CONNECTION.",
+            "lock": "EXACT"
+          },
+          "body": [
+            {
+              "text": "Vitamin D helps your body absorb calcium.",
+              "lock": "EXACT"
+            },
+            {
+              "text": "Both nutrients matter for bone health.",
+              "lock": "EXACT"
+            },
+            {
+              "text": "But bone protection is bigger than supplements:\nprotein, strength training, physical activity, lifestyle and individual risk all matter too.",
+              "lock": "EXACT"
+            }
+          ]
+        },
+        {
+          "id": "S03",
+          "type": "cta",
+          "headline": {
+            "text": "DON'T BUILD BONE HEALTH ONE INGREDIENT AT A TIME.",
+            "lock": "EXACT"
+          },
+          "cta": {
+            "text": "VISIT MIROR →\nLink in bio",
+            "lock": "EXACT"
+          }
+        }
+      ]
+    },
+    {
+      "content_id": "MIROR-SUP-012",
+      "template_id": "T01",
+      "content_title": "CREATINE ISN'T JUST FOR BODYBUILDERS",
+      "objective": null,
+      "type": null,
+      "source": "Miror AI Posts - Supplements_30_Posts_Design_Handoff.docx",
+      "slides": [
+        {
+          "id": "S01",
+          "type": "hook",
+          "headline": {
+            "text": "CREATINE?\n\nYOU THINK:\nGYM BRO.\n\nTHINK AGAIN.",
+            "lock": "EXACT"
+          }
+        },
+        {
+          "id": "S02",
+          "type": "follow-through",
+          "headline": {
+            "text": "CREATINE MONOHYDRATE IS ALSO BEING STUDIED IN WOMEN'S HEALTH.",
+            "lock": "EXACT"
+          },
+          "body": [
+            {
+              "text": "It helps replenish phosphocreatine, which supports rapid energy production in cells.",
+              "lock": "EXACT"
+            },
+            {
+              "text": "For women in midlife, research is exploring potential benefits for strength, muscle and physical function — especially alongside resistance training.",
+              "lock": "EXACT"
+            },
+            {
+              "text": "THE SCIENCE IS PROMISING. IT ISN'T A MIRACLE.",
+              "lock": "EXACT"
+            }
+          ]
+        },
+        {
+          "id": "S03",
+          "type": "cta",
+          "headline": {
+            "text": "UNDERSTAND THE INGREDIENT BEFORE YOU ADD IT.",
+            "lock": "EXACT"
+          },
+          "cta": {
+            "text": "VISIT MIROR →\nLink in bio",
+            "lock": "EXACT"
+          }
+        }
+      ]
+    },
+    {
+      "content_id": "MIROR-SUP-013",
+      "template_id": "T01",
+      "content_title": "PROTEIN IS NOT A SUPPLEMENT FIRST",
+      "objective": null,
+      "type": null,
+      "source": "Miror AI Posts - Supplements_30_Posts_Design_Handoff.docx",
+      "slides": [
+        {
+          "id": "S01",
+          "type": "hook",
+          "headline": {
+            "text": "YOU'RE BUYING COLLAGEN.\n\nBUT ARE YOU GETTING ENOUGH PROTEIN?",
+            "lock": "EXACT"
+          }
+        },
+        {
+          "id": "S02",
+          "type": "follow-through",
+          "headline": {
+            "text": "HERE'S THE BIGGER PICTURE.",
+            "lock": "EXACT"
+          },
+          "body": [
+            {
+              "text": "Protein provides amino acids your body uses to maintain and build tissues, including muscle.",
+              "lock": "EXACT"
+            },
+            {
+              "text": "As women age, protecting muscle becomes increasingly important.",
+              "lock": "EXACT"
+            },
+            {
+              "text": "A protein powder can be convenient.",
+              "lock": "EXACT"
+            },
+            {
+              "text": "BUT FOOD STILL COUNTS.",
+              "lock": "EXACT"
+            }
+          ]
+        },
+        {
+          "id": "S03",
+          "type": "cta",
+          "headline": {
+            "text": "BUILD THE FOUNDATION FIRST.",
+            "lock": "EXACT"
+          },
+          "cta": {
+            "text": "VISIT MIROR →\nLink in bio",
+            "lock": "EXACT"
+          }
+        }
+      ]
+    },
+    {
+      "content_id": "MIROR-SUP-014",
+      "template_id": "T01",
+      "content_title": "THE COLLAGEN QUESTION",
+      "objective": null,
+      "type": null,
+      "source": "Miror AI Posts - Supplements_30_Posts_Design_Handoff.docx",
+      "slides": [
+        {
+          "id": "S01",
+          "type": "hook",
+          "headline": {
+            "text": "YOUR SKIN FEELS DIFFERENT.\n\nYOUR HAIR FEELS DIFFERENT.\n\nSO YOU BUY COLLAGEN.\n\nBUT WHAT CAN IT ACTUALLY DO?",
+            "lock": "EXACT"
+          }
+        },
+        {
+          "id": "S02",
+          "type": "follow-through",
+          "headline": {
+            "text": "HERE'S THE HONEST ANSWER.",
+            "lock": "EXACT"
+          },
+          "body": [
+            {
+              "text": "Collagen peptides have been studied for skin and joint-related outcomes, with some evidence of benefit.",
+              "lock": "EXACT"
+            },
+            {
+              "text": "But collagen is not a complete protein and it isn't a replacement for overall protein intake.",
+              "lock": "EXACT"
+            },
+            {
+              "text": "INGREDIENTS CAN HELP. MARKETING CAN OVERPROMISE.",
+              "lock": "EXACT"
+            }
+          ]
+        },
+        {
+          "id": "S03",
+          "type": "cta",
+          "headline": {
+            "text": "KNOW THE EVIDENCE. THEN CHOOSE.",
+            "lock": "EXACT"
+          },
+          "cta": {
+            "text": "VISIT MIROR →\nLink in bio",
+            "lock": "EXACT"
+          }
+        }
+      ]
+    },
+    {
+      "content_id": "MIROR-SUP-015",
+      "template_id": "T01",
+      "content_title": "THE MULTIVITAMIN MYTH",
+      "objective": null,
+      "type": null,
+      "source": "Miror AI Posts - Supplements_30_Posts_Design_Handoff.docx",
+      "slides": [
+        {
+          "id": "S01",
+          "type": "hook",
+          "headline": {
+            "text": "ONE CAPSULE.\n\n20 VITAMINS.\n\n100% OF EVERYTHING.\n\nSOUNDS PERFECT, RIGHT?",
+            "lock": "EXACT"
+          }
+        },
+        {
+          "id": "S02",
+          "type": "follow-through",
+          "headline": {
+            "text": "NOT NECESSARILY.",
+            "lock": "EXACT"
+          },
+          "body": [
+            {
+              "text": "A multivitamin can help fill nutritional gaps for some people.",
+              "lock": "EXACT"
+            },
+            {
+              "text": "But more nutrients aren't automatically better.",
+              "lock": "EXACT"
+            },
+            {
+              "text": "Your diet, age, restrictions, medications and individual needs matter.",
+              "lock": "EXACT"
+            },
+            {
+              "text": "THE BEST SUPPLEMENT IS THE ONE THAT SOLVES A REAL GAP.",
+              "lock": "EXACT"
+            }
+          ]
+        },
+        {
+          "id": "S03",
+          "type": "cta",
+          "headline": {
+            "text": "STOP SHOPPING BY THE NUMBER OF INGREDIENTS.",
+            "lock": "EXACT"
+          },
+          "cta": {
+            "text": "VISIT MIROR →\nLink in bio",
+            "lock": "EXACT"
+          }
+        }
+      ]
+    },
+    {
+      "content_id": "MIROR-SUP-016",
+      "template_id": "T01",
+      "content_title": "THE “MORE IS BETTER” TRAP",
+      "objective": null,
+      "type": null,
+      "source": "Miror AI Posts - Supplements_30_Posts_Design_Handoff.docx",
+      "slides": [
+        {
+          "id": "S01",
+          "type": "hook",
+          "headline": {
+            "text": "YOUR SUPPLEMENT LABEL SAYS:\n\n500%.\n1000%.\n2000%.\n\nSO IT MUST BE BETTER…\n\nRIGHT?",
+            "lock": "EXACT"
+          }
+        },
+        {
+          "id": "S02",
+          "type": "follow-through",
+          "headline": {
+            "text": "NO.",
+            "lock": "EXACT"
+          },
+          "body": [
+            {
+              "text": "Some nutrients have upper limits, interactions or risks at high doses.",
+              "lock": "EXACT"
+            },
+            {
+              "text": "Water-soluble doesn't mean “impossible to overdose.”",
+              "lock": "EXACT"
+            },
+            {
+              "text": "And some nutrients simply don't provide extra benefit just because you take more.",
+              "lock": "EXACT"
+            },
+            {
+              "text": "DOSE MATTERS.",
+              "lock": "EXACT"
+            }
+          ]
+        },
+        {
+          "id": "S03",
+          "type": "cta",
+          "headline": {
+            "text": "SMART SUPPLEMENTATION STARTS WITH THE RIGHT DOSE.",
+            "lock": "EXACT"
+          },
+          "cta": {
+            "text": "VISIT MIROR →\nLink in bio",
+            "lock": "EXACT"
+          }
+        }
+      ]
+    },
+    {
+      "content_id": "MIROR-SUP-017",
+      "template_id": "T01",
+      "content_title": "B6: THE VITAMIN YOU SHOULDN'T MEGADOSE",
+      "objective": null,
+      "type": null,
+      "source": "Miror AI Posts - Supplements_30_Posts_Design_Handoff.docx",
+      "slides": [
+        {
+          "id": "S01",
+          "type": "hook",
+          "headline": {
+            "text": "YOU SEE “B-COMPLEX.”\n\nYOU THINK:\nENERGY.\n\nBUT LOOK AT THE DOSE.",
+            "lock": "EXACT"
+          }
+        },
+        {
+          "id": "S02",
+          "type": "follow-through",
+          "headline": {
+            "text": "HERE'S WHY.",
+            "lock": "EXACT"
+          },
+          "body": [
+            {
+              "text": "Vitamin B6 is essential, but taking high amounts from supplements over time can cause nerve damage.",
+              "lock": "EXACT"
+            },
+            {
+              "text": "MORE IS NOT A BETTER VERSION OF A VITAMIN.",
+              "lock": "EXACT"
+            },
+            {
+              "text": "CHECK THE LABEL. CHECK THE DOSE.",
+              "lock": "EXACT"
+            }
+          ]
+        },
+        {
+          "id": "S03",
+          "type": "cta",
+          "headline": {
+            "text": "READ THE SMALL PRINT.",
+            "lock": "EXACT"
+          },
+          "cta": {
+            "text": "VISIT MIROR →\nLink in bio",
+            "lock": "EXACT"
+          }
+        }
+      ]
+    },
+    {
+      "content_id": "MIROR-SUP-018",
+      "template_id": "T01",
+      "content_title": "THE SUPPLEMENT + MEDICATION PROBLEM",
+      "objective": null,
+      "type": null,
+      "source": "Miror AI Posts - Supplements_30_Posts_Design_Handoff.docx",
+      "slides": [
+        {
+          "id": "S01",
+          "type": "hook",
+          "headline": {
+            "text": "YOU TAKE:\n\nA PRESCRIPTION.\nA MULTIVITAMIN.\nMAGNESIUM.\nOMEGA-3.\nA HERBAL BLEND.\n\nAND NEVER TELL YOUR DOCTOR.",
+            "lock": "EXACT"
+          }
+        },
+        {
+          "id": "S02",
+          "type": "follow-through",
+          "headline": {
+            "text": "HERE'S WHY THAT MATTERS.",
+            "lock": "EXACT"
+          },
+          "body": [
+            {
+              "text": "Supplements can interact with medicines or affect how some medicines are absorbed.",
+              "lock": "EXACT"
+            },
+            {
+              "text": "“IT'S NATURAL” DOESN'T MEAN “IT CAN'T INTERACT.”",
+              "lock": "EXACT"
+            },
+            {
+              "text": "ALWAYS TELL YOUR DOCTOR OR PHARMACIST WHAT YOU TAKE.",
+              "lock": "EXACT"
+            }
+          ]
+        },
+        {
+          "id": "S03",
+          "type": "cta",
+          "headline": {
+            "text": "YOUR SUPPLEMENT LIST IS PART OF YOUR HEALTH HISTORY.",
+            "lock": "EXACT"
+          },
+          "cta": {
+            "text": "VISIT MIROR →\nLink in bio",
+            "lock": "EXACT"
+          }
+        }
+      ]
+    },
+    {
+      "content_id": "MIROR-SUP-019",
+      "template_id": "T01",
+      "content_title": "THE SYMPTOM → INGREDIENT CHEAT SHEET",
+      "objective": null,
+      "type": null,
+      "source": "Miror AI Posts - Supplements_30_Posts_Design_Handoff.docx",
+      "slides": [
+        {
+          "id": "S01",
+          "type": "hook",
+          "headline": {
+            "text": "SYMPTOM?\n\nDON'T START WITH:\n“WHAT SUPPLEMENT SHOULD I BUY?”\n\nSTART WITH:\n“WHAT COULD BE BEHIND THIS?”",
+            "lock": "EXACT"
+          }
+        },
+        {
+          "id": "S02",
+          "type": "follow-through",
+          "headline": {
+            "text": "THINK IN PATTERNS:",
+            "lock": "EXACT"
+          },
+          "body": [
+            {
+              "text": "TIRED → check sleep, diet and possible nutrient deficiencies.",
+              "lock": "EXACT"
+            },
+            {
+              "text": "BONE CONCERNS → think calcium, vitamin D, protein, strength and risk.",
+              "lock": "EXACT"
+            },
+            {
+              "text": "MUSCLE GOALS → think protein, resistance training and recovery.",
+              "lock": "EXACT"
+            },
+            {
+              "text": "BRAIN FOG → don't assume a supplement is the answer; look at sleep, mood, medications and possible deficiencies too.",
+              "lock": "EXACT"
+            },
+            {
+              "text": "THE INGREDIENT COMES AFTER THE QUESTION.",
+              "lock": "EXACT"
+            }
+          ]
+        },
+        {
+          "id": "S03",
+          "type": "cta",
+          "headline": {
+            "text": "SMARTER QUESTIONS. SMARTER SUPPLEMENTATION.",
+            "lock": "EXACT"
+          },
+          "cta": {
+            "text": "VISIT MIROR →\nLink in bio",
+            "lock": "EXACT"
+          }
+        }
+      ]
+    },
+    {
+      "content_id": "MIROR-SUP-020",
+      "template_id": "T01",
+      "content_title": "PERIMENOPAUSE IS NOT A DEFICIENCY",
+      "objective": null,
+      "type": null,
+      "source": "Miror AI Posts - Supplements_30_Posts_Design_Handoff.docx",
+      "slides": [
+        {
+          "id": "S01",
+          "type": "hook",
+          "headline": {
+            "text": "PERIMENOPAUSE DOESN'T MEAN:\n\n“MY BODY NEEDS MORE OF EVERYTHING.”",
+            "lock": "EXACT"
+          }
+        },
+        {
+          "id": "S02",
+          "type": "follow-through",
+          "headline": {
+            "text": "HERE'S THE IMPORTANT PART.",
+            "lock": "EXACT"
+          },
+          "body": [
+            {
+              "text": "Hormonal changes are not automatically caused by vitamin or mineral deficiencies.",
+              "lock": "EXACT"
+            },
+            {
+              "text": "Supplements can support nutritional needs.",
+              "lock": "EXACT"
+            },
+            {
+              "text": "THEY DON'T REPLACE HORMONAL CARE.",
+              "lock": "EXACT"
+            },
+            {
+              "text": "Know the difference between supporting your body and trying to “balance” hormones with a capsule.",
+              "lock": "EXACT"
+            }
+          ]
+        },
+        {
+          "id": "S03",
+          "type": "cta",
+          "headline": {
+            "text": "DON'T CONFUSE NUTRITION WITH HORMONE TREATMENT.",
+            "lock": "EXACT"
+          },
+          "cta": {
+            "text": "VISIT MIROR →\nLink in bio",
+            "lock": "EXACT"
+          }
+        }
+      ]
+    },
+    {
+      "content_id": "MIROR-SUP-021",
+      "template_id": "T01",
+      "content_title": "THE BUSY MORNING STACK",
+      "objective": null,
+      "type": null,
+      "source": "Miror AI Posts - Supplements_30_Posts_Design_Handoff.docx",
+      "slides": [
+        {
+          "id": "S01",
+          "type": "hook",
+          "headline": {
+            "text": "COFFEE.\n\nEMAILS.\n\nKIDS.\n\nTRAFFIC.\n\nMEETING.\n\nAND SOMEWHERE IN THERE…\n\nYOU'RE SUPPOSED TO REMEMBER YOUR SUPPLEMENTS.",
+            "lock": "EXACT"
+          }
+        },
+        {
+          "id": "S02",
+          "type": "follow-through",
+          "headline": {
+            "text": "MAKE IT SIMPLE.",
+            "lock": "EXACT"
+          },
+          "body": [
+            {
+              "text": "Choose a routine you can actually follow.",
+              "lock": "EXACT"
+            },
+            {
+              "text": "Keep only what you have a reason to take.",
+              "lock": "EXACT"
+            },
+            {
+              "text": "Use consistent timing.",
+              "lock": "EXACT"
+            },
+            {
+              "text": "And review the list periodically.",
+              "lock": "EXACT"
+            },
+            {
+              "text": "THE BEST ROUTINE IS THE ONE YOU CAN SUSTAIN.",
+              "lock": "EXACT"
+            }
+          ]
+        },
+        {
+          "id": "S03",
+          "type": "cta",
+          "headline": {
+            "text": "MAKE YOUR SUPPLEMENT ROUTINE WORK FOR YOUR LIFE.",
+            "lock": "EXACT"
+          },
+          "cta": {
+            "text": "VISIT MIROR →\nLink in bio",
+            "lock": "EXACT"
+          }
+        }
+      ]
+    },
+    {
+      "content_id": "MIROR-SUP-022",
+      "template_id": "T01",
+      "content_title": "THE LABEL TEST",
+      "objective": null,
+      "type": null,
+      "source": "Miror AI Posts - Supplements_30_Posts_Design_Handoff.docx",
+      "slides": [
+        {
+          "id": "S01",
+          "type": "hook",
+          "headline": {
+            "text": "BEFORE YOU BUY A SUPPLEMENT…\n\nCAN YOU ANSWER THESE 5 QUESTIONS?",
+            "lock": "EXACT"
+          }
+        },
+        {
+          "id": "S02",
+          "type": "follow-through",
+          "headline": {
+            "text": "1. WHAT INGREDIENT IS IN IT?\n2. HOW MUCH?\n3. WHY AM I TAKING IT?\n4. WHAT EVIDENCE SUPPORTS IT?\n5. COULD IT INTERACT WITH ANYTHING I TAKE?",
+            "lock": "EXACT"
+          },
+          "body": [
+            {
+              "text": "IF YOU CAN'T ANSWER THEM…",
+              "lock": "EXACT"
+            },
+            {
+              "text": "DON'T BUY IT YET.",
+              "lock": "EXACT"
+            }
+          ]
+        },
+        {
+          "id": "S03",
+          "type": "cta",
+          "headline": {
+            "text": "BECOME A SMARTER SUPPLEMENT SHOPPER.",
+            "lock": "EXACT"
+          },
+          "cta": {
+            "text": "VISIT MIROR →\nLink in bio",
+            "lock": "EXACT"
+          }
+        }
+      ]
+    },
+    {
+      "content_id": "MIROR-SUP-023",
+      "template_id": "T01",
+      "content_title": "THE MORNING-TO-NIGHT WOMAN",
+      "objective": null,
+      "type": null,
+      "source": "Miror AI Posts - Supplements_30_Posts_Design_Handoff.docx",
+      "slides": [
+        {
+          "id": "S01",
+          "type": "hook",
+          "headline": {
+            "text": "YOU'RE NOT “JUST TIRED.”\n\nYOU'RE:\n\nWORKING.\nCARING.\nCOOKING.\nCOMMUTING.\nEXERCISING WHEN YOU CAN.\nAND TRYING TO SLEEP WHEN YOUR BODY LETS YOU.",
+            "lock": "EXACT"
+          }
+        },
+        {
+          "id": "S02",
+          "type": "follow-through",
+          "headline": {
+            "text": "YOUR NUTRITION HAS TO SUPPORT REAL LIFE.",
+            "lock": "EXACT"
+          },
+          "body": [
+            {
+              "text": "A thoughtful supplement routine can help cover specific nutritional gaps when food alone isn't enough.",
+              "lock": "EXACT"
+            },
+            {
+              "text": "BUT THE FOUNDATION STILL MATTERS:",
+              "lock": "EXACT"
+            },
+            {
+              "text": "FOOD.\nPROTEIN.\nHYDRATION.\nMOVEMENT.\nSLEEP.",
+              "lock": "EXACT"
+            }
+          ]
+        },
+        {
+          "id": "S03",
+          "type": "cta",
+          "headline": {
+            "text": "SUPPORT YOUR BODY FOR EVERYTHING YOU ASK IT TO DO.",
+            "lock": "EXACT"
+          },
+          "cta": {
+            "text": "VISIT MIROR →\nLink in bio",
+            "lock": "EXACT"
+          }
+        }
+      ]
+    },
+    {
+      "content_id": "MIROR-SUP-024",
+      "template_id": "T01",
+      "content_title": "THE BONE SUPPORT STACK",
+      "objective": null,
+      "type": null,
+      "source": "Miror AI Posts - Supplements_30_Posts_Design_Handoff.docx",
+      "slides": [
+        {
+          "id": "S01",
+          "type": "hook",
+          "headline": {
+            "text": "WANT STRONGER BONES?\n\nDON'T JUST THINK:\nCALCIUM.",
+            "lock": "EXACT"
+          }
+        },
+        {
+          "id": "S02",
+          "type": "follow-through",
+          "headline": {
+            "text": "THINK:",
+            "lock": "EXACT"
+          },
+          "body": [
+            {
+              "text": "CALCIUM → building material.",
+              "lock": "EXACT"
+            },
+            {
+              "text": "VITAMIN D → helps calcium absorption.",
+              "lock": "EXACT"
+            },
+            {
+              "text": "PROTEIN → supports the tissues and muscle around the skeleton.",
+              "lock": "EXACT"
+            },
+            {
+              "text": "STRENGTH TRAINING → gives bones and muscles a reason to adapt.",
+              "lock": "EXACT"
+            },
+            {
+              "text": "THE BEST “BONE SUPPLEMENT” IS PART OF A BIGGER PLAN.",
+              "lock": "EXACT"
+            }
+          ]
+        },
+        {
+          "id": "S03",
+          "type": "cta",
+          "headline": {
+            "text": "BUILD STRONGER FOUNDATIONS.",
+            "lock": "EXACT"
+          },
+          "cta": {
+            "text": "VISIT MIROR →\nLink in bio",
+            "lock": "EXACT"
+          }
+        }
+      ]
+    },
+    {
+      "content_id": "MIROR-SUP-025",
+      "template_id": "T01",
+      "content_title": "THE ENERGY SUPPLEMENT MYTH",
+      "objective": null,
+      "type": null,
+      "source": "Miror AI Posts - Supplements_30_Posts_Design_Handoff.docx",
+      "slides": [
+        {
+          "id": "S01",
+          "type": "hook",
+          "headline": {
+            "text": "YOU'RE EXHAUSTED.\n\nSO YOU BUY AN “ENERGY” SUPPLEMENT.\n\nBUT WHAT IF THE ANSWER ISN'T MORE ENERGY IN A CAPSULE?",
+            "lock": "EXACT"
+          }
+        },
+        {
+          "id": "S02",
+          "type": "follow-through",
+          "headline": {
+            "text": "FATIGUE CAN HAVE MANY CAUSES.",
+            "lock": "EXACT"
+          },
+          "body": [
+            {
+              "text": "Poor sleep.\nStress.\nLow calorie intake.\nIron deficiency.\nB12 deficiency.\nThyroid problems.\nMedications.\nMenopause-related symptoms.\nAnd more.",
+              "lock": "EXACT"
+            },
+            {
+              "text": "A supplement only helps if it addresses a real need.",
+              "lock": "EXACT"
+            }
+          ]
+        },
+        {
+          "id": "S03",
+          "type": "cta",
+          "headline": {
+            "text": "DON'T MASK THE SIGNAL.",
+            "lock": "EXACT"
+          },
+          "body": [
+            {
+              "text": "FIND THE REASON.",
+              "lock": "EXACT"
+            }
+          ],
+          "cta": {
+            "text": "VISIT MIROR →\nLink in bio",
+            "lock": "EXACT"
+          }
+        }
+      ]
+    },
+    {
+      "content_id": "MIROR-SUP-026",
+      "template_id": "T01",
+      "content_title": "THE HAIR + NAILS TRAP",
+      "objective": null,
+      "type": null,
+      "source": "Miror AI Posts - Supplements_30_Posts_Design_Handoff.docx",
+      "slides": [
+        {
+          "id": "S01",
+          "type": "hook",
+          "headline": {
+            "text": "HAIR FALLING?\n\nBrittle nails?\n\nYOU BUY BIOTIN.\n\nBUT WAIT.",
+            "lock": "EXACT"
+          }
+        },
+        {
+          "id": "S02",
+          "type": "follow-through",
+          "headline": {
+            "text": "BIOTIN DEFICIENCY IS RARE.",
+            "lock": "EXACT"
+          },
+          "body": [
+            {
+              "text": "Biotin is important for normal metabolism, but there is limited evidence that high-dose biotin improves hair or nails in people who aren't deficient.",
+              "lock": "EXACT"
+            },
+            {
+              "text": "AND HIGH-DOSE BIOTIN CAN INTERFERE WITH SOME LAB TESTS.",
+              "lock": "EXACT"
+            },
+            {
+              "text": "MORE IS NOT ALWAYS SMARTER.",
+              "lock": "EXACT"
+            }
+          ]
+        },
+        {
+          "id": "S03",
+          "type": "cta",
+          "headline": {
+            "text": "KNOW THE INGREDIENT BEFORE YOU MEGADOSE IT.",
+            "lock": "EXACT"
+          },
+          "cta": {
+            "text": "VISIT MIROR →\nLink in bio",
+            "lock": "EXACT"
+          }
+        }
+      ]
+    },
+    {
+      "content_id": "MIROR-SUP-027",
+      "template_id": "T01",
+      "content_title": "THE “HORMONE BALANCE” LABEL",
+      "objective": null,
+      "type": null,
+      "source": "Miror AI Posts - Supplements_30_Posts_Design_Handoff.docx",
+      "slides": [
+        {
+          "id": "S01",
+          "type": "hook",
+          "headline": {
+            "text": "“HORMONE BALANCE.”\n\nIT'S ON THE BOTTLE.\n\nIT'S ON THE AD.\n\nBUT WHAT DOES IT ACTUALLY MEAN?",
+            "lock": "EXACT"
+          }
+        },
+        {
+          "id": "S02",
+          "type": "follow-through",
+          "headline": {
+            "text": "HERE'S THE PROBLEM.",
+            "lock": "EXACT"
+          },
+          "body": [
+            {
+              "text": "“Balance” is a marketing word — not a diagnosis.",
+              "lock": "EXACT"
+            },
+            {
+              "text": "A supplement may contain nutrients or botanicals with specific evidence, limited evidence, or no good evidence for a claimed outcome.",
+              "lock": "EXACT"
+            },
+            {
+              "text": "ASK:\nWHAT INGREDIENT?\nWHAT DOSE?\nWHAT EVIDENCE?\nWHAT EXPECTATION?",
+              "lock": "EXACT"
+            }
+          ]
+        },
+        {
+          "id": "S03",
+          "type": "cta",
+          "headline": {
+            "text": "DON'T BUY THE PROMISE.",
+            "lock": "EXACT"
+          },
+          "body": [
+            {
+              "text": "UNDERSTAND THE INGREDIENT.",
+              "lock": "EXACT"
+            }
+          ],
+          "cta": {
+            "text": "VISIT MIROR →\nLink in bio",
+            "lock": "EXACT"
+          }
+        }
+      ]
+    },
+    {
+      "content_id": "MIROR-SUP-028",
+      "template_id": "T01",
+      "content_title": "SUPPLEMENTS ARE NOT MAGIC",
+      "objective": null,
+      "type": null,
+      "source": "Miror AI Posts - Supplements_30_Posts_Design_Handoff.docx",
+      "slides": [
+        {
+          "id": "S01",
+          "type": "hook",
+          "headline": {
+            "text": "THE PERFECT SUPPLEMENT DOESN'T EXIST.\n\nTHE PERFECT SUPPLEMENT ROUTINE DOESN'T EITHER.",
+            "lock": "EXACT"
+          }
+        },
+        {
+          "id": "S02",
+          "type": "follow-through",
+          "headline": {
+            "text": "BECAUSE YOUR NEEDS CHANGE.",
+            "lock": "EXACT"
+          },
+          "body": [
+            {
+              "text": "Your diet changes.\nYour activity changes.\nYour life changes.\nYour medications can change.\nYour menopause stage changes.",
+              "lock": "EXACT"
+            },
+            {
+              "text": "A good supplement plan should be REVIEWED — not blindly repeated forever.",
+              "lock": "EXACT"
+            }
+          ]
+        },
+        {
+          "id": "S03",
+          "type": "cta",
+          "headline": {
+            "text": "YOUR HEALTH CHANGES. YOUR PLAN SHOULD TOO.",
+            "lock": "EXACT"
+          },
+          "cta": {
+            "text": "VISIT MIROR →\nLink in bio",
+            "lock": "EXACT"
+          }
+        }
+      ]
+    },
+    {
+      "content_id": "MIROR-SUP-029",
+      "template_id": "T01",
+      "content_title": "THE 5 THINGS TO CHECK",
+      "objective": null,
+      "type": null,
+      "source": "Miror AI Posts - Supplements_30_Posts_Design_Handoff.docx",
+      "slides": [
+        {
+          "id": "S01",
+          "type": "hook",
+          "headline": {
+            "text": "BEFORE YOU ADD ANOTHER SUPPLEMENT…\n\nCHECK THESE 5 THINGS.",
+            "lock": "EXACT"
+          }
+        },
+        {
+          "id": "S02",
+          "type": "follow-through",
+          "headline": {
+            "text": "1. YOUR DIET.\n2. YOUR SYMPTOMS.\n3. YOUR MEDICATIONS.\n4. YOUR LABS — WHEN APPROPRIATE.\n5. THE EVIDENCE BEHIND THE INGREDIENT.",
+            "lock": "EXACT"
+          },
+          "body": [
+            {
+              "text": "THEN ASK:",
+              "lock": "EXACT"
+            },
+            {
+              "text": "DO I ACTUALLY NEED THIS?",
+              "lock": "EXACT"
+            }
+          ]
+        },
+        {
+          "id": "S03",
+          "type": "cta",
+          "headline": {
+            "text": "SUPPLEMENT WITH PURPOSE.",
+            "lock": "EXACT"
+          },
+          "cta": {
+            "text": "VISIT MIROR →\nLink in bio",
+            "lock": "EXACT"
+          }
+        }
+      ]
+    },
+    {
+      "content_id": "MIROR-SUP-030",
+      "template_id": "T01",
+      "content_title": "THE BIG ONE",
+      "objective": null,
+      "type": null,
+      "source": "Miror AI Posts - Supplements_30_Posts_Design_Handoff.docx",
+      "slides": [
+        {
+          "id": "S01",
+          "type": "hook",
+          "headline": {
+            "text": "YOU DON'T NEED MORE SUPPLEMENTS.\n\nYOU NEED THE RIGHT SUPPORT FOR THE WOMAN YOU ARE NOW.",
+            "lock": "EXACT"
+          }
+        },
+        {
+          "id": "S02",
+          "type": "follow-through",
+          "headline": {
+            "text": "HERE'S WHAT SMART SUPPLEMENTATION LOOKS LIKE.",
+            "lock": "EXACT"
+          },
+          "body": [
+            {
+              "text": "It starts with your needs — not a trend.",
+              "lock": "EXACT"
+            },
+            {
+              "text": "It considers your diet, symptoms, lifestyle, age, medications and health goals.",
+              "lock": "EXACT"
+            },
+            {
+              "text": "Then it uses evidence-backed ingredients where they make sense.",
+              "lock": "EXACT"
+            },
+            {
+              "text": "NOT MORE.",
+              "lock": "EXACT"
+            },
+            {
+              "text": "BETTER.",
+              "lock": "EXACT"
+            }
+          ]
+        },
+        {
+          "id": "S03",
+          "type": "cta",
+          "headline": {
+            "text": "KNOW WHAT YOUR BODY MAY NEED.",
+            "lock": "EXACT"
+          },
+          "body": [
+            {
+              "text": "CHOOSE YOUR NUTRIENTS INTELLIGENTLY.",
+              "lock": "EXACT"
+            }
+          ],
+          "cta": {
+            "text": "VISIT MIROR →\nLink in bio",
+            "lock": "EXACT"
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -6,22 +6,22 @@
   },
   "backgroundVariants": {
     "01": {
-      "name": "Soft Blush",
-      "hex": "#FDF8F5",
+      "name": "Light Pink",
+      "hex": "#F8E3E7",
       "textTheme": "dark",
       "ctaBg": "#FD6794",
       "ctaText": "#FFFFFF"
     },
     "02": {
-      "name": "White",
-      "hex": "#FFFFFF",
+      "name": "Soft Purple",
+      "hex": "#E7DDF2",
       "textTheme": "dark",
       "ctaBg": "#FD6794",
       "ctaText": "#FFFFFF"
     },
     "03": {
-      "name": "Light Purple",
-      "hex": "#E9E2F2",
+      "name": "Warm Yellowish White",
+      "hex": "#F6F0D8",
       "textTheme": "dark",
       "ctaBg": "#FD6794",
       "ctaText": "#FFFFFF"

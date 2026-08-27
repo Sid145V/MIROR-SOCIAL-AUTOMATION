@@ -78,9 +78,9 @@ def run_variant_qa_suite():
     log_check(4, "Valid HEX Color Format", valid_hexes, "All 5 HEX strings are valid 6-char codes")
 
     # 5-9. Variant HEX exact matches
-    log_check(5, "Variant 01 = #FDF8F5 (Soft Blush)", variants["01"]["hex"] == "#FDF8F5", f"V01 hex={variants['01']['hex']}")
-    log_check(6, "Variant 02 = #FFFFFF (White)", variants["02"]["hex"] == "#FFFFFF", f"V02 hex={variants['02']['hex']}")
-    log_check(7, "Variant 03 = #E9E2F2 (Light Purple)", variants["03"]["hex"] == "#E9E2F2", f"V03 hex={variants['03']['hex']}")
+    log_check(5, "Variant 01 = #F8E3E7 (Light Pink)", variants["01"]["hex"] == "#F8E3E7", f"V01 hex={variants['01']['hex']}")
+    log_check(6, "Variant 02 = #E7DDF2 (Soft Purple)", variants["02"]["hex"] == "#E7DDF2", f"V02 hex={variants['02']['hex']}")
+    log_check(7, "Variant 03 = #F6F0D8 (Warm Yellowish White)", variants["03"]["hex"] == "#F6F0D8", f"V03 hex={variants['03']['hex']}")
     log_check(8, "Variant 04 = #3E3353 (MIROR Purple)", variants["04"]["hex"] == "#3E3353", f"V04 hex={variants['04']['hex']}")
     log_check(9, "Variant 05 = #FD6794 (MIROR Pink)", variants["05"]["hex"] == "#FD6794", f"V05 hex={variants['05']['hex']}")
 
