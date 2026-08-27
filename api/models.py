@@ -26,3 +26,34 @@ class RenderResponse(BaseModel):
     backgroundVariant: str
     canvas: CanvasInfo = Field(default_factory=CanvasInfo)
     slides: List[SlideOutputInfo]
+
+class ContentNextResponse(BaseModel):
+    success: bool = True
+    library: str
+    content_id: str
+    template_id: str = "T01"
+    background_variant: str
+    post: Dict[str, Any]
+
+class PublishRequest(BaseModel):
+    content_id: str = Field(..., description="Unique Content ID to mark published")
+    instagram_media_id: Optional[str] = Field(None, description="Optional Instagram Media ID returned by Meta API")
+
+class PublishResponse(BaseModel):
+    success: bool = True
+    content_id: str
+    status: str = "PUBLISHED"
+    published_at: Optional[str] = None
+    instagram_media_id: Optional[str] = None
+
+class PostStateResponse(BaseModel):
+    success: bool = True
+    content_id: str
+    library: str
+    status: str
+    reserved_at: Optional[str] = None
+    rendered_at: Optional[str] = None
+    published_at: Optional[str] = None
+    instagram_media_id: Optional[str] = None
+    retry_count: int = 0
+    last_error: Optional[str] = None
