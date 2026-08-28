@@ -281,7 +281,17 @@ async def render_carousel(request: Request):
 
     # Safely update durable state store if post is tracked
     if state_store.get_post_state(str(post_id)):
-        state_store.mark_rendered(str(post_id))
+        s01_url = slide_outputs[0].url if len(slide_outputs) > 0 else ""
+        s02_url = slide_outputs[1].url if len(slide_outputs) > 1 else ""
+        s03_url = slide_outputs[2].url if len(slide_outputs) > 2 else ""
+        state_store.mark_rendered(
+            str(post_id),
+            s01_url=s01_url,
+            s02_url=s02_url,
+            s03_url=s03_url,
+            template=template,
+            background_variant=bg_variant
+        )
 
     return RenderResponse(
         success=True,
@@ -291,3 +301,4 @@ async def render_carousel(request: Request):
         canvas=CanvasInfo(width=1080, height=1350),
         slides=slide_outputs
     )
+

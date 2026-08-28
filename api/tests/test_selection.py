@@ -15,10 +15,12 @@ if str(REPO_ROOT) not in sys.path:
     sys.path.insert(0, str(REPO_ROOT))
 
 # Use isolated temp database for tests
+os.environ["STATE_BACKEND"] = "sqlite"
 os.environ["MIROR_STATE_DB_PATH"] = str(REPO_ROOT / "data" / "test_miror_state.db")
 
 from api.main import app, state_store
 from api.state import StateStore, LIBRARY_CONFIG
+
 
 client = TestClient(app)
 
